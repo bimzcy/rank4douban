@@ -6,8 +6,8 @@ import re
 import os
 import csv
 import json
-import random
 import time
+import random
 import requests
 
 from bs4 import BeautifulSoup
@@ -45,9 +45,10 @@ def update_imdb_top_250():
 
     for item in imdb_top_list_raw:
         item_text = item.get_text(strip=True)
-        item_search = re.search('(\d+)\.(.+?)\(\d+\)', item_text)
+        item_search = re.search('(\d+)\.(.+?)\((\d+)\)', item_text)
         item_rank = item_search.group(1)
         item_title = item_search.group(2)
+        item_year = item_search.group(3)
         item_imdbid = re.search("(tt\d+)", item.find("a")["href"]).group(1)
 
         item_dbid_search = list(filter(lambda x: x[1] == item_imdbid, old_rank_list))
@@ -56,11 +57,11 @@ def update_imdb_top_250():
         else:
             item_dbid = get_dbid_from_imdbid(item_imdbid)
 
-        imdb_top_list.append({"rank": item_rank, "title": item_title, "imdbid": item_imdbid, "dbid": item_dbid})
+        imdb_top_list.append({"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
 
     # Save IMDb top 250 rank list for next time used
     with open(rank_file, 'w', encoding='utf-8') as f:
-        f_csv = csv.DictWriter(f, ['rank', 'title', 'imdbid', 'dbid'], dialect=csv.unix_dialect)
+        f_csv = csv.DictWriter(f, ['rank', 'title', 'year', 'imdbid', 'dbid'], dialect=csv.unix_dialect)
         f_csv.writeheader()
         f_csv.writerows(imdb_top_list)
 

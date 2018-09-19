@@ -3,6 +3,7 @@
    "short_title":"CC标准收藏编号",
    "href":"https://www.criterion.com/shop/browse/list?sort=spine_number",
    "top":3,
+   "prefix": "#",
    "list":{
       "1294808":"0001",
       "1295399":"0002",

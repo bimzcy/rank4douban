@@ -84,7 +84,7 @@ def write_snippets_json(filename, data):
 
 def update_imdb_top_250():
     # Read our old data file
-    search = DBSearch("IMDbtop250.csv", "imdbid")
+    search = DBSearch("01_IMDbtop250.csv", "imdbid")
 
     # Get new top 250 rank list and update data file
     top_list = []
@@ -103,7 +103,7 @@ def update_imdb_top_250():
             {"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
 
     # Write Data list and snippets file
-    write_data_list("IMDbtop250.csv", ['rank', 'title', 'year', 'imdbid', 'dbid'], top_list)
+    write_data_list("01_IMDbtop250.csv", ['rank', 'title', 'year', 'imdbid', 'dbid'], top_list)
     write_snippets_json('01_IMDbtop250.json', {
         "title": "IMDb Top 250",
         "short_title": "IMDb Top 250",
@@ -114,7 +114,7 @@ def update_imdb_top_250():
 
 
 def update_afi_top_100():
-    search = DBSearch("AFilist.csv", "afiid")
+    search = DBSearch("02_AFilist.csv", "afiid")
 
     # Get top 100 afilist and update data file
     top_list = []
@@ -135,7 +135,7 @@ def update_afi_top_100():
         top_list.append(new)
 
     # Write Data list and snippets file
-    write_data_list("AFilist.csv", ['rank', 'title', 'year', 'afiid', 'dbid'], top_list)
+    write_data_list("02_AFilist.csv", ['rank', 'title', 'year', 'afiid', 'dbid'], top_list)
     write_snippets_json('02_AFIlist.json', {
         "title": "美国电影学会（AFI）“百年百大”排行榜",
         "short_title": "AFI Top 100",
@@ -146,7 +146,7 @@ def update_afi_top_100():
 
 
 def update_cclist():
-    search = DBSearch("CClist.csv", "ccid")
+    search = DBSearch("03_CClist.csv", "ccid")
 
     top_list = search.csv   # Use old list for CC list only append item
     last_check_spine = max(map(lambda x: int(x["spine"]), search.csv))
@@ -179,7 +179,7 @@ def update_cclist():
                     new = {"spine": item_spine, "title": item1_title, 'year': item1_year, "ccid": item1_num,
                            "dbid": item1_dbid}
                     top_list.append(new)
-    write_data_list("CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
+    write_data_list("03_CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
     write_snippets_json('03_CClist.json', {
         "title": "The Criterion Collection 标准收藏",
         "short_title": "CC标准收藏编号",
@@ -223,7 +223,7 @@ def update_ss_(csvfile, jsonfile, reqlink, basedict):
 
 
 def update_sscritics():
-    update_ss_("SScritics.csv", '04_SScritics.json',
+    update_ss_("04_SScritics.csv", '04_SScritics.json',
                "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics", {
                    "title": "《视与听》影史最佳影片-影评人Top100",
                    "short_title": "视与听影评人百佳",
@@ -233,7 +233,7 @@ def update_sscritics():
 
 
 def update_ssdirectors():
-    update_ss_("SSdirectors.csv", '05_SSdirectors.json',
+    update_ss_("05_SSdirectors.csv", '05_SSdirectors.json',
                "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors", {
                    "title": "《视与听》影史最佳影片-导演Top100",
                    "short_title": "视与听导演百佳",

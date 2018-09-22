@@ -243,7 +243,7 @@ def update_ssdirectors():
 
 
 if __name__ == '__main__':
-    #update_imdb_top_250()
+    update_imdb_top_250()
     #update_afi_top_100()
     update_cclist()
     #update_sscritics()

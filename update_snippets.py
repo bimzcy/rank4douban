@@ -18,32 +18,47 @@ headers = {
 }
 
 
-def get_dbid_from_imdbid(imdbid):
-    time.sleep(5 + random.randint(1, 20))
-    r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid))
-    rj = r.json()
-    id_link = rj.get("id") or rj.get("alt") or rj.get("mobile_link")
-    dbid = re.search('/(?:movie|subject)/(\d+)/?', id_link).group(1)
-    return int(dbid)
+class DBSearch(object):
+    def __init__(self, filename, rowname):
+        rank_file = os.path.join('.', 'data', filename)
+        f_csv = csv.DictReader(open(rank_file, encoding='utf-8'))
+        self.csv = [row for row in f_csv]
+        self.old_list = [(row[rowname], row['dbid']) for row in self.csv]
 
+    def get_dbid(self, iden_id, **kwargs):
+        item_dbid_search = list(filter(lambda x: x[0] == iden_id, self.old_list))
+        if len(item_dbid_search) > 0:  # Use old
+            return item_dbid_search[0][1]
+        elif kwargs.get("imdbid"):
+            return self.get_dbid_from_imdbid(kwargs.get("imdbid"))
+        else:
+            return self.get_dbid_from_name(kwargs.get("title"), kwargs.get("year"))
 
-def get_dbid_from_name(name, year):
-    time.sleep(5 + random.randint(1, 20))
-    r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name))
-    rj = r.json()
-    all_subject = rj.get("subjects")
-    chose_subject = list(filter(lambda x: x["year"] != "" and int(x["year"]) == int(year), all_subject))
+    @staticmethod
+    def get_dbid_from_imdbid(imdbid):
+        time.sleep(5 + random.randint(1, 20))
+        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid))
+        rj = r.json()
+        id_link = rj.get("id") or rj.get("alt") or rj.get("mobile_link")
+        dbid = re.search('/(?:movie|subject)/(\d+)/?', id_link).group(1)
+        return int(dbid)
 
-    if len(chose_subject) > 0:
-        return chose_subject[0].get("id")
-    else:
-        return all_subject[0].get("id")
+    @staticmethod
+    def get_dbid_from_name(name, year):
+        time.sleep(5 + random.randint(1, 20))
+        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name))
+        rj = r.json()
+        all_subject = rj.get("subjects")
+        try:
+            chose_subject = list(filter(lambda x: x["year"] == str(year), all_subject))
 
-
-def get_old_data_list(filename, rowname):
-    rank_file = os.path.join('.', 'data', filename)
-    f_csv = csv.DictReader(open(rank_file, encoding='utf-8'))
-    return [(row[rowname], row['dbid']) for row in f_csv]
+            if len(chose_subject) > 0:
+                return chose_subject[0].get("id")
+        except Exception:
+            print(name, year)
+            print(rj)
+            if rj.get("msg"):
+                time.sleep(random.randint(5,20) * 60)
 
 
 def get_list_raw(link, selector) -> list:
@@ -69,7 +84,7 @@ def write_snippets_json(filename, data):
 
 def update_imdb_top_250():
     # Read our old data file
-    old_rank_list = get_old_data_list("IMDbtop250.csv", "imdbid")
+    search = DBSearch("IMDbtop250.csv", "imdbid")
 
     # Get new top 250 rank list and update data file
     top_list = []
@@ -82,12 +97,7 @@ def update_imdb_top_250():
         item_title = item_search.group(2)
         item_year = item_search.group(3)
         item_imdbid = re.search("(tt\d+)", item.find("a")["href"]).group(1)
-
-        item_dbid_search = list(filter(lambda x: x[0] == item_imdbid, old_rank_list))
-        if len(item_dbid_search) > 0:  # Use old
-            item_dbid = item_dbid_search[0][1]
-        else:
-            item_dbid = get_dbid_from_imdbid(item_imdbid)
+        item_dbid = search.get_dbid(item_imdbid, imdbid=item_imdbid)
 
         top_list.append(
             {"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
@@ -104,8 +114,7 @@ def update_imdb_top_250():
 
 
 def update_afi_top_100():
-    # Read our old data file
-    old_rank_list = get_old_data_list("AFilist.csv", "afiid")
+    search = DBSearch("AFilist.csv", "afiid")
 
     # Get top 100 afilist and update data file
     top_list = []
@@ -121,14 +130,9 @@ def update_afi_top_100():
             item_afiid = 12490
         else:
             item_afiid = re.search("Movie=(\d+)", item.find("a")["href"]).group(1)
-        item_dbid_search = list(filter(lambda x: x[0] == item_afiid, old_rank_list))
-        if len(item_dbid_search) > 0:  # Use old
-            item_dbid = item_dbid_search[0][1]
-        else:
-            item_dbid = get_dbid_from_name(item_title, item_year)
-
-        top_list.append(
-            {"rank": item_rank, "title": item_title, 'year': item_year, "afiid": item_afiid, "dbid": item_dbid})
+        item_dbid = search.get_dbid(item_afiid, titme=item_title, year=item_year)
+        new = {"rank": item_rank, "title": item_title, 'year': item_year, "afiid": item_afiid, "dbid": item_dbid}
+        top_list.append(new)
 
     # Write Data list and snippets file
     write_data_list("AFilist.csv", ['rank', 'title', 'year', 'afiid', 'dbid'], top_list)
@@ -142,12 +146,53 @@ def update_afi_top_100():
 
 
 def update_cclist():
-    pass
+    search = DBSearch("CClist.csv", "ccid")
+
+    top_list = search.csv   # Use old list for CC list only append item
+    last_check_spine = max(map(lambda x: int(x["spine"]), search.csv))
+
+    top_list_raw = get_list_raw("https://www.criterion.com/shop/browse/list?sort=spine_number",
+                                "#gridview > tbody > tr")
+    for item in top_list_raw:
+        item_spine = item.find("td", class_="g-spine").get_text(strip=True).zfill(4)
+        if item_spine and int(item_spine) > last_check_spine:  # We only record those item which has spine number
+            item_search = re.search("/(?P<type>films|boxsets)/(?P<num>\d+)", item["data-href"])
+            item_type = item_search.group("type")
+            if item_type == "films":  # This item is films type
+                item_num = item_search.group("num")
+                item_title = item.find("td", class_="g-title").get_text(strip=True)
+                item_year = item.find("td", class_="g-year").get_text(strip=True)
+                item_dbid = search.get_dbid(item_num, title=item_title, year=item_year)
+
+                new = {"spine": item_spine, "title": item_title, 'year': item_year, "ccid": item_num, "dbid": item_dbid}
+                top_list.append(new)
+                print(new)
+            elif item_type == "boxsets":
+                boxset_list_raw = get_list_raw(item["data-href"],
+                                               "div.left > div > div > section.film-sets-list > div > ul > a")
+                for item1 in boxset_list_raw:
+                    item1_search = re.search("/(?P<type>films|boxsets)/(?P<num>\d+)", item1["href"])
+                    item1_num = item1_search.group("num")
+                    item1_title = item1.find("p", class_="film-set-title").get_text(strip=True)
+                    item1_year = item1.find("p", class_="film-set-year").get_text(strip=True)
+                    item1_dbid = search.get_dbid(item1_num, title=item1_title, year=item1_year)
+                    new = {"spine": item_spine, "title": item1_title, 'year': item1_year, "ccid": item1_num,
+                           "dbid": item1_dbid}
+                    top_list.append(new)
+    write_data_list("CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
+    write_snippets_json('03_CClist.json', {
+        "title": "The Criterion Collection 标准收藏",
+        "short_title": "CC标准收藏编号",
+        "href": "https://www.criterion.com/shop/browse/list?sort=spine_number",
+        "top": 3,
+        "list": {str(i["dbid"]): i['spine'] for i in top_list},
+        "prefix": "#",
+    })
 
 
 def update_ss_(csvfile, jsonfile, reqlink, basedict):
     # Read our old data file
-    old_rank_list = get_old_data_list(csvfile, "bfid")
+    search = DBSearch(csvfile, "bfid")
 
     # Get rank list and update data file
     top_list = []
@@ -166,12 +211,7 @@ def update_ss_(csvfile, jsonfile, reqlink, basedict):
             item_bfid = re.search("films-tv-people/(.+)$", item.find("a")["href"]).group(1)
         item_rank = item_search.group(1)
         item_title = item_search.group(2).strip()
-
-        item_dbid_search = list(filter(lambda x: x[0] == item_bfid, old_rank_list))
-        if len(item_dbid_search) > 0:  # Use old
-            item_dbid = item_dbid_search[0][1]
-        else:
-            item_dbid = get_dbid_from_name(item_title, item_year)
+        item_dbid = search.get_dbid(item_bfid, title=item_title, year=item_year)
 
         top_list.append(
             {"rank": item_rank, "title": item_title, 'year': item_year, "bfid": item_bfid, "dbid": item_dbid})
@@ -203,8 +243,8 @@ def update_ssdirectors():
 
 
 if __name__ == '__main__':
-    update_imdb_top_250()
-    update_afi_top_100()
+    #update_imdb_top_250()
+    #update_afi_top_100()
     update_cclist()
-    update_sscritics()
-    update_ssdirectors()
+    #update_sscritics()
+    #update_ssdirectors()

@@ -16,7 +16,7 @@ IMDb, CC, MOC, FIB, all kinds of billboard that connect the item title with doub
 | title | The title of rank list | `The Criterion Collection 标准收藏` |
 | short_title | The short title of rank list | `CC标准收藏编号` |
 | href | The homepage url of rank list | `https://www.criterion.com/shop/browse/list?sort=spine_number` |
-| other | The other key you want to assign in json file,the format like `<key1>:<value1>|<key2>:<value2>` | `prefix:#` |
+| other | The other key you want to assign in json file,the format like `{key1}:{value1}|{key2}:{value2}` | `prefix:#` |
 
 3. If the rank list want to update automatically, you MUST write update function in `update_snippets.py`
 

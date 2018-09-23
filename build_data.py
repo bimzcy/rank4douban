@@ -57,7 +57,6 @@ def merge():
             temp_snippet = json.load(f)
             temp_dict[snippet_name] = temp_snippet
 
-    temp_dict["updated"] = int(time.time())
     with open(out_json, 'w', encoding='utf-8') as f:
         json.dump(temp_dict, f, indent=3, sort_keys=True, ensure_ascii=False)
 

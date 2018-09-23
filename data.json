@@ -105,8 +105,7 @@
       },
       "short_title": "AFI Top 100",
       "title": "美国电影学会（AFI）“百年百大”排行榜",
-      "top": 2,
-      "update": 1537440823
+      "top": 2
    },
    "CClist": {
       "href": "https://www.criterion.com/shop/browse/list?sort=spine_number",
@@ -1226,8 +1225,7 @@
       "prefix": "#",
       "short_title": "CC标准收藏编号",
       "title": "The Criterion Collection 标准收藏",
-      "top": 3,
-      "update": 1537611916
+      "top": 3
    },
    "IMDbtop250": {
       "href": "https://www.imdb.com/chart/top",
@@ -1485,8 +1483,7 @@
       },
       "short_title": "IMDb Top 250",
       "title": "IMDb Top 250",
-      "top": 1,
-      "update": 1537611909
+      "top": 1
    },
    "SScritics": {
       "href": "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics",
@@ -1595,8 +1592,7 @@
       },
       "short_title": "视与听影评人百佳",
       "title": "《视与听》影史最佳影片-影评人Top100",
-      "top": 4,
-      "update": 1537440827
+      "top": 4
    },
    "SSdirectors": {
       "href": "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors",
@@ -1710,7 +1706,7 @@
       },
       "short_title": "视与听导演百佳",
       "title": "《视与听》影史最佳影片-导演Top100",
-      "top": 5,
-      "update": 1537441253
-   }
+      "top": 5
+   },
+   "updated": 1537678175
 }

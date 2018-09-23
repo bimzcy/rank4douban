@@ -1,6 +1,6 @@
-top,title,short_title,href,perfix,iden_row
-"01","IMDb Top 250","IMDb Top 250","https://www.imdb.com/chart/top","","imdbid"
-"02","美国电影学会（AFI）“百年百大”排行榜","AFI Top 100","http://www.afi.com/100years/movies10.aspx","","afiid"
-"03","The Criterion Collection 标准收藏","CC标准收藏编号","https://www.criterion.com/shop/browse/list?sort=spine_number","#","ccid"
-"04", "《视与听》影史最佳影片-影评人Top100","视与听影评人百佳","https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics","","bfid"
-"04", "《视与听》影史最佳影片-导演Top100","视与听导演百佳","https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors","","bfid"
+file,title,short_title,href,other
+"01_IMDbtop250.csv","IMDb Top 250","IMDb Top 250","https://www.imdb.com/chart/top",""
+"02_AFIlist.csv","美国电影学会（AFI）“百年百大”排行榜","AFI Top 100","http://www.afi.com/100years/movies10.aspx",""
+"03_CClist.csv","The Criterion Collection 标准收藏","CC标准收藏编号","https://www.criterion.com/shop/browse/list?sort=spine_number","prefix:#"
+"04_SScritics.csv","《视与听》影史最佳影片-影评人Top100","视与听影评人百佳","https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics",""
+"05_SSdirectors.csv","《视与听》影史最佳影片-导演Top100","视与听导演百佳","https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors",""

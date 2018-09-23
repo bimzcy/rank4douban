@@ -5,7 +5,6 @@
 import re
 import os
 import csv
-import json
 import time
 import random
 import requests
@@ -22,7 +21,7 @@ class DBSearch(object):
     def __init__(self, filename, rowname):
         rank_file = os.path.join('.', 'data', filename)
         f_csv = csv.DictReader(open(rank_file, encoding='utf-8'))
-        self.csv = [row for row in f_csv]
+        self.csv = list(f_csv)
         self.old_list = [(row[rowname], row['dbid']) for row in self.csv]
 
     def get_dbid(self, iden_id, **kwargs):
@@ -55,10 +54,9 @@ class DBSearch(object):
             if len(chose_subject) > 0:
                 return chose_subject[0].get("id")
         except Exception:
-            print(name, year)
-            print(rj)
+            print(name, year, rj)
             if rj.get("msg"):
-                time.sleep(random.randint(5,20) * 60)
+                time.sleep(random.randint(5, 20) * 60)
 
 
 def get_list_raw(link, selector) -> list:
@@ -73,13 +71,6 @@ def write_data_list(filename, header, data):
         f_csv = csv.DictWriter(f, header, dialect=csv.unix_dialect)
         f_csv.writeheader()
         f_csv.writerows(data)
-
-
-def write_snippets_json(filename, data):
-    snippets_json_file = os.path.join('.', 'snippets', filename)
-    data["update"] = int(time.time())
-    with open(snippets_json_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=3, sort_keys=True, ensure_ascii=False)
 
 
 def update_imdb_top_250():
@@ -102,15 +93,8 @@ def update_imdb_top_250():
         top_list.append(
             {"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
 
-    # Write Data list and snippets file
+    # Write Data list
     write_data_list("01_IMDbtop250.csv", ['rank', 'title', 'year', 'imdbid', 'dbid'], top_list)
-    write_snippets_json('01_IMDbtop250.json', {
-        "title": "IMDb Top 250",
-        "short_title": "IMDb Top 250",
-        "href": "https://www.imdb.com/chart/top",
-        "top": 1,
-        "list": {str(i["dbid"]): i['rank'] for i in top_list},
-    })
 
 
 def update_afi_top_100():
@@ -134,21 +118,14 @@ def update_afi_top_100():
         new = {"rank": item_rank, "title": item_title, 'year': item_year, "afiid": item_afiid, "dbid": item_dbid}
         top_list.append(new)
 
-    # Write Data list and snippets file
+    # Write Data list
     write_data_list("02_AFilist.csv", ['rank', 'title', 'year', 'afiid', 'dbid'], top_list)
-    write_snippets_json('02_AFIlist.json', {
-        "title": "美国电影学会（AFI）“百年百大”排行榜",
-        "short_title": "AFI Top 100",
-        "href": "http://www.afi.com/100years/movies10.aspx",
-        "top": 2,
-        "list": {str(i["dbid"]): i['rank'] for i in top_list},
-    })
 
 
 def update_cclist():
     search = DBSearch("03_CClist.csv", "ccid")
 
-    top_list = search.csv   # Use old list for CC list only append item
+    top_list = search.csv  # Use old list for CC list only append item
     last_check_spine = max(map(lambda x: int(x["spine"]), search.csv))
 
     top_list_raw = get_list_raw("https://www.criterion.com/shop/browse/list?sort=spine_number",
@@ -180,14 +157,6 @@ def update_cclist():
                            "dbid": item1_dbid}
                     top_list.append(new)
     write_data_list("03_CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
-    write_snippets_json('03_CClist.json', {
-        "title": "The Criterion Collection 标准收藏",
-        "short_title": "CC标准收藏编号",
-        "href": "https://www.criterion.com/shop/browse/list?sort=spine_number",
-        "top": 3,
-        "list": {str(i["dbid"]): i['spine'] for i in top_list},
-        "prefix": "#",
-    })
 
 
 def update_ss_(csvfile, jsonfile, reqlink, basedict):
@@ -219,7 +188,6 @@ def update_ss_(csvfile, jsonfile, reqlink, basedict):
     # Write Data list and snippets file
     write_data_list(csvfile, ['rank', 'title', 'year', 'bfid', 'dbid'], top_list)
     basedict["list"] = {str(i["dbid"]): i['rank'] for i in top_list}
-    write_snippets_json(jsonfile, basedict)
 
 
 def update_sscritics():
@@ -244,7 +212,9 @@ def update_ssdirectors():
 
 if __name__ == '__main__':
     update_imdb_top_250()
-    #update_afi_top_100()
     update_cclist()
-    #update_sscritics()
-    #update_ssdirectors()
+
+    # No need to update this rank list for may not update
+    # update_afi_top_100()
+    # update_sscritics()
+    # update_ssdirectors()

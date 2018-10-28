@@ -235,7 +235,7 @@ def update_bgm_top_250():
                     "bgmid": item_bgmid, "dbid": item_dbid}
             top_list.append(data)
 
-            write_data_list("06_Bangumitop250.csv", ["rank", "name_cn", "name", "date", "bgmid", "dbid"], top_list)
+    write_data_list("06_Bangumitop250.csv", ["rank", "name_cn", "name", "date", "bgmid", "dbid"], top_list)
 
 
 if __name__ == '__main__':

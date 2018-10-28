@@ -61,6 +61,7 @@ class DBSearch(object):
 
 def get_list_raw(link, selector) -> list:
     top_req = requests.get(link, headers=headers)
+    top_req.encoding = "utf-8"
     top_bs = BeautifulSoup(top_req.text, 'lxml')
     return top_bs.select(selector)
 
@@ -210,8 +211,36 @@ def update_ssdirectors():
                })
 
 
+def update_bgm_top_250():
+    search = DBSearch("06_Bangumitop250.csv", "bgmid")
+
+    top_list = []
+    for p in range(1, 12):  # From page 1 - 11
+        top_list_raw = get_list_raw('https://bgm.tv/anime/browser?sort=rank&page={}'.format(p),
+                                    'ul#browserItemList > li')
+        for item in top_list_raw:
+            item_rank = re.search("\d+", item.find("span", class_="rank").get_text(strip=True)).group(0)
+            if int(item_rank) > 250:
+                break
+
+            item_name_cn = item.find("a", class_="l").get_text(strip=True)
+            item_name = item.find("small", class_="grey").get_text(strip=True) if item.find("small", class_="grey") else ""
+            item_info = item.find("p", class_="info tip").get_text(strip=True)
+
+            item_date = re.search("(\d{4})[年-](\d{1,2}[月-])?(\d{1,2}日?)?", item_info).group(0)
+            item_bgmid = re.search("\d+", item["id"]).group(0)
+            item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search("(\d{4})", item_date).group(1))
+
+            data = {"rank": item_rank, "name_cn": item_name_cn, 'name': item_name, 'date': item_date,
+                    "bgmid": item_bgmid, "dbid": item_dbid}
+            top_list.append(data)
+
+            write_data_list("06_Bangumitop250.csv", ["rank", "name_cn", "name", "date", "bgmid", "dbid"], top_list)
+
+
 if __name__ == '__main__':
     update_imdb_top_250()
+    update_bgm_top_250()
     update_cclist()
 
     # No need to update this rank list for may not update

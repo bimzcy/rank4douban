@@ -36,7 +36,7 @@ class DBSearch(object):
     @staticmethod
     def get_dbid_from_imdbid(imdbid):
         time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid))
+        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid),params={"apikey":'0dad551ec0f84ed02907ff5c42e8ec70'})
         rj = r.json()
         id_link = rj.get("id") or rj.get("alt") or rj.get("mobile_link")
         dbid = re.search('/(?:movie|subject)/(\d+)/?', id_link).group(1)
@@ -45,7 +45,7 @@ class DBSearch(object):
     @staticmethod
     def get_dbid_from_name(name, year):
         time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name))
+        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name),params={"apikey":'0dad551ec0f84ed02907ff5c42e8ec70'})
         rj = r.json()
         all_subject = rj.get("subjects")
         try:

@@ -115,7 +115,7 @@ def update_afi_top_100():
             item_afiid = 12490
         else:
             item_afiid = re.search("Movie=(\d+)", item.find("a")["href"]).group(1)
-        item_dbid = search.get_dbid(item_afiid, titme=item_title, year=item_year)
+        item_dbid = search.get_dbid(item_afiid, title=item_title, year=item_year)
         new = {"rank": item_rank, "title": item_title, 'year': item_year, "afiid": item_afiid, "dbid": item_dbid}
         top_list.append(new)
 

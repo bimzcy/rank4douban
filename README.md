@@ -1,6 +1,8 @@
 # rank4douban
 IMDb, CC, MOC, FIB, all kinds of billboard that connect the item title with douban ID.
 
+![Daily Update](https://github.com/bimzcy/rank4douban/workflows/Daily%20Update/badge.svg)
+
 # How to build rank list
 
 1. upload rank data file like `01_IMDbtop250.csv` in `data` dir.
@@ -18,7 +20,7 @@ IMDb, CC, MOC, FIB, all kinds of billboard that connect the item title with doub
 | href | The homepage url of rank list | `https://www.criterion.com/shop/browse/list?sort=spine_number` |
 | other | The other key you want to assign in json file,the format like `{key1}:{value1}\|{key2}:{value2}` | `prefix:#` |
 
-3. If the rank list want to update automatically, you MUST write update function in `update_snippets.py`
+3. If the rank list want to update automatically (By GitHub Action), you MUST write update function in `update_snippets.py`
 
 4. Run those Python3 script.
 

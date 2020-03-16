@@ -36,7 +36,9 @@ class DBSearch(object):
     @staticmethod
     def get_dbid_from_imdbid(imdbid):
         time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid),params={"apikey":'0dad551ec0f84ed02907ff5c42e8ec70'},headers=headers)
+        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid),
+                         params={"apikey": '0dad551ec0f84ed02907ff5c42e8ec70'},
+                         headers=headers)
         rj = r.json()
         id_link = rj.get("id") or rj.get("alt") or rj.get("mobile_link")
         dbid = re.search('/(?:movie|subject)/(\d+)/?', id_link).group(1)
@@ -45,7 +47,9 @@ class DBSearch(object):
     @staticmethod
     def get_dbid_from_name(name, year):
         time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name),params={"apikey":'0dad551ec0f84ed02907ff5c42e8ec70'},headers=headers)
+        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name),
+                         params={"apikey": '0dad551ec0f84ed02907ff5c42e8ec70'},
+                         headers=headers)
         rj = r.json()
         all_subject = rj.get("subjects")
         try:
@@ -72,6 +76,30 @@ def write_data_list(filename, header, data):
         f_csv = csv.DictWriter(f, header, dialect=csv.unix_dialect)
         f_csv.writeheader()
         f_csv.writerows(data)
+
+
+def update_douban():
+    top_list = []
+
+    i = 1
+    for start_ in range(0, 250, 50):
+        r = requests.get('http://api.douban.com/v2/movie/top250',
+                         params={'apikey': '0dad551ec0f84ed02907ff5c42e8ec70', 'start': start_, 'count': 50},
+                         headers=headers
+                         )
+        rj = r.json()
+        for subject in rj.get('subjects', []):
+            top_list.append({
+                'rank': i,
+                'title': subject.get('title', ''),
+                'original_title': subject.get('original_title', ''),
+                'year': subject.get('year', ''),
+                'dbid': subject.get('id')
+            })
+            i += 1
+
+    # Write Data list
+    write_data_list("99_douban_top250.csv", ['rank', 'title', 'original_title', 'year', 'dbid'], top_list)
 
 
 def update_imdb_top_250():
@@ -239,6 +267,7 @@ def update_bgm_top_250():
 
 
 if __name__ == '__main__':
+    update_douban()
     update_imdb_top_250()
     update_bgm_top_250()
     update_cclist()

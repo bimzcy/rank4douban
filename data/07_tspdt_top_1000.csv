@@ -234,7 +234,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 233,224,Only Angels Have Wings,"Hawks, Howard",1939,USA,121,1300712
 234,230,Diary of a Country Priest,"Bresson, Robert",1951,France,120,1401618
 235,235,"Treasure of the Sierra Madre, The","Huston, John",1948,USA,124,1292516
-236,238,Zero for Conduct,"Vigo, Jean",1933,France,41,
+236,238,Zero for Conduct,"Vigo, Jean",1933,France,41,1294518
 237,228,Sullivan's Travels,"Sturges, Preston",1941,USA,91,1303416
 238,240,Groundhog Day,"Ramis, Harold",1993,USA,103,1300613
 239,213,Two or Three Things I Know About Her,"Godard, Jean-Luc",1966,France,87,1300964
@@ -442,7 +442,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 441,467,"Flowers of St. Francis, The","Rossellini, Roberto",1950,Italy,83,1303580
 442,419,"Moment of Innocence, A","Makhmalbaf, Mohsen",1996,Iran,78,1420238
 443,460,Elephant,"Van Sant, Gus",2003,USA,81,1292272
-444,437,"Dead, The","Huston, John",1987,USA,83,1291548
+444,437,"Dead, The","Huston, John",1987,USA,83,1303529
 445,414,Easy Rider,"Hopper, Dennis",1969,USA,94,1297646
 446,462,Accattone,"Pasolini, Pier Paolo",1961,Italy,120,1437013
 447,409,"Cameraman, The","Keaton, Buster/Edward Sedgwick",1928,USA,69,1297549
@@ -479,7 +479,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 478,672,Vagabond,"Varda, Agn¨¨s",1985,France,105,1292445
 479,505,Grey Gardens,"Maysles, David/Albert Maysles/Ellen Hovde/Muffie Meyer",1975,USA,95,1419111
 480,522,A.I. Artificial Intelligence,"Spielberg, Steven",2001,USA,145,1302827
-481,482,"Wind, The","Sj?str?m, Victor",1928,USA,88,1300267
+481,482,"Wind, The","Sj?str?m, Victor",1928,USA,88,1307994
 482,495,Laura,"Preminger, Otto",1944,USA,85,1294072
 483,526,Triumph of the Will,"Riefenstahl, Leni",1935,Germany,110,1306186
 484,470,Tootsie,"Pollack, Sydney",1982,USA,116,1297737
@@ -490,7 +490,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 489,439,"Sound of Music, The","Wise, Robert",1965,USA,174,1294408
 490,511,India Song,"Duras, Marguerite",1975,France,120,1298347
 491,469,Toy Story,"Lasseter, John",1995,USA,80,1291575
-492,475,Alexander Nevsky,"Eisenstein, Sergei",1938,USSR,107,
+492,475,Alexander Nevsky,"Eisenstein, Sergei",1938,USSR,107,1299973
 493,477,Boogie Nights,"Anderson, Paul Thomas",1997,USA,155,1292965
 494,466,"Lives of Others, The","von Donnersmarck, Florian Henckel",2006,Germany,138,1900841
 495,493,Shadow of a Doubt,"Hitchcock, Alfred",1943,USA,108,1293817
@@ -501,7 +501,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 500,589,Orlando,"Potter, Sally",1992,UK,94,1301895
 501,464,12 Angry Men,"Lumet, Sidney",1957,USA,95,1293182
 502,529,Alphaville,"Godard, Jean-Luc",1965,France,95,1316524
-503,480,Muriel,"Resnais, Alain",1963,France,115,
+503,480,Muriel,"Resnais, Alain",1963,France,115,1293844
 504,557,Grizzly Man,"Herzog, Werner",2005,USA,103,1422951
 505,492,Kagemusha,"Kurosawa, Akira",1980,Japan,159,1303067
 506,517,Die Hard,"McTiernan, John",1988,USA,131,1292697
@@ -525,7 +525,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 524,530,"Bitter Tears of Petra von Kant, The","Fassbinder, Rainer Werner",1972,West Germany,124,1293230
 525,489,Barton Fink,"Coen, Joel & Ethan Coen",1991,USA,117,1298043
 526,559,"Royal Tenenbaums, The","Anderson, Wes",2001,USA,109,1306031
-527,525,"Vampires, Les","Feuillade, Louis",1915,France,440,25822520
+527,525,"Vampires, Les","Feuillade, Louis",1915,France,440,1303869
 528,520,"R¨¦gion centrale, La","Snow, Michael",1971,Canada,180,1758347
 529,556,Am¨¦lie,"Jeunet, Jean-Pierre",2001,France,122,1292215
 530,576,Splendor in the Grass,"Kazan, Elia",1961,USA,124,1294005
@@ -555,7 +555,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 554,546,Bigger Than Life,"Ray, Nicholas",1956,USA,95,1855271
 555,608,Evil Dead II,"Raimi, Sam",1987,USA,85,1293448
 556,521,Being There,"Ashby, Hal",1979,USA,130,1293256
-557,588,Secrets & Lies,"Leigh, Mike",1996,UK,142,1305701
+557,588,Secrets & Lies,"Leigh, Mike",1996,UK,142,1294477
 558,543,In Vanda's Room,"Costa, Pedro",2000,Portugal,170,1829859
 559,534,Rebel Without a Cause,"Ray, Nicholas",1955,USA,111,1295416
 560,596,"Hard Day's Night, A","Lester, Richard",1964,UK,87,1298566
@@ -611,7 +611,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 610,579,"Red Circle, The","Melville, Jean-Pierre",1970,France,150,1401915
 611,621,Possession,"Zulawski, Andrzej",1981,France,127,1297203
 612,735,"Ascent, The","Shepitko, Larisa",1976,USSR,111,1303255
-613,698,"Son, The","Dardenne, Jean-Pierre & Luc Dardenne",2002,Belgium,103,1307125
+613,698,"Son, The","Dardenne, Jean-Pierre & Luc Dardenne",2002,Belgium,103,1305337
 614,616,Bambi,"Hand, David",1942,USA,69,1295148
 615,637,Arrebato,"Zulueta, Iv¨¢n",1979,Spain,105,2278780
 616,628,"Goodbye, Dragon Inn",Tsai Ming-liang,2003,Taiwan,82,1304862
@@ -669,7 +669,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 668,694,Gun Crazy,"Lewis, Joseph H.",1950,USA,86,1297016
 669,632,They Live by Night,"Ray, Nicholas",1948,USA,95,1298951
 670,657,Nouvelle vague,"Godard, Jean-Luc",1990,France,90,1303520
-671,671,"Party, The","Edwards, Blake",1968,USA,99,
+671,671,"Party, The","Edwards, Blake",1968,USA,99,1303245
 672,643,Dancer in the Dark,"von Trier, Lars",2000,Denmark,140,1291562
 673,612,Rebecca,"Hitchcock, Alfred",1940,USA,130,1293824
 674,704,Ghostbusters,"Reitman, Ivan",1984,USA,107,1293760
@@ -713,7 +713,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 712,752,"Host, The",Bong Joon-ho,2006,South Korea,119,1763134
 713,681,"Man Who Would Be King, The","Huston, John",1975,USA,129,1293076
 714,740,Fort Apache,"Ford, John",1948,USA,127,1302262
-715,683,"Bad and the Beautiful, The","Minnelli, Vincente",1952,USA,118,11504542
+715,683,"Bad and the Beautiful, The","Minnelli, Vincente",1952,USA,118,1449829
 716,655,By the Bluest of Seas,"Barnet, Boris",1936,USSR,71,2369090
 717,737,Avatar,"Cameron, James",2009,USA,161,1652587
 718,677,Miller's Crossing,"Coen, Joel & Ethan Coen",1990,USA,115,1292060
@@ -732,7 +732,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 731,676,"Tiger of Eschnapur, The","Lang, Fritz",1958,West Germany,101,1441365
 732,742,All Quiet on the Western Front,"Milestone, Lewis",1930,USA,133,1295116
 733,753,Ace in the Hole,"Wilder, Billy",1951,USA,112,1293841
-734,730,"Seasons, The","Peleshian, Artavazd",1975,USSR,29,
+734,730,"Seasons, The","Peleshian, Artavazd",1975,USSR,29,2268557
 735,711,"Thief of Bagdad, The","Powell, Michael/Ludwig Berger/Tim Whelan",1940,UK,106,1293444
 736,835,D'Est,"Akerman, Chantal",1993,Belgium,107,1780560
 737,822,Akira,"Otomo, Katsuhiro",1988,Japan,124,1302770
@@ -825,7 +825,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 824,780,Street of Shame,"Mizoguchi, Kenji",1956,Japan,87,1466788
 825,765,Veronika Voss,"Fassbinder, Rainer Werner",1982,West Germany,105,1302108
 826,845,"Ghost and Mrs. Muir, The","Mankiewicz, Joseph L.",1947,USA,104,1300756
-827,779,Seven Women,"Ford, John",1966,USA,87,26754409
+827,779,Seven Women,"Ford, John",1966,USA,87,1825702
 828,815,"Producers, The","Brooks, Mel",1968,USA,88,1303293
 829,824,Taipei Story,"Yang, Edward",1985,Taiwan,119,1305327
 830,773,"New York, New York","Scorsese, Martin",1977,USA,164,1292878
@@ -836,7 +836,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 835,983,Diary,"Perlov, David",1983,Israel,330,3828369
 836,830,Central Station,"Salles, Walter",1998,Brazil,110,1292218
 837,858,"Intruder, The","Denis, Claire",2004,France,130,1440407
-838,775,"Age of the Earth, The","Rocha, Glauber",1980,Brazil,158,
+838,775,"Age of the Earth, The","Rocha, Glauber",1980,Brazil,158,2061897
 839,837,Dust in the Wind,Hou Hsiao-hsien,1987,Taiwan,109,1292330
 840,841,"Day the Earth Stood Still, The","Wise, Robert",1951,USA,92,1296140
 841,789,Num¨¦ro deux,"Godard, Jean-Luc",1975,France,88,1429053
@@ -872,12 +872,12 @@ rank,2019_rank,title,director,year,country,mins,dbid
 871,887,"Last Bolshevik, The","Marker, Chris",1993,France,120,1757313
 872,788,Time of the Gypsies,"Kusturica, Emir",1989,Yugoslavia,142,1303525
 873,944,Berlin: Symphony of a Great City,"Ruttmann, Walter",1927,Germany,65,1307229
-874,923,Othello,"Welles, Orson",1952,Italy,90,3545255
+874,923,Othello,"Welles, Orson",1952,Italy,90,1296289
 875,839,Outskirts,"Barnet, Boris",1933,USSR,98,2368635
 876,876,Gregory's Girl,"Forsyth, Bill",1980,UK,91,1294075
 877,820,Dog Star Man,"Brakhage, Stan",1964,USA,75,26881181
 878,829,"B¨ºte humaine, La","Renoir, Jean",1938,France,99,1436858
-879,843,"Cook, the Thief, His Wife & Her Lover, The","Greenaway, Peter",1989,UK,120,1481871
+879,843,"Cook, the Thief, His Wife & Her Lover, The","Greenaway, Peter",1989,UK,120,1304582
 880,899,Enter the Dragon,"Clouse, Robert",1973,USA,97,1293118
 881,811,"Misfits, The","Huston, John",1961,USA,124,1300116
 882,855,"Boot, Das","Petersen, Wolfgang",1981,West Germany,149,1293909
@@ -887,7 +887,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 886,866,Arabian Nights,"Pasolini, Pier Paolo",1974,Italy,130,1294654
 887,891,M*A*S*H,"Altman, Robert",1970,USA,116,1292766
 888,853,Au revoir les enfants,"Malle, Louis",1987,France,103,1292586
-889,960,Dracula,"Fisher, Terence",1958,UK,82,1998217
+889,960,Dracula,"Fisher, Terence",1958,UK,82,1306163
 890,952,"Phantom Carriage, The","Sj?str?m, Victor",1921,Sweden,93,1465471
 891,840,They Were Expendable,"Ford, John",1945,USA,135,1298789
 892,957,Elevator to the Gallows,"Malle, Louis",1958,France,92,1394342
@@ -987,7 +987,7 @@ rank,2019_rank,title,director,year,country,mins,dbid
 986,---,"Humanit¨¦, L'","Dumont, Bruno",1999,France,147,1304869
 987,997,Hellzapoppin',"Potter, H.C.",1941,USA,84,2011855
 988,915,Cairo Station,"Chahine, Youssef",1958,Egypt,76,2979522
-989,914,Chikamatsu monogatari,"Mizoguchi, Kenji",1954,Japan,100,
+989,914,Chikamatsu monogatari,"Mizoguchi, Kenji",1954,Japan,100,1303600
 990,934,Subarnarekha,"Ghatak, Ritwik",1965,India,143,2368758
 991,981,H?xan,"Christensen, Benjamin",1922,Sweden,83,1439560
 992,964,Holiday,"Cukor, George",1938,USA,93,1301014
@@ -998,4 +998,4 @@ rank,2019_rank,title,director,year,country,mins,dbid
 997,---,"Boucher, Le","Chabrol, Claude",1970,France,94,1306218
 998,971,"Too Early, Too Late","Straub, Jean-Marie & Dani¨¨le Huillet",1981,Germany,100,3012451
 999,988,Design for Living,"Lubitsch, Ernst",1933,USA,90,1775077
-1000,---,Fat Girl,"Breillat, Catherine",2001,France,86,
+1000,---,Fat Girl,"Breillat, Catherine",2001,France,86,1308525

@@ -3,6 +3,12 @@ IMDb, CC, MOC, FIB, all kinds of billboard that connect the item title with doub
 
 ![Daily Update](https://github.com/bimzcy/rank4douban/workflows/Daily%20Update/badge.svg)
 
+# All rank list
+
+- See Assigned Snippets in CSV file [00_snippets.csv](/data/00_snippets.csv)
+- Un Assigned:
+   - Douban TOP 250 : [99_douban_top250.csv](/data/99_douban_top250.csv)
+
 # How to build rank list
 
 1. upload rank data file like `01_IMDbtop250.csv` in `data` dir.

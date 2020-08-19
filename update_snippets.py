@@ -28,39 +28,25 @@ class DBSearch(object):
         item_dbid_search = list(filter(lambda x: x[0] == iden_id, self.old_list))
         if len(item_dbid_search) > 0:  # Use old
             return item_dbid_search[0][1]
-        elif kwargs.get("imdbid"):
-            return self.get_dbid_from_imdbid(kwargs.get("imdbid"))
         else:
-            return self.get_dbid_from_name(kwargs.get("title"), kwargs.get("year"))
+            q = kwargs.get("imdbid") or kwargs.get("title")
+            return self.get_dbid_from_search(q, kwargs.get("year"))
 
     @staticmethod
-    def get_dbid_from_imdbid(imdbid):
-        time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/imdb/{}".format(imdbid),
-                         params={"apikey": '0dad551ec0f84ed02907ff5c42e8ec70'},
+    def get_dbid_from_search(q, year=None):
+        time.sleep(random.randint(1, 5))
+        r = requests.get("https://movie.douban.com/j/subject_suggest",
+                         params={"q": q},
                          headers=headers)
-        rj = r.json()
-        id_link = rj.get("id") or rj.get("alt") or rj.get("mobile_link")
-        dbid = re.search('/(?:movie|subject)/(\d+)/?', id_link).group(1)
-        return int(dbid)
+        all_subject = r.json()
 
-    @staticmethod
-    def get_dbid_from_name(name, year):
-        time.sleep(5 + random.randint(1, 20))
-        r = requests.get("https://api.douban.com/v2/movie/search?q={}".format(name),
-                         params={"apikey": '0dad551ec0f84ed02907ff5c42e8ec70'},
-                         headers=headers)
-        rj = r.json()
-        all_subject = rj.get("subjects")
-        try:
-            chose_subject = list(filter(lambda x: x["year"] == str(year), all_subject))
+        if year:
+            all_subject = list(filter(lambda x: x["year"] == str(year), all_subject))
 
-            if len(chose_subject) > 0:
-                return chose_subject[0].get("id")
-        except Exception:
-            print(name, year, rj)
-            if rj.get("msg"):
-                time.sleep(random.randint(5, 20) * 60)
+        if len(all_subject) > 0:
+            return all_subject[0].get("id")
+
+        return 0
 
 
 def get_list_raw(link, selector) -> list:
@@ -81,22 +67,33 @@ def write_data_list(filename, header, data):
 def update_douban():
     top_list = []
 
-    i = 1
-    for start_ in range(0, 250, 50):
-        r = requests.get('http://api.douban.com/v2/movie/top250',
-                         params={'apikey': '0dad551ec0f84ed02907ff5c42e8ec70', 'start': start_, 'count': 50},
-                         headers=headers
-                         )
-        rj = r.json()
-        for subject in rj.get('subjects', []):
-            top_list.append({
-                'rank': i,
-                'title': subject.get('title', ''),
-                'original_title': subject.get('original_title', ''),
-                'year': subject.get('year', ''),
-                'dbid': subject.get('id')
-            })
-            i += 1
+    for start_ in range(0, 250, 25):
+        time.sleep(random.randint(1, 5))
+        subjects = get_list_raw('https://movie.douban.com/top250?start={}'.format(start_), 'ol.grid_view > li')
+        for subject in subjects:
+            try:
+                all_title = ''.join(map(lambda x: x.get_text(), subject.find_all('span', class_='title')))
+                all_title = all_title.replace('\xa0', ' ')
+
+                if all_title.find('/') > -1:
+                    titles = all_title.split('/')
+                    title = titles[0].strip()
+                    original_title = titles[1].strip()
+                else:
+                    title = original_title = all_title.strip()
+
+                year = re.search(r'\d{4}', str(subject.find('p'))).group()
+                dbid = re.search(r'https://movie.douban.com/subject/(\d+)', str(subject)).groups()[0]
+
+                top_list.append({
+                    'rank': int(subject.find('em').get_text(strip=True)),
+                    'title': title,
+                    'original_title': original_title,
+                    'year': year,
+                    'dbid': dbid
+                })
+            except Exception:
+                pass
 
     # Write Data list
     write_data_list("99_douban_top250.csv", ['rank', 'title', 'original_title', 'year', 'dbid'], top_list)

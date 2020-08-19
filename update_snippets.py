@@ -41,12 +41,12 @@ class DBSearch(object):
         all_subject = r.json()
 
         if year:
-            all_subject = list(filter(lambda x: x["year"] == str(year), all_subject))
+            all_subject = list(filter(lambda x: x.get("year") == str(year), all_subject))
 
         if len(all_subject) > 0:
             return all_subject[0].get("id")
 
-        return 0
+        return ''
 
 
 def get_list_raw(link, selector) -> list:
@@ -185,7 +185,7 @@ def update_cclist():
     write_data_list("03_CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
 
 
-def update_ss_(csvfile, jsonfile, reqlink, basedict):
+def update_ss_(csvfile, reqlink, basedict):
     # Read our old data file
     search = DBSearch(csvfile, "bfid")
 
@@ -217,7 +217,7 @@ def update_ss_(csvfile, jsonfile, reqlink, basedict):
 
 
 def update_sscritics():
-    update_ss_("04_SScritics.csv", '04_SScritics.json',
+    update_ss_("04_SScritics.csv",
                "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics", {
                    "title": "《视与听》影史最佳影片-影评人Top100",
                    "short_title": "视与听影评人百佳",
@@ -227,7 +227,7 @@ def update_sscritics():
 
 
 def update_ssdirectors():
-    update_ss_("05_SSdirectors.csv", '05_SSdirectors.json',
+    update_ss_("05_SSdirectors.csv",
                "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors", {
                    "title": "《视与听》影史最佳影片-导演Top100",
                    "short_title": "视与听导演百佳",

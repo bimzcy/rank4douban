@@ -85,18 +85,23 @@ def update_douban():
                 year = re.search(r'\d{4}', str(subject.find('p'))).group()
                 dbid = re.search(r'https://movie.douban.com/subject/(\d+)', str(subject)).groups()[0]
 
+                rating_num = subject.find('span', class_="rating_num").get_text(strip=True)
+                rating_count = re.search(r'(\d+)人评价', str(subject)).groups()[0]
+
                 top_list.append({
                     'rank': int(subject.find('em').get_text(strip=True)),
                     'title': title,
                     'original_title': original_title,
                     'year': year,
+                    'rating_num': rating_num,
+                    'rating_count': rating_count,
                     'dbid': dbid
                 })
             except Exception:
                 pass
 
     # Write Data list
-    write_data_list("99_douban_top250.csv", ['rank', 'title', 'original_title', 'year', 'dbid'], top_list)
+    write_data_list("99_douban_top250.csv", ['rank', 'title', 'original_title', 'year', 'rating_num', 'rating_count', 'dbid'], top_list)
 
 
 def update_imdb_top_250():

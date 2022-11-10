@@ -257,7 +257,9 @@ def update_bgm_top_250():
             item_name = item.find("small", class_="grey").get_text(strip=True) if item.find("small", class_="grey") else ""
             item_info = item.find("p", class_="info tip").get_text(strip=True)
 
-            item_date = re.search("(\d{4})[年-](\d{1,2}[月-])?(\d{1,2}日?)?", item_info).group(0)
+            item_date_match = re.search("(\d{4})[年-](\d{1,2}[月-])?(\d{1,2}日?)?", item_info)
+            item_date = item_date_match.group(0) if item_date_match else time.strftime("%Y")
+
             item_bgmid = re.search("\d+", item["id"]).group(0)
             item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search("(\d{4})", item_date).group(1))
 

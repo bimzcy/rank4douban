@@ -121,8 +121,6 @@ def update_imdb_top_250():
         item_year = item.find('span', class_='cli-title-metadata-item').get_text(strip=True)
         item_dbid = search.get_dbid(item_imdbid, imdbid=item_imdbid)
 
-        print({"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
-        
         top_list.append(
             {"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
 

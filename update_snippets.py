@@ -26,7 +26,7 @@ class DBSearch(object):
 
     def get_dbid(self, iden_id, **kwargs):
         item_dbid_search = list(filter(lambda x: x[0] == iden_id, self.old_list))
-        if len(item_dbid_search) > 0:  # Use old
+        if len(item_dbid_search) > 0 and item_dbid_search[0][1] != '':  # Use old
             return item_dbid_search[0][1]
         else:
             q = kwargs.get("imdbid") or kwargs.get("title")
@@ -111,16 +111,18 @@ def update_imdb_top_250():
     # Get new top 250 rank list and update data file
     top_list = []
     top_list_raw = get_list_raw('https://www.imdb.com/chart/top',
-                                'table[data-caller-name="chart-top250movie"] > tbody > tr > td.titleColumn')
+                                'ul.ipc-metadata-list > li')
     for item in top_list_raw:
-        item_text = item.get_text(strip=True)
-        item_search = re.search('(\d+)\.(.+?)\((\d+)\)', item_text)
+        item_title_and_rank = item.find('h3',class_='ipc-title__text').get_text(strip=True)
+        item_search = re.search('(\d+)\. (.+)', item_title_and_rank)
         item_rank = item_search.group(1)
         item_title = item_search.group(2)
-        item_year = item_search.group(3)
         item_imdbid = re.search("(tt\d+)", item.find("a")["href"]).group(1)
+        item_year = item.find('span', class_='cli-title-metadata-item').get_text(strip=True)
         item_dbid = search.get_dbid(item_imdbid, imdbid=item_imdbid)
 
+        print({"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
+        
         top_list.append(
             {"rank": item_rank, "title": item_title, 'year': item_year, "imdbid": item_imdbid, "dbid": item_dbid})
 

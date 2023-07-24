@@ -26,7 +26,7 @@ def convert():
         data_csv_file = os.path.join(data_dir, raw_data["file"])
         data_csv = csv.DictReader(open(data_csv_file, encoding='utf-8'))
         rank_row = data_csv.fieldnames[0]
-        data_list = {row["dbid"]: row[rank_row] for row in data_csv}
+        data_list = {row["dbid"]: row[rank_row] for row in data_csv if row['dbid'] != ''}
 
         json_data = {
             "title": raw_data["title"],

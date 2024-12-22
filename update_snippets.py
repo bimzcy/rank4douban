@@ -6,6 +6,7 @@ import re
 import os
 import csv
 import time
+import json
 import random
 import requests
 
@@ -110,15 +111,14 @@ def update_imdb_top_250():
 
     # Get new top 250 rank list and update data file
     top_list = []
-    top_list_raw = get_list_raw('https://www.imdb.com/chart/top',
-                                'ul.ipc-metadata-list > li')
+    top_list_req = get_list_raw('https://www.imdb.com/chart/top', 'script#__NEXT_DATA__')
+    top_list_raw = json.loads(top_list_req[0].get_text(strip=True))['props']['pageProps']['pageData']['chartTitles']['edges']
+    
     for item in top_list_raw:
-        item_title_and_rank = item.find('h3',class_='ipc-title__text').get_text(strip=True)
-        item_search = re.search('(\d+)\. (.+)', item_title_and_rank)
-        item_rank = item_search.group(1)
-        item_title = item_search.group(2)
-        item_imdbid = re.search("(tt\d+)", item.find("a")["href"]).group(1)
-        item_year = item.find('span', class_='cli-title-metadata-item').get_text(strip=True)
+        item_rank = item['currentRank']
+        item_title = item['node']['titleText']['text']
+        item_imdbid = item['node']['id']
+        item_year = item['node']['releaseYear']['year']
         item_dbid = search.get_dbid(item_imdbid, imdbid=item_imdbid)
 
         top_list.append(
@@ -126,7 +126,6 @@ def update_imdb_top_250():
 
     # Write Data list
     write_data_list("01_IMDbtop250.csv", ['rank', 'title', 'year', 'imdbid', 'dbid'], top_list)
-
 
 def update_afi_top_100():
     search = DBSearch("02_AFilist.csv", "afiid")

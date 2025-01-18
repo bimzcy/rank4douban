@@ -1,1001 +1,1001 @@
-rank,2019_rank,title,director,year,country,mins,dbid
-1,1,Citizen Kane,"Welles, Orson",1941,USA,119,1292288
-2,2,Vertigo,"Hitchcock, Alfred",1958,USA,128,1297294
-3,3,2001: A Space Odyssey,"Kubrick, Stanley",1968,UK,139,1292226
-4,4,"Rules of the Game, The","Renoir, Jean",1939,France,113,1401261
-5,5,Tokyo Story,"Ozu, Yasujiro",1953,Japan,134,1291568
-6,6,8?,"Fellini, Federico",1963,Italy,135,1361276
-7,7,"Godfather, The","Coppola, Francis Ford",1972,USA,175,1291841
-8,8,Sunrise,"Murnau, F.W.",1927,USA,110,1295753
-9,9,"Searchers, The","Ford, John",1956,USA,119,1292668
-10,10,Seven Samurai,"Kurosawa, Akira",1954,Japan,200,1295399
-11,11,Apocalypse Now,"Coppola, Francis Ford",1979,USA,150,1292260
-12,12,Singin' in the Rain,"Donen, Stanley/Gene Kelly",1952,USA,102,1293460
-13,13,Bicycle Thieves,"De Sica, Vittorio",1948,Italy,90,1295873
-14,15,Taxi Driver,"Scorsese, Martin",1976,USA,113,1292222
-15,14,Battleship Potemkin,"Eisenstein, Sergei",1925,USSR,71,1293492
-16,16,Breathless,"Godard, Jean-Luc",1960,France,89,1353745
-17,17,"Passion of Joan of Arc, The","Dreyer, Carl Theodor",1928,France,110,1293783
-18,18,"Atalante, L'","Vigo, Jean",1934,France,89,1299433
-19,19,Persona,"Bergman, Ingmar",1966,Sweden,83,1294438
-20,21,"Man with a Movie Camera, The","Vertov, Dziga",1929,USSR,80,1293199
-21,20,Rashomon,"Kurosawa, Akira",1950,Japan,88,1291879
-22,23,"400 Blows, The","Truffaut, Fran?ois",1959,France,99,1300056
-23,25,Psycho,"Hitchcock, Alfred",1960,USA,109,1293181
-24,22,"Godfather Part II, The","Coppola, Francis Ford",1974,USA,200,1299131
-25,24,Raging Bull,"Scorsese, Martin",1980,USA,128,1293155
-26,28,Some Like it Hot,"Wilder, Billy",1959,USA,119,1292574
-27,27,Andrei Rublev,"Tarkovsky, Andrei",1966,USSR,185,1298248
-28,26,City Lights,"Chaplin, Charles",1931,USA,86,1293908
-29,29,"Dolce vita, La","Fellini, Federico",1960,Italy,175,1293271
-30,30,"Mirror, The","Tarkovsky, Andrei",1975,USSR,108,1299248
-31,31,Touch of Evil,"Welles, Orson",1958,USA,108,1294756
-32,33,Ordet,"Dreyer, Carl Theodor",1955,Denmark,125,1303566
-33,36,Lawrence of Arabia,"Lean, David",1962,UK,216,1292349
-34,32,Au hasard Balthazar,"Bresson, Robert",1966,France,95,1401619
-35,34,Sunset Blvd.,"Wilder, Billy",1950,USA,110,1298733
-36,35,Casablanca,"Curtiz, Michael",1942,USA,102,1296753
-37,38,Blade Runner,"Scott, Ridley",1982,USA,118,1291839
-38,37,"Avventura, L'","Antonioni, Michelangelo",1960,Italy,145,1389923
-39,39,Contempt,"Godard, Jean-Luc",1963,France,103,1303555
-40,40,"General, The","Keaton, Buster/Clyde Bruckman",1926,USA,74,1292778
-41,41,Rear Window,"Hitchcock, Alfred",1954,USA,112,1299080
-42,44,In the Mood for Love,Wong Kar-wai,2000,Hong Kong,97,1291557
-43,43,"Night of the Hunter, The","Laughton, Charles",1955,USA,93,1293582
-44,42,"Grande illusion, La","Renoir, Jean",1937,France,117,1294808
-45,49,"Third Man, The","Reed, Carol",1949,UK,104,1295451
-46,47,Ugetsu monogatari,"Mizoguchi, Kenji",1953,Japan,96,1303577
-47,46,Playtime,"Tati, Jacques",1967,France,108,1303543
-48,45,Modern Times,"Chaplin, Charles",1936,USA,89,1294371
-49,48,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,"Kubrick, Stanley",1964,UK,93,1322848
-50,51,Fanny and Alexander,"Bergman, Ingmar",1982,Sweden,189,1292784
-51,52,Stalker,"Tarkovsky, Andrei",1979,USSR,160,1295656
-52,50,Chinatown,"Polanski, Roman",1974,USA,131,1293889
-53,53,Barry Lyndon,"Kubrick, Stanley",1975,UK,183,1292472
-54,60,Mulholland Dr.,"Lynch, David",2001,France,147,1292217
-55,55,Pather Panchali,"Ray, Satyajit",1955,India,112,1306019
-56,54,"Apartment, The","Wilder, Billy",1960,USA,125,1394218
-57,57,Rio Bravo,"Hawks, Howard",1959,USA,141,1298497
-58,56,M,"Lang, Fritz",1931,Germany,99,1293381
-59,61,North by Northwest,"Hitchcock, Alfred",1959,USA,136,1295872
-60,59,Metropolis,"Lang, Fritz",1927,Germany,153,1298107
-61,58,Wild Strawberries,"Bergman, Ingmar",1957,Sweden,90,1293071
-62,62,"Enfants du paradis, Les","Carn¨¦, Marcel",1945,France,195,1300375
-63,64,Viridiana,"Bu?uel, Luis",1961,Spain,90,1303557
-64,63,Pierrot le fou,"Godard, Jean-Luc",1965,France,110,1292533
-65,67,"Strada, La","Fellini, Federico",1954,Italy,115,1292719
-66,69,Shoah,"Lanzmann, Claude",1985,France,566,1303328
-67,66,"Wild Bunch, The","Peckinpah, Sam",1969,USA,144,1296963
-68,65,Once Upon a Time in the West,"Leone, Sergio",1968,Italy,165,1293394
-69,72,"Seventh Seal, The","Bergman, Ingmar",1957,Sweden,96,1293234
-70,77,GoodFellas,"Scorsese, Martin",1990,USA,146,1292268
-71,70,Amarcord,"Fellini, Federico",1973,Italy,127,1298672
-72,76,Pulp Fiction,"Tarantino, Quentin",1994,USA,154,1291832
-73,68,"Battle of Algiers, The","Pontecorvo, Gillo",1966,Italy,123,1419005
-74,74,"Leopard, The","Visconti, Luchino",1963,Italy,205,1293146
-75,73,Voyage in Italy,"Rossellini, Roberto",1953,Italy,97,1303576
-76,71,"Gold Rush, The","Chaplin, Charles",1925,USA,82,1298817
-77,78,"Magnificent Ambersons, The","Welles, Orson",1942,USA,88,1299214
-78,75,Late Spring,"Ozu, Yasujiro",1949,Japan,108,1307265
-79,81,Pickpocket,"Bresson, Robert",1959,France,75,1303559
-80,79,"Clockwork Orange, A","Kubrick, Stanley",1971,UK,137,1292233
-81,80,It's a Wonderful Life,"Capra, Frank",1946,USA,129,1293749
-82,86,Close-Up,"Kiarostami, Abbas",1990,Iran,98,1303521
-83,84,Jules et Jim,"Truffaut, Fran?ois",1962,France,104,1292338
-84,95,"Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles","Akerman, Chantal",1975,Belgium,201,1868933
-85,82,Blue Velvet,"Lynch, David",1986,USA,120,1298697
-86,83,"Conformist, The","Bertolucci, Bernardo",1970,Italy,107,1300955
-87,85,Nashville,"Altman, Robert",1975,USA,159,1293037
-88,89,Annie Hall,"Allen, Woody",1977,USA,94,1296987
-89,87,Gertrud,"Dreyer, Carl Theodor",1964,Denmark,116,1420116
-90,88,"Man Escaped, A","Bresson, Robert",1956,France,102,1303562
-91,96,"Shining, The","Kubrick, Stanley",1980,USA,142,1292225
-92,91,Jaws,"Spielberg, Steven",1975,USA,124,1294941
-93,92,Sansho the Bailiff,"Mizoguchi, Kenji",1954,Japan,125,1303573
-94,97,"Woman Under the Influence, A","Cassavetes, John",1974,USA,155,1293525
-95,90,"Man Who Shot Liberty Valance, The","Ford, John",1962,USA,119,1295134
-96,93,Greed,"von Stroheim, Erich",1924,USA,140,1301923
-97,100,Sans soleil,"Marker, Chris",1983,France,100,1401901
-98,94,Last Year at Marienbad,"Resnais, Alain",1961,France,94,1400240
-99,99,Blow-Up,"Antonioni, Michelangelo",1966,Italy,111,1310176
-100,101,Once Upon a Time in America,"Leone, Sergio",1984,Italy,229,1292262
-101,98,Aguirre: The Wrath of God,"Herzog, Werner",1972,West Germany,94,1306002
-102,102,To Be or Not to Be,"Lubitsch, Ernst",1942,USA,99,1303418
-103,108,"Mother and the Whore, The","Eustache, Jean",1973,France,210,1295252
-104,113,"Spirit of the Beehive, The","Erice, Victor",1973,Spain,95,1401900
-105,105,"Wizard of Oz, The","Fleming, Victor",1939,USA,101,1292625
-106,104,Intolerance,"Griffith, D.W.",1916,USA,178,1295287
-107,109,Gone with the Wind,"Fleming, Victor",1939,USA,222,1300267
-108,103,S¨¢t¨¢ntang¨®,"Tarr, B¨¦la",1994,Hungary,450,1422088
-109,106,"Eclisse, L'","Antonioni, Michelangelo",1962,Italy,126,1293105
-110,107,Hiroshima mon amour,"Resnais, Alain",1959,France,91,1302050
-111,129,Alien,"Scott, Ridley",1979,USA,117,1300868
-112,112,Ikiru,"Kurosawa, Akira",1952,Japan,143,1293847
-113,118,Sherlock Jr.,"Keaton, Buster",1924,USA,45,1303408
-114,110,"Jet¨¦e, La","Marker, Chris",1962,France,27,1306626
-115,111,Manhattan,"Allen, Woody",1979,USA,96,1294300
-116,115,Star Wars,"Lucas, George",1977,USA,121,1293838
-117,119,E.T. The Extra-Terrestrial,"Spielberg, Steven",1982,USA,115,1294638
-118,154,Beau travail,"Denis, Claire",1999,France,92,1306791
-119,133,Nosferatu,"Murnau, F.W.",1922,Germany,84,1296791
-120,114,One Flew Over the Cuckoo's Nest,"Forman, Milos",1975,USA,133,1292224
-121,123,"Brighter Summer Day, A","Yang, Edward",1991,Taiwan,237,1292329
-122,117,Madame de...,"Oph¨¹ls, Max",1953,France,105,1301122
-123,127,Yi yi,"Yang, Edward",2000,Taiwan,173,1292434
-124,116,All About Eve,"Mankiewicz, Joseph L.",1950,USA,138,1401385
-125,120,Bringing Up Baby,"Hawks, Howard",1938,USA,102,1297657
-126,122,Letter from an Unknown Woman,"Oph¨¹ls, Max",1948,USA,90,1297228
-127,130,Don't Look Now,"Roeg, Nicolas",1973,UK,110,1302294
-128,121,My Darling Clementine,"Ford, John",1946,USA,97,1299733
-129,124,"Rome, Open City","Rossellini, Roberto",1945,Italy,105,1296669
-130,128,"Olvidados, Los","Bu?uel, Luis",1950,Mexico,88,1303579
-131,125,Partie de campagne,"Renoir, Jean",1936,France,40,1401585
-132,132,Badlands,"Malick, Terrence",1973,USA,95,1297422
-133,131,Vivre sa vie,"Godard, Jean-Luc",1962,France,85,1296757
-134,140,Rosemary's Baby,"Polanski, Roman",1968,USA,136,1293852
-135,134,Notorious,"Hitchcock, Alfred",1946,USA,101,1300766
-136,138,Stagecoach,"Ford, John",1939,USA,96,1298134
-137,137,Do the Right Thing,"Lee, Spike",1989,USA,120,1293958
-138,139,"Chien andalou, Un","Bu?uel, Luis",1928,France,16,1298962
-139,158,"Good, the Bad and the Ugly, The","Leone, Sergio",1966,Italy,161,1401118
-140,126,"?ge d'or, L'","Bu?uel, Luis",1930,France,63,1293667
-141,135,Ali: Fear Eats the Soul,"Fassbinder, Rainer Werner",1974,West Germany,94,1294092
-142,148,His Girl Friday,"Hawks, Howard",1940,USA,92,1299231
-143,143,"Lady Eve, The","Sturges, Preston",1941,USA,94,1303415
-144,136,"Passenger, The","Antonioni, Michelangelo",1975,Italy,119,1297546
-145,147,Duck Soup,"McCarey, Leo",1933,USA,70,1298113
-146,145,"Gospel According to St. Matthew, The","Pasolini, Pier Paolo",1964,Italy,135,1299775
-147,142,"Matter of Life and Death, A","Powell, Michael/Emeric Pressburger",1946,UK,104,1299411
-148,150,Double Indemnity,"Wilder, Billy",1944,USA,106,1293226
-149,152,Trouble in Paradise,"Lubitsch, Ernst",1932,USA,83,1294746
-150,141,Come and See,"Klimov, Elem",1985,USSR,136,1422186
-151,157,Spring in a Small Town,Fei Mu,1948,China,85,1323746
-152,151,Brief Encounter,"Lean, David",1945,UK,85,1294364
-153,153,On the Waterfront,"Kazan, Elia",1954,USA,108,1292521
-154,144,"Conversation, The","Coppola, Francis Ford",1974,USA,113,1296908
-155,149,Days of Heaven,"Malick, Terrence",1978,USA,95,1293232
-156,155,Histoire(s) du cin¨¦ma,"Godard, Jean-Luc",1998,France,265,1439723
-157,146,"Exterminating Angel, The","Bu?uel, Luis",1962,Mexico,95,1303556
-158,156,Cries and Whispers,"Bergman, Ingmar",1972,Sweden,106,1296147
-159,164,"Red Shoes, The","Powell, Michael/Emeric Pressburger",1948,UK,133,1299204
-160,159,Chimes at Midnight,"Welles, Orson",1965,France,115,1422308
-161,160,"Discreet Charm of the Bourgeoisie, The","Bu?uel, Luis",1972,France,100,1303364
-162,200,"Piano, The","Campion, Jane",1993,New Zealand,121,1293818
-163,161,King Kong,"Cooper, Merian C./Ernest B. Schoedsack",1933,USA,103,1298593
-164,163,"Argent, L'","Bresson, Robert",1983,France,90,1303536
-165,166,Black Narcissus,"Powell, Michael/Emeric Pressburger",1947,UK,99,1292733
-166,179,There Will Be Blood,"Anderson, Paul Thomas",2007,USA,158,1945780
-167,165,"River, The","Renoir, Jean",1951,France,99,1416677
-168,162,"Deer Hunter, The","Cimino, Michael",1978,USA,183,1292403
-169,167,Earth,"Dovzhenko, Alexander",1930,USSR,75,1474748
-170,173,"Umbrellas of Cherbourg, The","Demy, Jacques",1964,France,91,1301646
-171,170,Rocco and His Brothers,"Visconti, Luchino",1960,Italy,180,1303558
-172,188,Spirited Away,"Miyazaki, Hayao",2001,Japan,124,1291561
-173,169,"Great Dictator, The","Chaplin, Charles",1940,USA,128,1295646
-174,199,"Texas Chainsaw Massacre, The","Hooper, Tobe",1974,USA,83,1300392
-175,168,Mouchette,"Bresson, Robert",1967,France,80,1302413
-176,172,Napol¨¦on,"Gance, Abel",1927,France,235,1401756
-177,171,Imitation of Life,"Sirk, Douglas",1959,USA,124,1294625
-178,174,"Grapes of Wrath, The","Ford, John",1940,USA,129,1292465
-179,178,"Last Laugh, The","Murnau, F.W.",1924,Germany,77,1307639
-180,193,Night and Fog,"Resnais, Alain",1955,France,32,1298270
-181,175,Dekalog,"Kieslowski, Krzysztof",1988,Poland,550,1301252
-182,176,"Birds, The","Hitchcock, Alfred",1963,USA,120,1310175
-183,191,"City of Sadness, A",Hou Hsiao-hsien,1989,Taiwan,157,1294194
-184,183,Brazil,"Gilliam, Terry",1985,UK,131,1293823
-185,186,Out of the Past,"Tourneur, Jacques",1947,USA,97,1302338
-186,181,"Life and Death of Colonel Blimp, The","Powell, Michael/Emeric Pressburger",1943,UK,163,1299816
-187,196,Kes,"Loach, Ken",1969,UK,113,1297920
-188,220,Raiders of the Lost Ark,"Spielberg, Steven",1981,USA,115,1296717
-189,184,Umberto D.,"De Sica, Vittorio",1952,Italy,89,1296097
-190,198,Fargo,"Coen, Joel & Ethan Coen",1996,USA,98,1292067
-191,177,"Sal¨°, or the 120 Days of Sodom","Pasolini, Pier Paolo",1975,Italy,117,1293691
-192,214,Chungking Express,Wong Kar-wai,1994,Hong Kong,104,1291999
-193,203,Close Encounters of the Third Kind,"Spielberg, Steven",1977,USA,135,1298405
-194,190,Solaris,"Tarkovsky, Andrei",1972,USSR,165,1300977
-195,180,"Travelling Players, The","Angelopoulos, Theo",1975,Greece,230,1295759
-196,185,Belle de jour,"Bu?uel, Luis",1967,France,100,1301649
-197,182,Death in Venice,"Visconti, Luchino",1971,Italy,130,1300912
-198,204,Performance,"Roeg, Nicolas/Donald Cammell",1970,UK,105,1294331
-199,192,Celine and Julie Go Boating,"Rivette, Jacques",1974,France,192,1418141
-200,197,Red River,"Hawks, Howard",1948,USA,133,1292565
-201,201,Sweet Smell of Success,"Mackendrick, Alexander",1957,USA,96,1302808
-202,194,Paisan,"Rossellini, Roberto",1946,Italy,120,1299257
-203,195,Breaking the Waves,"von Trier, Lars",1996,Denmark,156,1292468
-204,209,"Cabinet of Dr. Caligari, The","Wiene, Robert",1920,Germany,69,1292547
-205,211,"Samoura?, Le","Melville, Jean-Pierre",1967,France,95,1300966
-206,189,"Quiet Man, The","Ford, John",1952,USA,129,1295757
-207,229,Vampyr,"Dreyer, Carl Theodor",1932,Germany,73,1300749
-208,236,Unforgiven,"Eastwood, Clint",1992,USA,127,1293566
-209,206,"Best Years of Our Lives, The","Wyler, William",1946,USA,172,1294100
-210,187,Nights of Cabiria,"Fellini, Federico",1957,Italy,110,1294781
-211,207,"Black God, White Devil","Rocha, Glauber",1964,Brazil,110,1418426
-212,225,McCabe & Mrs. Miller,"Altman, Robert",1971,USA,121,1293950
-213,202,Ran,"Kurosawa, Akira",1985,France,161,1296196
-214,216,Cach¨¦,"Haneke, Michael",2005,France,117,1438066
-215,205,Ashes and Diamonds,"Wajda, Andrzej",1958,Poland,96,1303174
-216,208,"Graduate, The","Nichols, Mike",1967,USA,105,1292271
-217,221,"Exorcist, The","Friedkin, William",1973,USA,122,1293755
-218,239,"Tree of Life, The","Malick, Terrence",2011,USA,139,2336735
-219,212,"Thin Red Line, The","Malick, Terrence",1998,USA,170,1292781
-220,218,Nanook of the North,"Flaherty, Robert",1922,USA,79,1292735
-221,215,Wings of Desire,"Wenders, Wim",1987,West Germany,130,1292504
-222,210,Wavelength,"Snow, Michael",1967,Canada,45,1296621
-223,249,My Neighbour Totoro,"Miyazaki, Hayao",1988,Japan,86,1291560
-224,227,Kind Hearts and Coronets,"Hamer, Robert",1949,UK,104,1295995
-225,222,Schindler's List,"Spielberg, Steven",1993,USA,195,1295124
-226,219,"Big Lebowski, The","Coen, Joel & Ethan Coen",1998,USA,113,1300044
-227,223,Eternal Sunshine of the Spotless Mind,"Gondry, Michel",2004,USA,108,1308777
-228,217,"Ivan the Terrible, Part 2","Eisenstein, Sergei",1946,USSR,88,1298182
-229,252,Tropical Malady,"Weerasethakul, Apichatpong",2004,Thailand,118,1414808
-230,231,"Paris, Texas","Wenders, Wim",1984,USA,150,1302061
-231,243,Paths of Glory,"Kubrick, Stanley",1957,USA,86,1292969
-232,226,"Germany, Year Zero","Rossellini, Roberto",1948,Italy,74,1293153
-233,224,Only Angels Have Wings,"Hawks, Howard",1939,USA,121,1300712
-234,230,Diary of a Country Priest,"Bresson, Robert",1951,France,120,1401618
-235,235,"Treasure of the Sierra Madre, The","Huston, John",1948,USA,124,1292516
-236,238,Zero for Conduct,"Vigo, Jean",1933,France,41,1294518
-237,228,Sullivan's Travels,"Sturges, Preston",1941,USA,91,1303416
-238,240,Groundhog Day,"Ramis, Harold",1993,USA,103,1300613
-239,213,Two or Three Things I Know About Her,"Godard, Jean-Luc",1966,France,87,1300964
-240,241,F for Fake,"Welles, Orson",1973,France,85,1440610
-241,263,Night of the Living Dead,"Romero, George A.",1968,USA,96,1297996
-242,232,Meet Me in St. Louis,"Minnelli, Vincente",1944,USA,113,1295445
-243,234,"Crowd, The","Vidor, King",1928,USA,104,1293273
-244,237,"Notte, La","Antonioni, Michelangelo",1961,Italy,120,1361252
-245,242,Bonnie and Clyde,"Penn, Arthur",1967,USA,111,1294584
-246,250,Johnny Guitar,"Ray, Nicholas",1954,USA,110,1303575
-247,246,"Band Wagon, The","Minnelli, Vincente",1953,USA,112,1850003
-248,332,Cl¨¦o from 5 to 7,"Varda, Agn¨¨s",1962,France,90,1294565
-249,233,"Colour of Pomegranate, The","Parajanov, Sergei",1969,USSR,73,1303542
-250,244,Tabu,"Murnau, F.W.",1931,USA,82,1296577
-251,258,Freaks,"Browning, Tod",1932,USA,64,1295942
-252,248,"Verdugo, El","Garc¨ªa Berlanga, Luis",1963,Spain,90,1485059
-253,257,"Shop Around the Corner, The","Lubitsch, Ernst",1940,USA,97,1299166
-254,286,"Thing, The","Carpenter, John",1982,USA,108,1296794
-255,247,"Life of Oharu, The","Mizoguchi, Kenji",1952,Japan,146,1303603
-256,251,Magnolia,"Anderson, Paul Thomas",1999,USA,188,1293564
-257,245,Memories of Underdevelopment,"Guti¨¦rrez Alea, Tom¨¢s",1968,Cuba,97,1484154
-258,253,Floating Clouds,"Naruse, Mikio",1955,Japan,123,1298870
-259,264,"Thin Blue Line, The","Morris, Errol",1988,USA,96,1296388
-260,254,"Story of the Last Chrysanthemums, The","Mizoguchi, Kenji",1939,Japan,148,1293329
-261,259,"Ivan the Terrible, Part 1","Eisenstein, Sergei",1944,USSR,96,1298182
-262,266,Faces,"Cassavetes, John",1968,USA,130,1292644
-263,256,Mean Streets,"Scorsese, Martin",1973,USA,110,1293511
-264,255,Meshes of the Afternoon,"Deren, Maya & Alexander Hammid",1943,USA,15,1437390
-265,260,In a Lonely Place,"Ray, Nicholas",1950,USA,91,1302923
-266,273,"Distant Voices, Still Lives","Davies, Terence",1988,UK,85,1305878
-267,262,Broken Blossoms,"Griffith, D.W.",1919,USA,90,1298420
-268,282,Kings of the Road,"Wenders, Wim",1976,West Germany,175,1437023
-269,278,Eraserhead,"Lynch, David",1977,USA,85,1293925
-270,275,"Belle et la b¨ºte, La","Cocteau, Jean",1946,France,95,1295913
-271,268,"Maltese Falcon, The","Huston, John",1941,USA,100,1297874
-272,261,Three Colours: Red,"Kieslowski, Krzysztof",1994,France,99,1292047
-273,265,Throne of Blood,"Kurosawa, Akira",1957,Japan,108,1294827
-274,267,My Night at Maud's,"Rohmer, Eric",1969,France,105,1296283
-275,271,Love Streams,"Cassavetes, John",1984,USA,141,1303532
-276,270,"Wages of Fear, The","Clouzot, Henri-Georges",1953,France,105,1299932
-277,283,Day of Wrath,"Dreyer, Carl Theodor",1943,Denmark,110,1305896
-278,272,Monsieur Verdoux,"Chaplin, Charles",1947,USA,123,1294047
-279,310,Peeping Tom,"Powell, Michael",1960,UK,109,1299665
-280,281,Cinema Paradiso,"Tornatore, Giuseppe",1988,Italy,123,1291828
-281,280,Husbands,"Cassavetes, John",1970,USA,138,1303095
-282,274,"Empire Strikes Back, The","Kershner, Irvin",1980,USA,124,1296528
-283,285,Mr. Hulot's Holiday,"Tati, Jacques",1953,France,86,1305790
-284,269,Three Colours: Blue,"Kieslowski, Krzysztof",1993,France,100,1292048
-285,290,"Matrix, The","Wachowski, Lana & Lilly Wachowski",1999,USA,136,1291843
-286,303,This is Spinal Tap,"Reiner, Rob",1984,USA,82,1293095
-287,279,Pandora's Box,"Pabst, G.W.",1929,Germany,133,1401368
-288,276,Crimes and Misdemeanors,"Allen, Woody",1989,USA,104,1292536
-289,287,"Birth of a Nation, The","Griffith, D.W.",1915,USA,187,1300306
-290,296,"Big Sleep, The","Hawks, Howard",1946,USA,114,1293352
-291,393,Daisies,"Chytilov¨¢, Vera",1966,Czechoslovakia,76,1296500
-292,298,"Kid, The","Chaplin, Charles",1921,USA,60,1293270
-293,292,Videodrome,"Cronenberg, David",1983,Canada,90,1295276
-294,289,Where is the Friend's Home?,"Kiarostami, Abbas",1987,Iran,85,1301897
-295,291,"Autumn Afternoon, An","Ozu, Yasujiro",1962,Japan,115,1294433
-296,314,Dawn of the Dead,"Romero, George A.",1978,USA,126,1295578
-297,319,Make Way for Tomorrow,"McCarey, Leo",1937,USA,92,1302017
-298,288,Underground,"Kusturica, Emir",1995,Yugoslavia,192,1292206
-299,277,Week-End,"Godard, Jean-Luc",1967,France,103,1296338
-300,294,Touki Bouki,"Mamb¨¦ty, Djibril Diop",1973,Senegal,85,1424576
-301,299,Killer of Sheep,"Burnett, Charles",1977,USA,83,1303494
-302,312,Snow White and the Seven Dwarfs,"Hand, David",1937,USA,83,1297756
-303,309,City of God,"Meirelles, Fernando & K¨¢tia Lund",2002,Brazil,129,1292208
-304,316,Red Desert,"Antonioni, Michelangelo",1964,Italy,118,1299261
-305,295,"Music Room, The","Ray, Satyajit",1958,India,95,1440613
-306,302,Back to the Future,"Zemeckis, Robert",1985,USA,116,1300555
-307,300,"Puppetmaster, The",Hou Hsiao-hsien,1993,Taiwan,141,1302941
-308,315,"Last Picture Show, The","Bogdanovich, Peter",1971,USA,118,1298026
-309,306,All About My Mother,"Almod¨®var, Pedro",1999,Spain,101,1291937
-310,320,In the Realm of the Senses,"Oshima, Nagisa",1976,Japan,109,1292790
-311,317,Stranger Than Paradise,"Jarmusch, Jim",1984,USA,90,1303723
-312,301,"World of Apu, The","Ray, Satyajit",1959,India,103,1295720
-313,328,Bride of Frankenstein,"Whale, James",1935,USA,75,1302012
-314,293,Cabaret,"Fosse, Bob",1972,USA,128,1296282
-315,313,Reservoir Dogs,"Tarantino, Quentin",1992,USA,99,1299603
-316,327,Midnight Cowboy,"Schlesinger, John",1969,USA,113,1297628
-317,297,"Sacrifice, The","Tarkovsky, Andrei",1986,France,145,1294531
-318,323,Dog Day Afternoon,"Lumet, Sidney",1975,USA,125,1293374
-319,308,"Time to Live and the Time to Die, The",Hou Hsiao-hsien,1985,Taiwan,137,1300572
-320,284,Terra em Transe,"Rocha, Glauber",1967,Brazil,106,1791033
-321,336,Eyes Without a Face,"Franju, Georges",1960,France,88,1297735
-322,331,It Happened One Night,"Capra, Frank",1934,USA,105,1295684
-323,305,"Canterbury Tale, A","Powell, Michael/Emeric Pressburger",1944,UK,124,1295943
-324,325,Kiss Me Deadly,"Aldrich, Robert",1955,USA,106,1303569
-325,307,Harold and Maude,"Ashby, Hal",1971,USA,91,1292812
-326,322,"Touch of Zen, A","Hu, King",1971,Taiwan,200,1306490
-327,354,Quince Tree of the Sun,"Erice, Victor",1992,Spain,133,1401529
-328,346,Days of Being Wild,Wong Kar-wai,1990,Hong Kong,94,1305690
-329,304,"Philadelphia Story, The","Cukor, George",1940,USA,112,1292840
-330,318,West Side Story,"Wise, Robert/Jerome Robbins",1961,USA,151,1295225
-331,311,Berlin Alexanderplatz,"Fassbinder, Rainer Werner",1980,West Germany,894,1300660
-332,353,"House is Black, The","Farrokhzad, Forugh",1963,Iran,20,1499492
-333,375,Wanda,"Loden, Barbara",1970,USA,105,1855338
-334,341,Aliens,"Cameron, James",1986,USA,137,1293792
-335,329,Heat,"Mann, Michael",1995,USA,174,1295686
-336,333,Eyes Wide Shut,"Kubrick, Stanley",1999,USA,159,1300275
-337,324,To Kill a Mockingbird,"Mulligan, Robert",1962,USA,129,1297991
-338,348,"Tenant, The","Polanski, Roman",1976,France,125,1297399
-339,321,Orpheus,"Cocteau, Jean",1950,France,95,1436764
-340,335,"I Was Born, But...","Ozu, Yasujiro",1932,Japan,100,1299360
-341,330,Amadeus,"Forman, Milos",1984,USA,158,1293399
-342,380,Tie Xi Qu: West of the Tracks,Wang Bing,2003,China,551,1309215
-343,362,Happy Together,Wong Kar-wai,1997,Hong Kong,97,1292679
-344,390,"Innocents, The","Clayton, Jack",1961,UK,100,1294825
-345,337,Listen to Britain,"Jennings, Humphrey",1942,UK,20,1432707
-346,343,I Am Cuba,"Kalatozov, Mikhail",1964,USSR,141,1432669
-347,326,How Green Was My Valley,"Ford, John",1941,USA,118,1293322
-348,342,"Green Ray, The","Rohmer, Eric",1986,France,96,1294039
-349,334,"Killing of a Chinese Bookie, The","Cassavetes, John",1976,USA,109,1438613
-350,382,"Silence of the Lambs, The","Demme, Jonathan",1991,USA,118,1293544
-351,433,Uncle Boonmee Who Can Recall His Past Lives,"Weerasethakul, Apichatpong",2010,Thailand,113,4280102
-352,356,Teorema,"Pasolini, Pier Paolo",1968,Italy,98,1297130
-353,372,Yellow Earth,Chen Kaige,1984,China,89,1291876
-354,366,Suspiria,"Argento, Dario",1977,Italy,92,1296332
-355,352,Dogville,"von Trier, Lars",2003,Denmark,177,1298759
-356,345,Stromboli,"Rossellini, Roberto",1950,Italy,107,1294382
-357,347,Marnie,"Hitchcock, Alfred",1964,USA,129,1298442
-358,339,Written on the Wind,"Sirk, Douglas",1956,USA,99,1303302
-359,391,Brokeback Mountain,"Lee, Ang",2005,USA,134,1418834
-360,394,Carrie,"De Palma, Brian",1976,USA,97,1292664
-361,344,High Noon,"Zinnemann, Fred",1952,USA,84,1298521
-362,338,Lola Mont¨¨s,"Oph¨¹ls, Max",1955,France,116,1293401
-363,355,Salvatore Giuliano,"Rosi, Francesco",1962,Italy,125,1401612
-364,404,Platform,Jia Zhangke,2000,China,154,1291850
-365,381,"Elephant Man, The","Lynch, David",1980,USA,125,1293200
-366,398,Land Without Bread,"Bu?uel, Luis",1932,Spain,28,1401595
-367,363,Werckmeister Harmonies,"Tarr, B¨¦la",2000,Hungary,145,1416898
-368,384,High and Low,"Kurosawa, Akira",1963,Japan,142,1293663
-369,349,Through the Olive Trees,"Kiarostami, Abbas",1994,Iran,103,1303465
-370,388,If¡­.,"Anderson, Lindsay",1968,UK,111,1307973
-371,387,Last Tango in Paris,"Bertolucci, Bernardo",1972,France,136,1300353
-372,369,"Young Girls of Rochefort, The","Demy, Jacques",1967,France,124,1301648
-373,358,Lost Highway,"Lynch, David",1997,USA,134,1303459
-374,403,I Know Where I'm Going!,"Powell, Michael/Emeric Pressburger",1945,UK,91,1308333
-375,478,"Separation, A","Farhadi, Asghar",2011,Iran,123,5964718
-376,361,"Palm Beach Story, The","Sturges, Preston",1942,USA,90,1303417
-377,447,Lost in Translation,"Coppola, Sofia",2003,USA,102,1291835
-378,418,"Turin Horse, The","Tarr, B¨¦la",2011,Hungary,146,3285632
-379,368,Russian Ark,"Sokurov, Aleksandr",2002,Russia,96,1302279
-380,340,El,"Bu?uel, Luis",1953,Mexico,91,1401598
-381,389,WALL-E,"Stanton, Andrew",2008,USA,98,2131459
-382,438,Talk to Her,"Almod¨®var, Pedro",2002,Spain,112,1292211
-383,365,Woman in the Dunes,"Teshigahara, Hiroshi",1964,Japan,127,1295812
-384,411,"Crouching Tiger, Hidden Dragon","Lee, Ang",2000,Taiwan,120,1301168
-385,350,"Crime of Monsieur Lange, The","Renoir, Jean",1936,France,90,1401616
-386,373,"Bridge on the River Kwai, The","Lean, David",1957,UK,161,1294958
-387,351,October,"Eisenstein, Sergei & Grigori Aleksandrov",1928,USSR,103,1297024
-388,444,"Gleaners & I, The","Varda, Agn¨¨s",2000,France,82,1301279
-389,406,Network,"Lumet, Sidney",1976,USA,121,1297531
-390,416,Mon oncle,"Tati, Jacques",1958,France,126,1400829
-391,367,Nostalghia,"Tarkovsky, Andrei",1983,Italy,120,1291556
-392,401,Don't Look Back,"Pennebaker, D.A.",1967,USA,96,1305223
-393,371,"King of Comedy, The","Scorsese, Martin",1983,USA,109,1292772
-394,402,Army of Shadows,"Melville, Jean-Pierre",1969,France,140,1466419
-395,357,"Voyage dans la lune, Le","M¨¦li¨¨s, Georges",1902,France,14,1304310
-396,374,Festen,"Vinterberg, Thomas",1998,Denmark,105,1292908
-397,385,¨¤ nos amours,"Pialat, Maurice",1983,France,102,1421934
-398,425,"White Ribbon, The","Haneke, Michael",2009,Germany,144,2464346
-399,400,Tristana,"Bu?uel, Luis",1970,Spain,98,1301655
-400,421,Heaven's Gate,"Cimino, Michael",1980,USA,219,1295905
-401,376,All That Heaven Allows,"Sirk, Douglas",1955,USA,89,1303345
-402,379,Butch Cassidy and the Sundance Kid,"Hill, George Roy",1969,USA,112,1297602
-403,359,Ivan's Childhood,"Tarkovsky, Andrei",1962,USSR,94,1294421
-404,399,Yojimbo,"Kurosawa, Akira",1961,Japan,110,1292515
-405,360,"Double Life of Veronique, The","Kieslowski, Krzysztof",1991,France,97,1291877
-406,457,Pinocchio,"Sharpsteen, Ben & Hamilton Luske",1940,USA,88,1292757
-407,386,1900,"Bertolucci, Bernardo",1976,Italy,245,1300956
-408,383,Barren Lives,"dos Santos, Nelson Pereira",1963,Brazil,103,1785241
-409,364,Landscape in the Mist,"Angelopoulos, Theo",1988,Greece,127,1294252
-410,370,"Affair to Remember, An","McCarey, Leo",1957,USA,115,1293320
-411,410,Raise the Red Lantern,Zhang Yimou,1991,China,125,1293323
-412,378,Shoot the Piano Player,"Truffaut, Fran?ois",1960,France,92,1298095
-413,412,Fitzcarraldo,"Herzog, Werner",1982,West Germany,157,1297105
-414,435,"Awful Truth, The","McCarey, Leo",1937,USA,92,1297918
-415,377,In a Year with 13 Moons,"Fassbinder, Rainer Werner",1978,West Germany,129,1300323
-416,461,Taste of Cherry,"Kiarostami, Abbas",1997,Iran,99,1296177
-417,450,"Scarlet Empress, The","von Sternberg, Josef",1934,USA,110,1298465
-418,413,Charulata,"Ray, Satyajit",1964,India,117,1468782
-419,405,Monty Python's Life of Brian,"Jones, Terry",1979,UK,93,1292881
-420,429,"Death of Mr. Lazarescu, The","Puiu, Cristi",2005,Romania,154,1769364
-421,417,Punch-Drunk Love,"Anderson, Paul Thomas",2002,USA,95,1300211
-422,415,Man of Aran,"Flaherty, Robert",1934,UK,77,1303150
-423,396,Opening Night,"Cassavetes, John",1977,USA,144,1292768
-424,395,Day for Night,"Truffaut, Fran?ois",1973,France,120,1293299
-425,407,"Cloud-Capped Star, The","Ghatak, Ritwik",1960,India,126,1460605
-426,449,"Sorrow and the Pity, The","Oph¨¹ls, Marcel",1969,France,260,1295073
-427,426,"Star is Born, A","Cukor, George",1954,USA,154,1295619
-428,424,"Long Goodbye, The","Altman, Robert",1973,USA,112,1299236
-429,455,Repulsion,"Polanski, Roman",1965,UK,105,1301647
-430,465,Halloween,"Carpenter, John",1978,USA,93,1299586
-431,428,Two-Lane Blacktop,"Hellman, Monte",1971,USA,101,1868546
-432,408,Five Easy Pieces,"Rafelson, Bob",1970,USA,98,1298192
-433,431,Dead Ringers,"Cronenberg, David",1988,Canada,115,1293297
-434,392,Scenes from a Marriage,"Bergman, Ingmar",1973,Sweden,168,1292981
-435,472,Dead Man,"Jarmusch, Jim",1995,USA,121,1303462
-436,397,"Hustler, The","Rossen, Robert",1961,USA,135,1299517
-437,427,Shadows,"Cassavetes, John",1959,USA,87,1295167
-438,446,"Terminator, The","Cameron, James",1984,USA,107,1300656
-439,454,Flowers of Shanghai,Hou Hsiao-hsien,1998,Taiwan,130,1303451
-440,420,"Shawshank Redemption, The","Darabont, Frank",1994,USA,142,1292052
-441,467,"Flowers of St. Francis, The","Rossellini, Roberto",1950,Italy,83,1303580
-442,419,"Moment of Innocence, A","Makhmalbaf, Mohsen",1996,Iran,78,1420238
-443,460,Elephant,"Van Sant, Gus",2003,USA,81,1292272
-444,437,"Dead, The","Huston, John",1987,USA,83,1303529
-445,414,Easy Rider,"Hopper, Dennis",1969,USA,94,1297646
-446,462,Accattone,"Pasolini, Pier Paolo",1961,Italy,120,1437013
-447,409,"Cameraman, The","Keaton, Buster/Edward Sedgwick",1928,USA,69,1297549
-448,540,Cat People,"Tourneur, Jacques",1942,USA,73,1306489
-449,440,Senso,"Visconti, Luchino",1954,Italy,115,1303572
-450,504,Naked,"Leigh, Mike",1993,UK,126,1299077
-451,422,"Out 1, noli me tangere","Rivette, Jacques",1971,France,729,1477852
-452,514,Hoop Dreams,"James, Steve",1994,USA,170,1297797
-453,458,Withnail & I,"Robinson, Bruce",1987,UK,107,1304857
-454,441,"Hour of the Furnaces, The","Getino, Octavio & Fernando E. Solanas",1968,Argentina,260,2245725
-455,434,"Plaisir, Le","Oph¨¹ls, Max",1952,France,97,1848300
-456,481,Some Came Running,"Minnelli, Vincente",1958,USA,136,1292750
-457,483,All the President's Men,"Pakula, Alan J.",1976,USA,138,1293715
-458,436,Fight Club,"Fincher, David",1999,USA,139,1292000
-459,471,"Lady from Shanghai, The","Welles, Orson",1948,USA,87,1292584
-460,491,All That Jazz,"Fosse, Bob",1979,USA,123,1299330
-461,423,Closely Watched Trains,"Menzel, Jir¨ª",1966,Czechoslovakia,89,1303081
-462,432,"Cranes Are Flying, The","Kalatozov, Mikhail",1957,USSR,94,1302077
-463,456,Fantasia,Various Directors,1940,USA,120,1310179
-464,512,Frankenstein,"Whale, James",1931,USA,70,1296929
-465,523,Melancholia,"von Trier, Lars",2011,Denmark,136,4086853
-466,488,Shane,"Stevens, George",1953,USA,118,1292767
-467,487,Shadows of Our Forgotten Ancestors,"Parajanov, Sergei",1964,USSR,97,1440106
-468,463,Pyaasa,"Dutt, Guru",1957,India,146,1861216
-469,459,Dersu Uzala,"Kurosawa, Akira",1975,USSR,144,1300034
-470,443,Chelsea Girls,"Warhol, Andy",1966,USA,210,1300464
-471,494,Mad Max 2,"Miller, George",1981,Australia,94,1292453
-472,499,Safe,"Haynes, Todd",1995,USA,119,1308422
-473,430,French Cancan,"Renoir, Jean",1955,France,93,1293074
-474,445,"Tree of Wooden Clogs, The","Olmi, Ermanno",1978,Italy,185,1306266
-475,468,Oldboy,Park Chan-wook,2003,South Korea,120,1308865
-476,510,Point Blank,"Boorman, John",1967,USA,92,1305883
-477,474,Limite,"Peixoto, Mario",1931,Brazil,114,1925767
-478,672,Vagabond,"Varda, Agn¨¨s",1985,France,105,1292445
-479,505,Grey Gardens,"Maysles, David/Albert Maysles/Ellen Hovde/Muffie Meyer",1975,USA,95,1419111
-480,522,A.I. Artificial Intelligence,"Spielberg, Steven",2001,USA,145,1302827
-481,482,"Wind, The","Sj?str?m, Victor",1928,USA,88,1307994
-482,495,Laura,"Preminger, Otto",1944,USA,85,1294072
-483,526,Triumph of the Will,"Riefenstahl, Leni",1935,Germany,110,1306186
-484,470,Tootsie,"Pollack, Sydney",1982,USA,116,1297737
-485,442,Hour of the Wolf,"Bergman, Ingmar",1968,Sweden,88,1301151
-486,531,Inland Empire,"Lynch, David",2006,USA,180,1438734
-487,498,Chronicle of a Summer,"Rouch, Jean & Edgar Morin",1961,France,85,1421292
-488,453,To Have and Have Not,"Hawks, Howard",1944,USA,100,1294698
-489,439,"Sound of Music, The","Wise, Robert",1965,USA,174,1294408
-490,511,India Song,"Duras, Marguerite",1975,France,120,1298347
-491,469,Toy Story,"Lasseter, John",1995,USA,80,1291575
-492,475,Alexander Nevsky,"Eisenstein, Sergei",1938,USSR,107,1299973
-493,477,Boogie Nights,"Anderson, Paul Thomas",1997,USA,155,1292965
-494,466,"Lives of Others, The","von Donnersmarck, Florian Henckel",2006,Germany,138,1900841
-495,493,Shadow of a Doubt,"Hitchcock, Alfred",1943,USA,108,1293817
-496,485,Short Cuts,"Altman, Robert",1993,USA,189,1297833
-497,452,Koyaanisqatsi,"Reggio, Godfrey",1982,USA,87,1298202
-498,496,Strangers on a Train,"Hitchcock, Alfred",1951,USA,101,1298505
-499,479,"Wind Will Carry Us, The","Kiarostami, Abbas",1999,France,118,1303444
-500,589,Orlando,"Potter, Sally",1992,UK,94,1301895
-501,464,12 Angry Men,"Lumet, Sidney",1957,USA,95,1293182
-502,529,Alphaville,"Godard, Jean-Luc",1965,France,95,1316524
-503,480,Muriel,"Resnais, Alain",1963,France,115,1293844
-504,557,Grizzly Man,"Herzog, Werner",2005,USA,103,1422951
-505,492,Kagemusha,"Kurosawa, Akira",1980,Japan,159,1303067
-506,517,Die Hard,"McTiernan, John",1988,USA,131,1292697
-507,518,Winter Light,"Bergman, Ingmar",1962,Sweden,80,1296792
-508,549,No Country for Old Men,"Coen, Joel & Ethan Coen",2007,USA,122,1857099
-509,476,"Night at the Opera, A","Wood, Sam",1935,USA,92,1296879
-510,516,Songs from the Second Floor,"Andersson, Roy",2000,Sweden,98,1295877
-511,451,Masculin Feminin,"Godard, Jean-Luc",1966,France,103,1300522
-512,473,"Steamboat Bill, Jr.","Keaton, Buster/Charles Reisner",1928,USA,71,1292963
-513,497,"Terra trema, La","Visconti, Luchino",1948,Italy,160,1294377
-514,500,Gimme Shelter,"Maysles, Albert/David Maysles/Charlotte Zwerin",1970,USA,91,1419271
-515,448,Early Summer,"Ozu, Yasujiro",1951,Japan,135,1401842
-516,486,"Devil, Probably, The","Bresson, Robert",1977,France,95,1294782
-517,541,Pan's Labyrinth,"del Toro, Guillermo",2006,Spain,120,1767042
-518,501,Top Hat,"Sandrich, Mark",1935,USA,99,1293168
-519,509,Forrest Gump,"Zemeckis, Robert",1994,USA,142,1292720
-520,484,"Damned, The","Visconti, Luchino",1969,Italy,155,1296591
-521,513,"Big Heat, The","Lang, Fritz",1953,USA,90,2043434
-522,548,"Farewell, My Concubine",Chen Kaige,1993,China,155,1291546
-523,508,Limelight,"Chaplin, Charles",1952,USA,145,1296659
-524,530,"Bitter Tears of Petra von Kant, The","Fassbinder, Rainer Werner",1972,West Germany,124,1293230
-525,489,Barton Fink,"Coen, Joel & Ethan Coen",1991,USA,117,1298043
-526,559,"Royal Tenenbaums, The","Anderson, Wes",2001,USA,109,1306031
-527,525,"Vampires, Les","Feuillade, Louis",1915,France,440,1303869
-528,520,"R¨¦gion centrale, La","Snow, Michael",1971,Canada,180,1758347
-529,556,Am¨¦lie,"Jeunet, Jean-Pierre",2001,France,122,1292215
-530,576,Splendor in the Grass,"Kazan, Elia",1961,USA,124,1294005
-531,610,Terminator 2: Judgment Day,"Cameron, James",1991,USA,136,1291844
-532,490,East of Eden,"Kazan, Elia",1955,USA,115,1294169
-533,537,Hannah and Her Sisters,"Allen, Woody",1986,USA,106,1292764
-534,567,"Vitelloni, I","Fellini, Federico",1953,Italy,104,1300779
-535,503,Marketa Lazarov¨¢,"Vl¨¢cil, Frantisek",1967,Czechoslovakia,162,1306847
-536,538,Colossal Youth,"Costa, Pedro",2006,France,155,1937459
-537,524,"Enigma of Kaspar Hauser, The","Herzog, Werner",1974,West Germany,110,1296583
-538,506,Faust,"Murnau, F.W.",1926,Germany,116,1305235
-539,502,Doctor Zhivago,"Lean, David",1965,USA,197,1389949
-540,547,"Servant, The","Losey, Joseph",1963,UK,115,1303553
-541,585,Se7en,"Fincher, David",1995,USA,127,1292223
-542,533,Pat Garrett and Billy the Kid,"Peckinpah, Sam",1973,USA,122,1300027
-543,564,Fellini Satyricon,"Fellini, Federico",1969,Italy,129,1293358
-544,519,Miracle in Milan,"De Sica, Vittorio",1951,Italy,95,1303578
-545,507,Lola,"Demy, Jacques",1961,France,90,1471815
-546,527,Deliverance,"Boorman, John",1972,USA,109,1293561
-547,532,"Phantom of Liberty, The","Bu?uel, Luis",1974,France,104,1297188
-548,565,Ninotchka,"Lubitsch, Ernst",1939,USA,110,1297926
-549,515,Wagon Master,"Ford, John",1950,USA,86,1305139
-550,539,"Rise to Power of Louis XIV, The","Rossellini, Roberto",1966,France,100,1303546
-551,535,Alice in the Cities,"Wenders, Wim",1974,West Germany,110,1293306
-552,587,Shock Corridor,"Fuller, Samuel",1963,USA,101,1298471
-553,582,"Amants du Pont-Neuf, Les","Carax, Leos",1991,France,126,1291559
-554,546,Bigger Than Life,"Ray, Nicholas",1956,USA,95,1855271
-555,608,Evil Dead II,"Raimi, Sam",1987,USA,85,1293448
-556,521,Being There,"Ashby, Hal",1979,USA,130,1293256
-557,588,Secrets & Lies,"Leigh, Mike",1996,UK,142,1294477
-558,543,In Vanda's Room,"Costa, Pedro",2000,Portugal,170,1829859
-559,534,Rebel Without a Cause,"Ray, Nicholas",1955,USA,111,1295416
-560,596,"Hard Day's Night, A","Lester, Richard",1964,UK,87,1298566
-561,580,Silent Light,"Reygadas, Carlos",2007,Mexico,136,2002721
-562,545,Casino,"Scorsese, Martin",1995,USA,182,1299799
-563,624,"Belle noiseuse, La","Rivette, Jacques",1991,France,240,1301214
-564,578,My Own Private Idaho,"Van Sant, Gus",1991,USA,102,1292792
-565,640,Raising Arizona,"Coen, Joel & Ethan Coen",1987,USA,92,1293276
-566,583,"Killing, The","Kubrick, Stanley",1956,USA,85,1293936
-567,570,Trainspotting,"Boyle, Danny",1996,UK,95,1292528
-568,602,Scarface,"Hawks, Howard",1932,USA,90,1299608
-569,569,Local Hero,"Forsyth, Bill",1983,UK,111,1300467
-570,551,Boudu Saved from Drowning,"Renoir, Jean",1932,France,87,1302490
-571,528,Tale of Tales,"Norshteyn, Yuriy",1979,USSR,29,1432639
-572,590,Detour,"Ulmer, Edgar G.",1945,USA,69,1296600
-573,614,"4 Months, 3 Weeks and 2 Days","Mungiu, Cristian",2007,Romania,113,2078989
-574,553,That Obscure Object of Desire,"Bu?uel, Luis",1977,France,103,1303071
-575,623,"Manchurian Candidate, The","Frankenheimer, John",1962,USA,126,1293840
-576,555,Hana-Bi,"Kitano, Takeshi",1997,Japan,103,1302642
-577,733,"Ci¨¦naga, La","Martel, Lucrecia",2001,Argentina,103,1420225
-578,536,Providence,"Resnais, Alain",1977,France,110,1294848
-579,675,"Harlan County, U.S.A.","Kopple, Barbara",1976,USA,103,1294724
-580,561,And Life Goes On...,"Kiarostami, Abbas",1992,Iran,108,1303471
-581,577,Aparajito,"Ray, Satyajit",1956,India,108,1306559
-582,552,Down by Law,"Jarmusch, Jim",1986,USA,107,1301798
-583,566,"Asphalt Jungle, The","Huston, John",1950,USA,112,1298894
-584,562,Rocky,"Avildsen, John G.",1976,USA,119,1295742
-585,586,Scorpio Rising,"Anger, Kenneth",1963,USA,29,1775245
-586,544,Hatari!,"Hawks, Howard",1962,USA,159,1293484
-587,542,Picnic at Hanging Rock,"Weir, Peter",1975,Australia,110,1299539
-588,601,Full Metal Jacket,"Kubrick, Stanley",1987,USA,116,1300055
-589,568,Rushmore,"Anderson, Wes",1998,USA,93,1296835
-590,607,Children of Men,"Cuar¨®n, Alfonso",2006,USA,109,1478064
-591,613,"Fly, The","Cronenberg, David",1986,USA,100,1293073
-592,563,"French Connection, The","Friedkin, William",1971,USA,104,3013046
-593,636,Zodiac,"Fincher, David",2007,USA,158,1781126
-594,603,I Walked with a Zombie,"Tourneur, Jacques",1943,USA,69,1307177
-595,554,"Devils, The","Russell, Ken",1971,UK,109,1823255
-596,573,Bande ¨¤ part,"Godard, Jean-Luc",1964,France,97,1401588
-597,619,"39 Steps, The","Hitchcock, Alfred",1935,UK,87,1298412
-598,609,Before Sunset,"Linklater, Richard",2004,USA,80,1291990
-599,658,Still Life,Jia Zhangke,2006,China,113,1872133
-600,558,"Wedding March, The","von Stroheim, Erich",1928,USA,113,1299353
-601,550,"Silence, The","Bergman, Ingmar",1963,Sweden,96,1300958
-602,571,Pl¨¢cido,"Garc¨ªa Berlanga, Luis",1961,Spain,85,2368557
-603,592,Love Me Tonight,"Mamoulian, Rouben",1932,USA,96,1297367
-604,611,"Dark Knight, The","Nolan, Christopher",2008,USA,152,1851857
-605,599,Young Frankenstein,"Brooks, Mel",1974,USA,105,1293782
-606,690,Invasion of the Body Snatchers,"Siegel, Don",1956,USA,80,1296030
-607,663,"Age of Innocence, The","Scorsese, Martin",1993,USA,133,1301465
-608,618,"Lady Vanishes, The","Hitchcock, Alfred",1938,UK,97,1292760
-609,591,Salesman,"Maysles, Albert/David Maysles/Charlotte Zwerin",1969,USA,85,1395036
-610,579,"Red Circle, The","Melville, Jean-Pierre",1970,France,150,1401915
-611,621,Possession,"Zulawski, Andrzej",1981,France,127,1297203
-612,735,"Ascent, The","Shepitko, Larisa",1976,USSR,111,1303255
-613,698,"Son, The","Dardenne, Jean-Pierre & Luc Dardenne",2002,Belgium,103,1305337
-614,616,Bambi,"Hand, David",1942,USA,69,1295148
-615,637,Arrebato,"Zulueta, Iv¨¢n",1979,Spain,105,2278780
-616,628,"Goodbye, Dragon Inn",Tsai Ming-liang,2003,Taiwan,82,1304862
-617,575,Rosetta,"Dardenne, Jean-Pierre & Luc Dardenne",1999,Belgium,94,1300820
-618,648,Distant,"Ceylan, Nuri Bilge",2002,Turkey,110,1307921
-619,---,Holy Motors,"Carax, Leos",2012,France,115,6875451
-620,723,Amour,"Haneke, Michael",2012,Austria,127,4798707
-621,560,Bring Me the Head of Alfredo Garcia,"Peckinpah, Sam",1974,USA,112,1294041
-622,604,Seven Chances,"Keaton, Buster",1925,USA,56,1300352
-623,664,"Wicker Man, The","Hardy, Robin",1973,UK,103,1305611
-624,659,"Chant d'amour, Un","Genet, Jean",1950,France,26,1436690
-625,572,Loves of a Blonde,"Forman, Milos",1965,Czechoslovakia,88,1303082
-626,574,"Testament of Dr. Mabuse, The","Lang, Fritz",1933,Germany,120,1441134
-627,634,"Diaboliques, Les","Clouzot, Henri-Georges",1955,France,114,1293213
-628,581,Scarface,"De Palma, Brian",1983,USA,170,1292065
-629,---,Mad Max: Fury Road,"Miller, George",2015,Australia,120,3592854
-630,638,White Heat,"Walsh, Raoul",1949,USA,114,1301216
-631,674,"Sur, El","Erice, Victor",1983,Spain,95,1477717
-632,598,"Dr. Mabuse, The Gambler","Lang, Fritz",1922,Germany,270,1306016
-633,593,Nazar¨ªn,"Bu?uel, Luis",1958,Mexico,94,1303560
-634,584,Our Hospitality,"Keaton, Buster/John G. Blystone",1923,USA,74,1295211
-635,600,Twenty Years Later,"Coutinho, Eduardo",1984,Brazil,119,1925768
-636,630,Blissfully Yours,"Weerasethakul, Apichatpong",2002,Thailand,125,1307997
-637,626,"Marriage of Maria Braun, The","Fassbinder, Rainer Werner",1979,West Germany,120,1298655
-638,641,Mother and Son,"Sokurov, Aleksandr",1997,Russia,73,1304870
-639,594,Ben-Hur,"Wyler, William",1959,USA,212,1293150
-640,719,"Angel at My Table, An","Campion, Jane",1990,New Zealand,158,1302606
-641,597,"Streetcar Named Desire, A","Kazan, Elia",1951,USA,122,1293590
-642,605,Memento,"Nolan, Christopher",2000,USA,113,1304447
-643,627,Europa '51,"Rossellini, Roberto",1952,Italy,113,1293321
-644,595,"Haine, La","Kassovitz, Mathieu",1995,France,93,1306449
-645,617,Antonio das Mortes,"Rocha, Glauber",1969,Brazil,95,2567883
-646,645,Great Expectations,"Lean, David",1946,UK,118,1297550
-647,639,Fat City,"Huston, John",1972,USA,100,1303358
-648,633,After Life,"Koreeda, Hirokazu",1998,Japan,118,1294413
-649,651,Syndromes and a Century,"Weerasethakul, Apichatpong",2006,Thailand,105,1857095
-650,761,"Headless Woman, The","Martel, Lucrecia",2008,Argentina,87,3047620
-651,714,Big Deal on Madonna Street,"Monicelli, Mario",1958,Italy,91,1303089
-652,699,Nostalgia for the Light,"Guzm¨¢n, Patricio",2010,France,90,4307515
-653,620,"Round-Up, The","Jancs¨®, Mikl¨®s",1966,Hungary,94,1462674
-654,691,"Great Escape, The","Sturges, John",1963,USA,168,1294947
-655,662,Y tu mam¨¢ tambi¨¦n,"Cuar¨®n, Alfonso",2001,Mexico,105,1303333
-656,644,Monty Python and the Holy Grail,"Gilliam, Terry/Terry Jones",1975,UK,90,1294917
-657,678,"Synecdoche, New York","Kaufman, Charlie",2008,USA,124,2028819
-658,622,"Place in the Sun, A","Stevens, George",1951,USA,122,1293047
-659,661,JFK,"Stone, Oliver",1991,USA,188,1292230
-660,625,Xala,"Sembene, Ousmane",1975,Senegal,123,1962586
-661,656,Gummo,"Korine, Harmony",1997,USA,88,1302614
-662,646,Yeelen,"Ciss¨¦, Souleymane",1987,Mali,105,1429098
-663,654,Titicut Follies,"Wiseman, Frederick",1967,USA,84,1421822
-664,629,Young Mr. Lincoln,"Ford, John",1939,USA,100,1293499
-665,615,"Blue Angel, The","von Sternberg, Josef",1930,Germany,103,1295427
-666,650,"Purple Rose of Cairo, The","Allen, Woody",1985,USA,82,1292994
-667,606,Passion,"Godard, Jean-Luc",1982,France,87,1293027
-668,694,Gun Crazy,"Lewis, Joseph H.",1950,USA,86,1297016
-669,632,They Live by Night,"Ray, Nicholas",1948,USA,95,1298951
-670,657,Nouvelle vague,"Godard, Jean-Luc",1990,France,90,1303520
-671,671,"Party, The","Edwards, Blake",1968,USA,99,1303245
-672,643,Dancer in the Dark,"von Trier, Lars",2000,Denmark,140,1291562
-673,612,Rebecca,"Hitchcock, Alfred",1940,USA,130,1293824
-674,704,Ghostbusters,"Reitman, Ivan",1984,USA,107,1293760
-675,653,Titanic,"Cameron, James",1997,USA,194,1292722
-676,715,Zelig,"Allen, Woody",1983,USA,79,1293846
-677,642,Dazed and Confused,"Linklater, Richard",1993,USA,94,1294720
-678,666,Edward Scissorhands,"Burton, Tim",1990,USA,100,1292370
-679,728,"History of Violence, A","Cronenberg, David",2005,USA,96,1422917
-680,709,Let the Right One In,"Alfredson, Tomas",2008,Sweden,114,2968813
-681,631,Walkabout,"Roeg, Nicolas",1971,Australia,95,1295835
-682,682,"Virgin Spring, The","Bergman, Ingmar",1959,Sweden,88,1293156
-683,718,Airplane!,"Abrahams, Jim/David Zucker/Jerry Zucker",1980,USA,86,1292785
-684,647,Harakiri,"Kobayashi, Masaki",1962,Japan,133,1304920
-685,692,My Life as a Dog,"Hallstr?m, Lasse",1985,Sweden,101,1291976
-686,697,Robocop,"Verhoeven, Paul",1987,USA,103,1294791
-687,635,"African Queen, The","Huston, John",1951,USA,105,1418997
-688,665,Mr. Smith Goes to Washington,"Capra, Frank",1939,USA,129,1297127
-689,702,Audition,"Miike, Takashi",1999,Japan,115,1302047
-690,670,My Friend Ivan Lapshin,"German, Aleksey",1985,USSR,100,2368633
-691,708,Crash,"Cronenberg, David",1996,Canada,100,1292682
-692,739,"Golden Coach, The","Renoir, Jean",1952,Italy,100,1294642
-693,722,Saving Private Ryan,"Spielberg, Steven",1998,USA,169,1292849
-694,695,W.R.: Mysteries of the Organism,"Makavejev, Dusan",1971,Yugoslavia,84,1845260
-695,792,Dumbo,"Sharpsteen, Ben",1941,USA,64,1304603
-696,652,Strike,"Eisenstein, Sergei",1925,USSR,73,1302186
-697,649,Foolish Wives,"von Stroheim, Erich",1922,USA,117,1299482
-698,731,L.A. Confidential,"Hanson, Curtis",1997,USA,137,1292348
-699,717,"Piano Teacher, The","Haneke, Michael",2001,Austria,130,1306730
-700,741,"Circus, The","Chaplin, Charles",1928,USA,72,1299628
-701,696,Casque d'or,"Becker, Jacques",1952,France,96,1417947
-702,673,Spartacus,"Kubrick, Stanley",1960,USA,184,1298366
-703,667,Funny Games,"Haneke, Michael",1997,Austria,108,1306548
-704,686,When Harry Met Sally...,"Reiner, Rob",1989,USA,95,1291842
-705,763,Irr¨¦versible,"No¨¦, Gaspar",2002,France,97,1296935
-706,801,Once Upon a Time in Anatolia,"Ceylan, Nuri Bilge",2011,Turkey,150,5959260
-707,712,Vive L'Amour,Tsai Ming-liang,1994,Taiwan,118,1296370
-708,700,Edvard Munch,"Watkins, Peter",1974,Sweden,210,1439463
-709,724,Rififi,"Dassin, Jules",1955,France,115,1299885
-710,669,Requiem for a Dream,"Aronofsky, Darren",2000,USA,100,1292270
-711,660,Breakfast at Tiffany's,"Edwards, Blake",1961,USA,115,1325958
-712,752,"Host, The",Bong Joon-ho,2006,South Korea,119,1763134
-713,681,"Man Who Would Be King, The","Huston, John",1975,USA,129,1293076
-714,740,Fort Apache,"Ford, John",1948,USA,127,1302262
-715,683,"Bad and the Beautiful, The","Minnelli, Vincente",1952,USA,118,1449829
-716,655,By the Bluest of Seas,"Barnet, Boris",1936,USSR,71,2369090
-717,737,Avatar,"Cameron, James",2009,USA,161,1652587
-718,677,Miller's Crossing,"Coen, Joel & Ethan Coen",1990,USA,115,1292060
-719,710,"Tin Drum, The","Schl?ndorff, Volker",1979,West Germany,142,1292207
-720,707,Red Sorghum,Zhang Yimou,1987,China,91,1306505
-721,720,"Emperor's Naked Army Marches On, The","Hara, Kazuo",1987,Japan,122,1308082
-722,725,"Killer, The","Woo, John",1989,Hong Kong,110,1296519
-723,685,"Short Film About Killing, A","Kieslowski, Krzysztof",1987,Poland,85,1303654
-724,687,Claire's Knee,"Rohmer, Eric",1970,France,105,1294915
-725,679,Lancelot du Lac,"Bresson, Robert",1974,France,84,1297264
-726,713,"Woman Next Door, The","Truffaut, Fran?ois",1981,France,106,1296563
-727,668,"Wild Child, The","Truffaut, Fran?ois",1970,France,85,1300961
-728,809,Van Gogh,"Pialat, Maurice",1991,France,158,1418998
-729,688,"Lord of the Rings: The Fellowship of the Ring, The","Jackson, Peter",2001,New Zealand,178,1291571
-730,920,Near Dark,"Bigelow, Kathryn",1987,USA,95,1302399
-731,676,"Tiger of Eschnapur, The","Lang, Fritz",1958,West Germany,101,1441365
-732,742,All Quiet on the Western Front,"Milestone, Lewis",1930,USA,133,1295116
-733,753,Ace in the Hole,"Wilder, Billy",1951,USA,112,1293841
-734,730,"Seasons, The","Peleshian, Artavazd",1975,USSR,29,2268557
-735,711,"Thief of Bagdad, The","Powell, Michael/Ludwig Berger/Tim Whelan",1940,UK,106,1293444
-736,835,D'Est,"Akerman, Chantal",1993,Belgium,107,1780560
-737,822,Akira,"Otomo, Katsuhiro",1988,Japan,124,1302770
-738,680,"Dames du Bois de Boulogne, Les","Bresson, Robert",1945,France,85,1307580
-739,782,"American in Paris, An","Minnelli, Vincente",1951,USA,115,1316522
-740,785,Pickup on South Street,"Fuller, Samuel",1953,USA,80,1305732
-741,684,Blow Out,"De Palma, Brian",1981,USA,107,1299027
-742,751,Saturday Night and Sunday Morning,"Reisz, Karel",1960,UK,89,1306028
-743,807,"New World, The","Malick, Terrence",2005,USA,135,1419942
-744,703,"Grido, Il","Antonioni, Michelangelo",1957,Italy,111,1293428
-745,794,We All Loved Each Other So Much,"Scola, Ettore",1974,Italy,124,1306049
-746,---,Superman,"Donner, Richard",1978,USA,143,1300916
-747,734,Fellini's Roma,"Fellini, Federico",1972,Italy,128,1302815
-748,716,Dirty Harry,"Siegel, Don",1971,USA,102,1293045
-749,851,"Ladies Man, The","Lewis, Jerry",1961,USA,95,1855300
-750,754,Z,"Costa-Gavras, Constantin",1969,France,127,1299026
-751,726,Moulin Rouge!,"Luhrmann, Baz",2001,Australia,126,1304641
-752,705,Dodes'ka-den,"Kurosawa, Akira",1970,Japan,140,1303077
-753,870,Night of the Demon,"Tourneur, Jacques",1957,UK,82,1305431
-754,783,"Long Day Closes, The","Davies, Terence",1992,UK,83,2042560
-755,701,"Chronicle of Anna Magdalena Bach, The","Straub, Jean-Marie",1968,West Germany,94,1418714
-756,721,Lolita,"Kubrick, Stanley",1962,UK,152,1296992
-757,689,Ferris Bueller's Day Off,"Hughes, John",1986,USA,103,1295437
-758,749,"Red Balloon, The","Lamorisse, Albert",1956,France,34,1326038
-759,706,Thelma & Louise,"Scott, Ridley",1991,USA,128,1291992
-760,746,Crumb,"Zwigoff, Terry",1994,USA,119,1418091
-761,821,"Firemen's Ball, The","Forman, Milos",1967,Czechoslovakia,73,1303080
-762,727,"Last Detail, The","Ashby, Hal",1973,USA,105,1292937
-763,864,"Adventures of Robin Hood, The","Curtiz, Michael/William Keighley",1938,USA,102,1300570
-764,795,Street Angel,Yuan Muzhi,1937,China,91,1307708
-765,736,Smiles of a Summer Night,"Bergman, Ingmar",1955,Sweden,108,1298494
-766,---,Iracema - Uma Transa Amaz?nica,"Bodanzky, Jorge & Orlando Senna",1975,Brazil,90,3157759
-767,---,Sideways,"Payne, Alexander",2004,USA,123,1291833
-768,---,Portrait of Jason,"Clarke, Shirley",1967,USA,105,1434175
-769,760,Sauve qui peut (la vie),"Godard, Jean-Luc",1980,France,87,1401513
-770,767,Wild at Heart,"Lynch, David",1990,USA,127,1298974
-771,771,Cool Hand Luke,"Rosenberg, Stuart",1967,USA,126,1293698
-772,797,Hunger,"McQueen, Steve",2008,UK,96,3070921
-773,693,"Navigator, The","Keaton, Buster/Donald Crisp",1924,USA,59,1293618
-774,847,"River, The",Tsai Ming-liang,1997,Taiwan,115,1303456
-775,768,Starship Troopers,"Verhoeven, Paul",1997,USA,129,1295384
-776,729,Flaming Creatures,"Smith, Jack",1963,USA,43,1466416
-777,803,"Sang des b¨ºtes, Le","Franju, Georges",1949,France,20,1418245
-778,757,Code Unknown,"Haneke, Michael",2000,France,118,1296949
-779,784,"Blues Brothers, The","Landis, John",1980,USA,130,1297200
-780,791,Deep End,"Skolimowski, Jerzy",1970,UK,88,1300644
-781,770,"Hawks and the Sparrows, The","Pasolini, Pier Paolo",1966,Italy,91,1294761
-782,750,Abraham's Valley,"Oliveira, Manoel de",1993,Portugal,187,1303467
-783,---,"Goddess, The",Wu Yonggang,1934,China,85,1302210
-784,758,Kaagaz Ke Phool,"Dutt, Guru",1959,India,148,2264801
-785,808,American Beauty,"Mendes, Sam",1999,USA,121,1292062
-786,831,Olympia,"Riefenstahl, Leni",1938,Germany,220,1297424
-787,755,Ossessione,"Visconti, Luchino",1943,Italy,140,1299228
-788,798,Blood Simple,"Coen, Joel & Ethan Coen",1984,USA,97,1302542
-789,748,Vengeance is Mine,"Imamura, Shohei",1979,Japan,129,1294940
-790,747,"Trial, The","Welles, Orson",1962,France,118,1303554
-791,732,"Princess Bride, The","Reiner, Rob",1987,USA,98,1297280
-792,828,Spione,"Lang, Fritz",1928,Germany,90,1766084
-793,842,Two English Girls,"Truffaut, Fran?ois",1971,France,108,1292773
-794,818,Million Dollar Baby,"Eastwood, Clint",2004,USA,137,1309016
-795,769,"Ma?tres fous, Les","Rouch, Jean",1955,France,36,1437398
-796,799,"Bandido da Luz Vermelha, O","Sganzerla, Rog¨¦rio",1968,Brazil,92,1791009
-797,827,Blue,"Jarman, Derek",1993,UK,76,1417428
-798,766,Jurassic Park,"Spielberg, Steven",1993,USA,126,1292523
-799,793,Memories of Murder,Bong Joon-ho,2003,South Korea,132,1300299
-800,764,Moonfleet,"Lang, Fritz",1955,USA,89,1303568
-801,925,"Bonheur, Le","Varda, Agn¨¨s",1965,France,79,1483516
-802,812,"Sweet Hereafter, The","Egoyan, Atom",1997,Canada,112,1294500
-803,772,"Holy Mountain, The","Jodorowsky, Alejandro",1973,Mexico,114,1401905
-804,904,News from Home,"Akerman, Chantal",1976,France,85,1902009
-805,---,Amores perros,"Gonz¨¢lez I?¨¢rritu, Alejandro",2000,Mexico,153,1292216
-806,869,Mary Poppins,"Stevenson, Robert",1964,USA,139,1292658
-807,777,"Miracle of Morgan's Creek, The","Sturges, Preston",1944,USA,99,1303419
-808,806,"Ladykillers, The","Mackendrick, Alexander",1955,UK,90,1304710
-809,836,Grave of the Fireflies,"Takahata, Isao",1988,Japan,93,1293318
-810,---,"Commune (Paris, 1871), La","Watkins, Peter",2000,France,345,1909533
-811,877,"Posto, Il","Olmi, Ermanno",1961,Italy,93,1302119
-812,743,"Faster, Pussycat! Kill! Kill!","Meyer, Russ",1965,USA,83,1306360
-813,800,Roman Holiday,"Wyler, William",1953,USA,119,1293839
-814,823,"Diaries, Notes and Sketches","Mekas, Jonas",1969,USA,177,3024645
-815,744,Port of Shadows,"Carn¨¦, Marcel",1938,France,91,1416910
-816,745,"Idiots, The","von Trier, Lars",1998,Denmark,117,1302252
-817,804,Burnt by the Sun,"Mikhalkov, Nikita",1994,Russia,152,1301867
-818,786,Assault on Precinct 13,"Carpenter, John",1976,USA,90,1292669
-819,790,"Right Stuff, The","Kaufman, Philip",1983,USA,193,1293371
-820,738,"Lusty Men, The","Ray, Nicholas",1952,USA,113,2209754
-821,762,Hitler: A Film from Germany,"Syberberg, Hans-J¨¹rgen",1977,West Germany,442,1855658
-822,781,Who's Afraid of Virginia Woolf?,"Nichols, Mike",1966,USA,129,1295137
-823,778,Forbidden Games,"Cl¨¦ment, Ren¨¦",1952,France,87,1421933
-824,780,Street of Shame,"Mizoguchi, Kenji",1956,Japan,87,1466788
-825,765,Veronika Voss,"Fassbinder, Rainer Werner",1982,West Germany,105,1302108
-826,845,"Ghost and Mrs. Muir, The","Mankiewicz, Joseph L.",1947,USA,104,1300756
-827,779,Seven Women,"Ford, John",1966,USA,87,1825702
-828,815,"Producers, The","Brooks, Mel",1968,USA,88,1303293
-829,824,Taipei Story,"Yang, Edward",1985,Taiwan,119,1305327
-830,773,"New York, New York","Scorsese, Martin",1977,USA,164,1292878
-831,802,Morocco,"von Sternberg, Josef",1930,USA,92,1295600
-832,787,It's a Gift,"McLeod, Norman Z.",1934,USA,73,1303412
-833,759,Black Girl,"Sembene, Ousmane",1966,Senegal,65,2060678
-834,---,Lessons of Darkness,"Herzog, Werner",1992,France,50,1419365
-835,983,Diary,"Perlov, David",1983,Israel,330,3828369
-836,830,Central Station,"Salles, Walter",1998,Brazil,110,1292218
-837,858,"Intruder, The","Denis, Claire",2004,France,130,1440407
-838,775,"Age of the Earth, The","Rocha, Glauber",1980,Brazil,158,2061897
-839,837,Dust in the Wind,Hou Hsiao-hsien,1987,Taiwan,109,1292330
-840,841,"Day the Earth Stood Still, The","Wise, Robert",1951,USA,92,1296140
-841,789,Num¨¦ro deux,"Godard, Jean-Luc",1975,France,88,1429053
-842,774,"Breakfast Club, The","Hughes, John",1985,USA,97,1295728
-843,850,Women on the Verge of a Nervous Breakdown,"Almod¨®var, Pedro",1988,Spain,88,1300952
-844,---,Blazing Saddles,"Brooks, Mel",1974,USA,93,1293653
-845,901,Kwaidan,"Kobayashi, Masaki",1964,Japan,164,1303083
-846,---,Point Break,"Bigelow, Kathryn",1991,USA,122,1301161
-847,805,Sawdust and Tinsel,"Bergman, Ingmar",1953,Sweden,92,1300957
-848,814,She Wore a Yellow Ribbon,"Ford, John",1949,USA,103,1293312
-849,819,"Naked Island, The","Shindo, Kaneto",1960,Japan,94,1303710
-850,880,"Match Factory Girl, The","Kaurism?ki, Aki",1990,Finland,68,1401895
-851,810,Mother India,"Khan, Mehboob",1957,India,172,2291770
-852,854,My Little Loves,"Eustache, Jean",1974,France,123,1547099
-853,865,Fires Were Started,"Jennings, Humphrey",1943,UK,80,1295394
-854,796,"Woman of Paris, A","Chaplin, Charles",1923,USA,78,1296988
-855,838,"Million, Le","Clair, Ren¨¦",1931,France,85,1296419
-856,826,"Last Temptation of Christ, The","Scorsese, Martin",1988,USA,164,1292889
-857,---,Inglourious Basterds,"Tarantino, Quentin",2009,USA,153,1438652
-858,817,Princess Mononoke,"Miyazaki, Hayao",1997,Japan,134,1297359
-859,834,As I Was Moving Ahead Occasionally I Saw Brief Glimpses of Beauty,"Mekas, Jonas",2000,USA,288,4117025
-860,852,Sicilia!,"Straub, Jean-Marie & Dani¨¨le Huillet",1999,Italy,66,1303446
-861,776,Branded to Kill,"Suzuki, Seijun",1967,Japan,91,1401331
-862,825,Fata Morgana,"Herzog, Werner",1971,West Germany,78,1422319
-863,813,"Last Emperor, The","Bertolucci, Bernardo",1987,China,160,1293172
-864,875,2046,Wong Kar-wai,2004,Hong Kong,129,1291555
-865,846,American Graffiti,"Lucas, George",1973,USA,110,1300106
-866,848,Anatomy of a Murder,"Preminger, Otto",1959,USA,160,1293177
-867,816,Seventh Heaven,"Borzage, Frank",1927,USA,119,1300790
-868,874,"Usual Suspects, The","Singer, Bryan",1995,USA,105,1292214
-869,833,Pink Flamingos,"Waters, John",1972,USA,92,1298230
-870,897,Man of the West,"Mann, Anthony",1958,USA,100,1295557
-871,887,"Last Bolshevik, The","Marker, Chris",1993,France,120,1757313
-872,788,Time of the Gypsies,"Kusturica, Emir",1989,Yugoslavia,142,1303525
-873,944,Berlin: Symphony of a Great City,"Ruttmann, Walter",1927,Germany,65,1307229
-874,923,Othello,"Welles, Orson",1952,Italy,90,1296289
-875,839,Outskirts,"Barnet, Boris",1933,USSR,98,2368635
-876,876,Gregory's Girl,"Forsyth, Bill",1980,UK,91,1294075
-877,820,Dog Star Man,"Brakhage, Stan",1964,USA,75,26881181
-878,829,"B¨ºte humaine, La","Renoir, Jean",1938,France,99,1436858
-879,843,"Cook, the Thief, His Wife & Her Lover, The","Greenaway, Peter",1989,UK,120,1304582
-880,899,Enter the Dragon,"Clouse, Robert",1973,USA,97,1293118
-881,811,"Misfits, The","Huston, John",1961,USA,124,1300116
-882,855,"Boot, Das","Petersen, Wolfgang",1981,West Germany,149,1293909
-883,868,L¨¦on,"Besson, Luc",1994,France,119,1295644
-884,872,Forbidden Planet,"Wilcox, Fred M.",1956,USA,98,1292519
-885,856,"Outlaw Josey Wales, The","Eastwood, Clint",1976,USA,135,1292944
-886,866,Arabian Nights,"Pasolini, Pier Paolo",1974,Italy,130,1294654
-887,891,M*A*S*H,"Altman, Robert",1970,USA,116,1292766
-888,853,Au revoir les enfants,"Malle, Louis",1987,France,103,1292586
-889,960,Dracula,"Fisher, Terence",1958,UK,82,1306163
-890,952,"Phantom Carriage, The","Sj?str?m, Victor",1921,Sweden,93,1465471
-891,840,They Were Expendable,"Ford, John",1945,USA,135,1298789
-892,957,Elevator to the Gallows,"Malle, Louis",1958,France,92,1394342
-893,859,"Nuit du carrefour, La","Renoir, Jean",1932,France,73,1945625
-894,911,Fellini's Casanova,"Fellini, Federico",1976,Italy,158,1301917
-895,884,"Moi, un Noir","Rouch, Jean",1958,France,70,1434232
-896,910,"Criminal Life of Archibaldo de la Cruz, The","Bu?uel, Luis",1955,Mexico,91,1437408
-897,885,"Trou, Le","Becker, Jacques",1960,France,140,1424334
-898,867,"Incredible Shrinking Man, The","Arnold, Jack",1957,USA,81,1899630
-899,907,Mon oncle d'Am¨¦rique,"Resnais, Alain",1980,France,123,1295740
-900,844,42nd Street,"Bacon, Lloyd",1933,USA,89,1292559
-901,912,Ed Wood,"Burton, Tim",1994,USA,124,1293683
-902,974,Caro diario,"Moretti, Nanni",1994,Italy,100,1303466
-903,861,"Enfance nue, L'","Pialat, Maurice",1968,France,80,1427865
-904,882,They Live,"Carpenter, John",1988,USA,93,1295834
-905,---,"Diving Bell and the Butterfly, The","Schnabel, Julian",2007,France,112,1865561
-906,917,Sholay,"Sippy, Ramesh",1975,India,162,2344919
-907,900,Cr¨ªa cuervos,"Saura, Carlos",1976,Spain,110,1303813
-908,832,Rope,"Hitchcock, Alfred",1948,USA,80,1301230
-909,961,Floating Weeds,"Ozu, Yasujiro",1959,Japan,119,1297841
-910,857,Saturday Night Fever,"Badham, John",1977,USA,119,1293726
-911,941,Ride the High Country,"Peckinpah, Sam",1962,USA,94,1303247
-912,890,Juliet of the Spirits,"Fellini, Federico",1965,Italy,148,1299485
-913,---,Sherman's March,"McElwee, Ross",1985,USA,157,1855049
-914,896,To Live,Zhang Yimou,1994,China,145,1292365
-915,871,Knife in the Water,"Polanski, Roman",1962,Poland,94,1303086
-916,893,H?tel Terminus,"Oph¨¹ls, Marcel",1987,USA,267,2135352
-917,933,Mildred Pierce,"Curtiz, Michael",1945,USA,109,1297227
-918,894,"Hart of London, The","Chambers, Jack",1970,Canada,80,2040935
-919,860,"Jour se l¨¨ve, Le","Carn¨¦, Marcel",1939,France,93,1470775
-920,919,Get Carter,"Hodges, Mike",1971,UK,112,1306370
-921,889,Black Orpheus,"Camus, Marcel",1959,Brazil,103,1295967
-922,898,Gentlemen Prefer Blondes,"Hawks, Howard",1953,USA,91,1294244
-923,888,Topsy-Turvy,"Leigh, Mike",1999,UK,160,1293528
-924,886,Reds,"Beatty, Warren",1981,USA,200,1292891
-925,849,Ludwig,"Visconti, Luchino",1973,Italy,235,1428007
-926,945,Ten,"Kiarostami, Abbas",2002,France,92,1300911
-927,---,Saraband,"Bergman, Ingmar",2003,Sweden,120,1353734
-928,---,"Better Tomorrow, A","Woo, John",1986,Hong Kong,95,1297574
-929,927,Mamma Roma,"Pasolini, Pier Paolo",1962,Italy,110,1293305
-930,931,Odd Man Out,"Reed, Carol",1947,UK,115,1300356
-931,---,Touchez pas au Grisbi,"Becker, Jacques",1954,France,94,1304495
-932,958,Broadcast News,"Brooks, James L.",1987,USA,133,1292511
-933,---,Bad Timing,"Roeg, Nicolas",1980,UK,129,1301284
-934,966,Deep Red,"Argento, Dario",1975,Italy,98,1299898
-935,879,"End of Summer, The","Ozu, Yasujiro",1961,Japan,103,1306069
-936,873,"Chienne, La","Renoir, Jean",1931,France,95,1306486
-937,913,Gilda,"Vidor, Charles",1946,USA,110,1301978
-938,---,"Spring, Summer, Autumn, Winter¡­ and Spring",Kim Ki-duk,2003,South Korea,103,1316580
-939,922,Before Sunrise,"Linklater, Richard",1995,USA,101,1296339
-940,955,Second Breath,"Melville, Jean-Pierre",1966,France,144,1438068
-941,---,Aguaespejo granadino,"Val del Omar, Jos¨¦",1955,Spain,21,20285593
-942,921,Anatahan,"von Sternberg, Josef",1953,Japan,92,1963079
-943,878,O Lucky Man!,"Anderson, Lindsay",1973,UK,173,1296105
-944,930,Kill Bill Vol. 1,"Tarantino, Quentin",2003,USA,111,1291580
-945,1000,Twin Peaks: Fire Walk with Me,"Lynch, David",1992,USA,135,1303472
-946,881,"Sun Shines Bright, The","Ford, John",1953,USA,90,1293556
-947,883,Good Morning,"Ozu, Yasujiro",1959,Japan,94,1298063
-948,976,Humanity and Paper Balloons,"Yamanaka, Sadao",1937,Japan,86,1428377
-949,932,On the Town,"Donen, Stanley/Gene Kelly",1949,USA,98,1298349
-950,---,Paper Moon,"Bogdanovich, Peter",1973,USA,102,1303357
-951,863,3 Women,"Altman, Robert",1977,USA,125,1293599
-952,892,"Lord of the Rings: The Return of the King, The","Jackson, Peter",2003,New Zealand,201,1291552
-953,924,"Ballad of Narayama, The","Imamura, Shohei",1983,Japan,130,1296703
-954,995,Carnival of Souls,"Harvey, Herk",1962,USA,80,1447032
-955,967,Duel in the Sun,"Vidor, King",1946,USA,130,1294860
-956,989,In Praise of Love,"Godard, Jean-Luc",2001,France,97,1301217
-957,938,Strangers When We Meet,"Quine, Richard",1960,USA,117,1297812
-958,---,"Adventures of Prince Achmed, The","Reiniger, Lotte",1926,Germany,65,1302814
-959,987,Female Trouble,"Waters, John",1974,USA,95,1304866
-960,903,Love and Death,"Allen, Woody",1975,USA,82,1293945
-961,---,"Nutty Professor, The","Lewis, Jerry",1963,USA,107,1295944
-962,---,"Thing from Another World, The","Nyby, Christian/Howard Hawks",1951,USA,87,1303374
-963,942,P¨¦p¨¦ le Moko,"Duvivier, Julien",1937,France,94,1304571
-964,---,"Grin Without a Cat, A","Marker, Chris",1977,France,240,1760205
-965,918,Zabriskie Point,"Antonioni, Michelangelo",1970,USA,112,1293623
-966,954,Red Beard,"Kurosawa, Akira",1965,Japan,185,1296679
-967,929,Scarecrow,"Schatzberg, Jerry",1973,USA,108,1303512
-968,943,"Reckless Moment, The","Oph¨¹ls, Max",1949,USA,82,1848297
-969,936,National Lampoon's Animal House,"Landis, John",1978,USA,109,1296269
-970,908,Cul-de-sac,"Polanski, Roman",1966,UK,111,1316647
-971,940,"Tale of the Wind, A","Ivens, Joris",1988,France,80,2070308
-972,---,Bad Lieutenant,"Ferrara, Abel",1992,USA,98,1293494
-973,905,Excalibur,"Boorman, John",1981,UK,140,1297548
-974,999,Shanghai Express,"von Sternberg, Josef",1932,USA,80,1293996
-975,906,Stroszek,"Herzog, Werner",1977,West Germany,115,1306027
-976,895,"47 Ronin, The","Mizoguchi, Kenji",1941,Japan,219,1298969
-977,902,Simon of the Desert,"Bu?uel, Luis",1965,Mexico,43,1302911
-978,928,Henry V,"Olivier, Laurence",1944,UK,137,1297375
-979,998,"Saragossa Manuscript, The","Has, Wojciech",1965,Poland,182,1416907
-980,946,Stand by Me,"Reiner, Rob",1986,USA,87,1292925
-981,909,Not Reconciled,"Straub, Jean-Marie",1965,West Germany,51,1850440
-982,926,Yol,"G?ren, Serif & Yilmaz G¨¹ney",1982,Turkey,114,1295774
-983,947,El Dorado,"Hawks, Howard",1967,USA,126,1296662
-984,---,Phantom of the Paradise,"De Palma, Brian",1974,USA,92,1754975
-985,916,"Bridges of Madison County, The","Eastwood, Clint",1995,USA,135,1293929
-986,---,"Humanit¨¦, L'","Dumont, Bruno",1999,France,147,1304869
-987,997,Hellzapoppin',"Potter, H.C.",1941,USA,84,2011855
-988,915,Cairo Station,"Chahine, Youssef",1958,Egypt,76,2979522
-989,914,Chikamatsu monogatari,"Mizoguchi, Kenji",1954,Japan,100,1303600
-990,934,Subarnarekha,"Ghatak, Ritwik",1965,India,143,2368758
-991,981,H?xan,"Christensen, Benjamin",1922,Sweden,83,1439560
-992,964,Holiday,"Cukor, George",1938,USA,93,1301014
-993,990,"Diary for Timothy, A","Jennings, Humphrey",1945,UK,40,2327527
-994,965,"Man Who Fell to Earth, The","Roeg, Nicolas",1976,UK,140,1293443
-995,962,"Loneliness of the Long Distance Runner, The","Richardson, Tony",1962,UK,103,1297839
-996,977,Outer Space,"Tscherkassky, Peter",1999,Austria,10,1780843
-997,---,"Boucher, Le","Chabrol, Claude",1970,France,94,1306218
-998,971,"Too Early, Too Late","Straub, Jean-Marie & Dani¨¨le Huillet",1981,Germany,100,3012451
-999,988,Design for Living,"Lubitsch, Ernst",1933,USA,90,1775077
-1000,---,Fat Girl,"Breillat, Catherine",2001,France,86,1308525
+"rank","2024_rank","2020_rank","2019_rank","title","director","year","country","Mins","dbid"
+"1","1","1","1","Citizen Kane","Welles, Orson","1941","USA","119","1292288"
+"2","2","2","2","Vertigo","Hitchcock, Alfred","1958","USA","128","1297294"
+"3","3","3","3","2001: A Space Odyssey","Kubrick, Stanley","1968","UK","139","1292226"
+"4","4","5","5","Tokyo Story","Ozu, Yasujiro","1953","Japan","134","1291568"
+"5","5","4","4","Rules of the Game, The","Renoir, Jean","1939","France","113","1401261"
+"6","6","7","7","Godfather, The","Coppola, Francis Ford","1972","USA","175","1291841"
+"7","7","6","6","8½","Fellini, Federico","1963","Italy","135","1361276"
+"8","8","8","8","Sunrise: A Song of Two Humans","Murnau, F.W.","1927","USA","110","1295753"
+"9","9","9","9","Searchers, The","Ford, John","1956","USA","119","1292668"
+"10","10","10","10","Seven Samurai","Kurosawa, Akira","1954","Japan","200","1295399"
+"11","11","12","12","Singin' in the Rain","Donen, Stanley & Gene Kelly","1952","USA","102","1293460"
+"12","12","84","95","Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles","Akerman, Chantal","1975","Belgium","201","1868933"
+"13","13","11","11","Apocalypse Now","Coppola, Francis Ford","1979","USA","150","1292260"
+"14","15","13","13","Bicycle Thieves","De Sica, Vittorio","1948","Italy","89","1295873"
+"15","14","14","15","Taxi Driver","Scorsese, Martin","1976","USA","113","1292222"
+"16","16","19","19","Persona","Bergman, Ingmar","1966","Sweden","83","1294438"
+"17","17","42","44","In the Mood for Love","Wong Kar-wai","2000","Hong Kong","97","1291557"
+"18","19","16","16","Breathless","Godard, Jean-Luc","1960","France","89","1353745"
+"19","18","17","17","Passion of Joan of Arc, The","Dreyer, Carl Theodor","1928","France","110","1293783"
+"20","20","18","18","Atalante, L'","Vigo, Jean","1934","France","89","1299433"
+"21","21","15","14","Battleship Potemkin","Eisenstein, Sergei","1925","USSR","71","1293492"
+"22","22","20","21","Man with a Movie Camera","Vertov, Dziga","1929","USSR","80","1293199"
+"23","23","30","30","Mirror","Tarkovsky, Andrei","1975","USSR","107","1299248"
+"24","24","21","20","Rashomon","Kurosawa, Akira","1950","Japan","88","1291879"
+"25","25","28","26","City Lights","Chaplin, Charles","1931","USA","86","1293908"
+"26","28","23","25","Psycho","Hitchcock, Alfred","1960","USA","109","1293181"
+"27","26","22","23","400 Blows, The","Truffaut, François","1959","France","99","1300056"
+"28","27","27","27","Andrei Rublev","Tarkovsky, Andrei","1966","USSR","185","1298248"
+"29","29","34","32","Au hasard Balthazar","Bresson, Robert","1966","France","95","1401619"
+"30","30","54","60","Mulholland Dr.","Lynch, David","2001","USA","147","1292217"
+"31","32","26","28","Some Like it Hot","Wilder, Billy","1959","USA","121","1292574"
+"32","33","32","33","Ordet","Dreyer, Carl Theodor","1955","Denmark","125","1303566"
+"33","31","24","22","Godfather Part II, The","Coppola, Francis Ford","1974","USA","200","1299131"
+"34","34","29","29","Dolce vita, La","Fellini, Federico","1960","Italy","175","1293271"
+"35","35","25","24","Raging Bull","Scorsese, Martin","1980","USA","129","1293155"
+"36","36","43","43","Night of the Hunter, The","Laughton, Charles","1955","USA","92","1293582"
+"37","37","38","37","Avventura, L'","Antonioni, Michelangelo","1960","Italy","145","1389923"
+"38","38","36","35","Casablanca","Curtiz, Michael","1942","USA","102","1296753"
+"39","41","37","38","Blade Runner","Scott, Ridley","1982","USA","118","1291839"
+"40","39","41","41","Rear Window","Hitchcock, Alfred","1954","USA","112","1299080"
+"41","45","31","31","Touch of Evil","Welles, Orson","1958","USA","108","1294756"
+"42","40","47","46","Playtime","Tati, Jacques","1967","France","108","1303543"
+"43","46","35","34","Sunset Blvd.","Wilder, Billy","1950","USA","110","1298733"
+"44","43","53","53","Barry Lyndon","Kubrick, Stanley","1975","UK","183","1292472"
+"45","42","39","39","Contempt","Godard, Jean-Luc","1963","France","103","1303555"
+"46","44","55","55","Pather Panchali","Ray, Satyajit","1955","India","112","1306019"
+"47","48","82","86","Close-Up","Kiarostami, Abbas","1990","Iran","98","1303521"
+"48","47","51","52","Stalker","Tarkovsky, Andrei","1979","USSR","160","1295656"
+"49","49","33","36","Lawrence of Arabia","Lean, David","1962","UK","216","1292349"
+"50","50","40","40","General, The","Keaton, Buster & Clyde Bruckman","1926","USA","74","1292778"
+"51","52","48","45","Modern Times","Chaplin, Charles","1936","USA","89","1294371"
+"52","51","118","154","Beau travail","Denis, Claire","1999","France","92","1306791"
+"53","59","56","54","Apartment, The","Wilder, Billy","1960","USA","125","1394218"
+"54","55","45","49","Third Man, The","Reed, Carol","1949","UK","104","1295451"
+"55","54","58","56","M","Lang, Fritz","1931","Germany","99","1293381"
+"56","53","78","75","Late Spring","Ozu, Yasujiro","1949","Japan","108","1307265"
+"57","56","59","61","North by Northwest","Hitchcock, Alfred","1959","USA","136","1295872"
+"58","57","46","47","Ugetsu monogatari","Mizoguchi, Kenji","1953","Japan","96","1303577"
+"59","58","73","68","Battle of Algiers, The","Pontecorvo, Gillo","1966","Italy","121","1419005"
+"60","63","70","77","GoodFellas","Scorsese, Martin","1990","USA","146","1292268"
+"61","60","44","42","Grande illusion, La","Renoir, Jean","1937","France","117","1294808"
+"62","61","61","58","Wild Strawberries","Bergman, Ingmar","1957","Sweden","90","1293071"
+"63","65","57","57","Rio Bravo","Hawks, Howard","1959","USA","141","1298497"
+"64","62","50","51","Fanny and Alexander","Bergman, Ingmar","1982","Sweden","189","1292784"
+"65","64","66","69","Shoah","Lanzmann, Claude","1985","France","566","1303328"
+"66","66","49","48","Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb","Kubrick, Stanley","1964","UK","93","1322848"
+"67","69","68","65","Once Upon a Time in the West","Leone, Sergio","1968","Italy","165","1293394"
+"68","67","64","63","Pierrot le fou","Godard, Jean-Luc","1965","France","110","1292533"
+"69","68","75","73","Journey to Italy","Rossellini, Roberto","1954","Italy","97","1303576"
+"70","70","52","50","Chinatown","Polanski, Roman","1974","USA","131","1293889"
+"71","71","137","137","Do the Right Thing","Lee, Spike","1989","USA","120","1293958"
+"72","72","60","59","Metropolis","Lang, Fritz","1927","Germany","153","1298107"
+"73","74","94","97","Woman Under the Influence, A","Cassavetes, John","1974","USA","155","1293525"
+"74","73","65","67","Strada, La","Fellini, Federico","1954","Italy","115","1292719"
+"75","76","74","74","Leopard, The","Visconti, Luchino","1963","Italy","186","1293146"
+"76","75","62","62","Enfants du paradis, Les","Carné, Marcel","1945","France","195","1300375"
+"77","77","71","70","Amarcord","Fellini, Federico","1973","Italy","127","1298672"
+"78","79","72","76","Pulp Fiction","Tarantino, Quentin","1994","USA","154","1291832"
+"79","80","67","66","Wild Bunch, The","Peckinpah, Sam","1969","USA","135","1296963"
+"80","88","63","64","Viridiana","Buñuel, Luis","1961","Spain","90","1303557"
+"81","78","90","88","Man Escaped, A","Bresson, Robert","1956","France","102","1303562"
+"82","81","81","80","It's a Wonderful Life","Capra, Frank","1946","USA","129","1293749"
+"83","91","95","90","Man Who Shot Liberty Valance, The","Ford, John","1962","USA","119","1295134"
+"84","82","69","72","Seventh Seal, The","Bergman, Ingmar","1957","Sweden","96","1293234"
+"85","84","93","92","Sansho the Bailiff","Mizoguchi, Kenji","1954","Japan","125","1303573"
+"86","86","91","96","Shining, The","Kubrick, Stanley","1980","USA","142","1292225"
+"87","83","86","83","Conformist, The","Bertolucci, Bernardo","1970","Italy","107","1300955"
+"88","89","79","81","Pickpocket","Bresson, Robert","1959","France","75","1303559"
+"89","85","77","78","Magnificent Ambersons, The","Welles, Orson","1942","USA","88","1299214"
+"90","87","85","82","Blue Velvet","Lynch, David","1986","USA","120","1298697"
+"91","92","92","91","Jaws","Spielberg, Steven","1975","USA","124","1294941"
+"92","90","87","85","Nashville","Altman, Robert","1975","USA","160","1293037"
+"93","93","76","71","Gold Rush, The","Chaplin, Charles","1925","USA","82","1298817"
+"94","94","89","87","Gertrud","Dreyer, Carl Theodor","1964","Denmark","116","1420116"
+"95","95","114","110","Jetée, La","Marker, Chris","1962","France","27","1306626"
+"96","96","97","100","Sans soleil","Marker, Chris","1983","France","100","1401901"
+"97","97","248","332","Cléo from 5 to 7","Varda, Agnès","1962","France","90","1294565"
+"98","102","102","102","To Be or Not to Be","Lubitsch, Ernst","1942","USA","99","1303418"
+"99","98","83","84","Jules et Jim","Truffaut, François","1962","France","104","1292338"
+"100","99","264","255","Meshes of the Afternoon","Deren, Maya & Alexander Hammid","1943","USA","15","1437390"
+"101","105","103","108","Mother and the Whore, The","Eustache, Jean","1973","France","210","1295252"
+"102","100","108","103","Sátántangó","Tarr, Béla","1994","Hungary","439","1422088"
+"103","101","113","118","Sherlock Jr.","Keaton, Buster","1924","USA","45","1303408"
+"104","103","122","117","Madame de...","Ophüls, Max","1953","France","105","1301122"
+"105","106","80","79","Clockwork Orange, A","Kubrick, Stanley","1971","UK","137","1292233"
+"106","108","112","112","Ikiru","Kurosawa, Akira","1952","Japan","143","1293847"
+"107","104","141","135","Ali: Fear Eats the Soul","Fassbinder, Rainer Werner","1974","West Germany","94","1294092"
+"108","107","101","98","Aguirre, the Wrath of God","Herzog, Werner","1972","West Germany","94","1306002"
+"109","110","88","89","Annie Hall","Allen, Woody","1977","USA","94","1296987"
+"110","111","150","141","Come and See","Klimov, Elem","1985","USSR","136","1422186"
+"111","109","98","94","Last Year at Marienbad","Resnais, Alain","1961","France","94","1400240"
+"112","112","104","113","Spirit of the Beehive, The","Erice, Víctor","1973","Spain","95","1401900"
+"113","116","100","101","Once Upon a Time in America","Leone, Sergio","1984","Italy","229","1292262"
+"114","113","96","93","Greed","von Stroheim, Erich","1924","USA","140","1301923"
+"115","114","162","200","Piano, The","Campion, Jane","1993","New Zealand","121","1293818"
+"116","115","121","123","Brighter Summer Day, A","Yang, Edward","1991","Taiwan","237","1292329"
+"117","117","105","105","Wizard of Oz, The","Fleming, Victor","1939","USA","101","1292625"
+"118","118","123","127","Yi Yi","Yang, Edward","2000","Taiwan","173","1292434"
+"119","121","127","130","Don't Look Now","Roeg, Nicolas","1973","UK","110","1302294"
+"120","119","110","107","Hiroshima mon amour","Resnais, Alain","1959","France","91","1302050"
+"121","120","159","164","Red Shoes, The","Powell, Michael & Emeric Pressburger","1948","UK","133","1299204"
+"122","124","99","99","Blow-Up","Antonioni, Michelangelo","1966","Italy","111","1310176"
+"123","122","125","120","Bringing Up Baby","Hawks, Howard","1938","USA","102","1297657"
+"124","126","109","106","Eclisse, L'","Antonioni, Michelangelo","1962","Italy","126","1293105"
+"125","123","106","104","Intolerance","Griffith, D.W.","1916","USA","178","1295287"
+"126","125","131","125","Day in the Country, A","Renoir, Jean","1936","France","40","1401585"
+"127","130","135","134","Notorious","Hitchcock, Alfred","1946","USA","101","1300766"
+"128","131","111","129","Alien","Scott, Ridley","1979","USA","117","1300868"
+"129","129","133","131","Vivre sa vie","Godard, Jean-Luc","1962","France","85","1296757"
+"130","127","126","122","Letter from an Unknown Woman","Ophüls, Max","1948","USA","90","1297228"
+"131","128","147","142","Matter of Life and Death, A","Powell, Michael & Emeric Pressburger","1946","UK","104","1299411"
+"132","136","117","119","E.T. The Extra-Terrestrial","Spielberg, Steven","1982","USA","115","1294638"
+"133","138","157","146","Exterminating Angel, The","Buñuel, Luis","1962","Mexico","95","1303556"
+"134","133","124","116","All About Eve","Mankiewicz, Joseph L.","1950","USA","138","1401385"
+"135","139","130","128","Olvidados, Los","Buñuel, Luis","1950","Mexico","88","1303579"
+"136","132","177","171","Imitation of Life","Sirk, Douglas","1959","USA","124","1294625"
+"137","137","172","188","Spirited Away","Miyazaki, Hayao","2001","Japan","124","1291561"
+"138","134","156","155","Histoire(s) du cinéma","Godard, Jean-Luc","1988-98","France","267","1439723"
+"139","135","128","121","My Darling Clementine","Ford, John","1946","USA","97","1299733"
+"140","143","107","109","Gone with the Wind","Fleming, Victor","1939","USA","222","1300267"
+"141","140","142","148","His Girl Friday","Hawks, Howard","1940","USA","92","1299231"
+"142","154","129","124","Rome, Open City","Rossellini, Roberto","1945","Italy","105","1296669"
+"143","142","199","192","Céline and Julie Go Boating","Rivette, Jacques","1974","France","192","1418141"
+"144","141","146","145","Gospel According to St. Matthew, The","Pasolini, Pier Paolo","1964","Italy","135","1299775"
+"145","146","291","393","Daisies","Chytilová, Věra","1966","Czechoslovakia","76","1296500"
+"146","147","119","133","Nosferatu","Murnau, F.W.","1922","Germany","84","1296791"
+"147","145","120","114","One Flew Over the Cuckoo's Nest","Forman, Milos","1975","USA","133","1292224"
+"148","148","170","173","Umbrellas of Cherbourg, The","Demy, Jacques","1964","France","91","1301646"
+"149","144","301","299","Killer of Sheep","Burnett, Charles","1977","USA","83","1303494"
+"150","150","154","144","Conversation, The","Coppola, Francis Ford","1974","USA","113","1296908"
+"151","151","333","375","Wanda","Loden, Barbara","1970","USA","105","1855338"
+"152","158","116","115","Star Wars","Lucas, George","1977","USA","121","1293838"
+"153","161","166","179","There Will Be Blood","Anderson, Paul Thomas","2007","USA","158","1945780"
+"154","156","139","158","Good, the Bad and the Ugly, The","Leone, Sergio","1966","Italy","161","1401118"
+"155","149","138","139","Chien andalou, Un","Buñuel, Luis","1928","France","16","1298962"
+"156","152","164","163","Argent, L'","Bresson, Robert","1983","France","90","1303536"
+"157","153","155","149","Days of Heaven","Malick, Terrence","1978","USA","95","1293232"
+"158","155","149","152","Trouble in Paradise","Lubitsch, Ernst","1932","USA","83","1294746"
+"159","157","192","214","Chungking Express","Wong Kar-wai","1994","Hong Kong","104","1291999"
+"160","163","158","156","Cries and Whispers","Bergman, Ingmar","1972","Sweden","106","1296147"
+"161","160","223","249","My Neighbour Totoro","Miyazaki, Hayao","1988","Japan","86","1291560"
+"162","159","115","111","Manhattan","Allen, Woody","1979","USA","96","1294300"
+"163","170","148","150","Double Indemnity","Wilder, Billy","1944","USA","106","1293226"
+"164","162","229","252","Tropical Malady","Weerasethakul, Apichatpong","2004","Thailand","118","1414808"
+"165","165","132","132","Badlands","Malick, Terrence","1973","USA","95","1297422"
+"166","164","144","136","Passenger, The","Antonioni, Michelangelo","1975","Italy","119","1297546"
+"167","166","140","126","Âge d'or, L'","Buñuel, Luis","1930","France","63","1293667"
+"168","167","168","162","Deer Hunter, The","Cimino, Michael","1978","USA","183","1292403"
+"169","168","181","175","Dekalog","Kieslowski, Krzysztof","1989","Poland","550","1301252"
+"170","169","174","199","Texas Chain Saw Massacre, The","Hooper, Tobe","1974","USA","83","1300392"
+"171","176","233","224","Only Angels Have Wings","Hawks, Howard","1939","USA","121","1300712"
+"172","175","134","140","Rosemary's Baby","Polanski, Roman","1968","USA","136","1293852"
+"173","174","136","138","Stagecoach","Ford, John","1939","USA","96","1298134"
+"174","173","300","294","Touki Bouki","Diop Mambéty, Djibril","1973","Senegal","85","1424576"
+"175","171","145","147","Duck Soup","McCarey, Leo","1933","USA","70","1298113"
+"176","172","161","160","Discreet Charm of the Bourgeoisie, The","Buñuel, Luis","1972","France","100","1303364"
+"177","179","152","151","Brief Encounter","Lean, David","1945","UK","85","1294364"
+"178","184","213","202","Ran","Kurosawa, Akira","1985","France","161","1296196"
+"179","180","182","176","Birds, The","Hitchcock, Alfred","1963","USA","119","1310175"
+"180","178","249","233","Colour of Pomegranates, The","Parajanov, Sergei","1969","USSR","80","1303542"
+"181","177","169","167","Earth","Dovzhenko, Alexander","1930","USSR","75","1474748"
+"182","181","","","Portrait of a Lady on Fire","Sciamma, Céline","2019","France","121","30257175"
+"183","185","246","250","Johnny Guitar","Ray, Nicholas","1954","USA","110","1303575"
+"184","182","167","165","River, The","Renoir, Jean","1951","France","99","1416677"
+"185","183","175","168","Mouchette","Bresson, Robert","1967","France","80","1302413"
+"186","186","160","159","Chimes at Midnight","Welles, Orson","1965","Switzerland","115","1422308"
+"187","189","185","186","Out of the Past","Tourneur, Jacques","1947","USA","97","1302338"
+"188","193","176","172","Napoléon","Gance, Abel","1927","France","235","1401756"
+"189","188","244","237","Notte, La","Antonioni, Michelangelo","1961","Italy","120","1361252"
+"190","187","207","229","Vampyr","Dreyer, Carl Theodor","1932","Germany","73","1300749"
+"191","200","210","187","Nights of Cabiria","Fellini, Federico","1957","Italy","110","1294781"
+"192","194","171","170","Rocco and His Brothers","Visconti, Luchino","1960","Italy","180","1303558"
+"193","190","218","239","Tree of Life, The","Malick, Terrence","2011","USA","139","2336735"
+"194","192","165","166","Black Narcissus","Powell, Michael & Emeric Pressburger","1947","UK","99","1292733"
+"195","191","151","157","Spring in a Small Town","Fei Mu","1948","China","98","1323746"
+"196","201","230","231","Paris, Texas","Wenders, Wim","1984","West Germany","150","1302061"
+"197","195","202","194","Paisan","Rossellini, Roberto","1946","Italy","120","1299257"
+"198","199","143","143","Lady Eve, The","Sturges, Preston","1941","USA","94","1303415"
+"199","208","388","444","Gleaners & I, The","Varda, Agnès","2000","France","82","1301279"
+"200","207","188","220","Raiders of the Lost Ark","Spielberg, Steven","1981","USA","115","1296717"
+"201","196","191","177","Salò, or the 120 Days of Sodom","Pasolini, Pier Paolo","1975","Italy","117","1293691"
+"202","197","183","191","City of Sadness, A","Hou Hsiao-hsien","1989","Taiwan","157","1294194"
+"203","203","153","153","On the Waterfront","Kazan, Elia","1954","USA","108","1292521"
+"204","206","193","203","Close Encounters of the Third Kind","Spielberg, Steven","1977","USA","135","1298405"
+"205","202","163","161","King Kong","Cooper, Merian C. & Ernest B. Schoedsack","1933","USA","103","1298593"
+"206","204","179","178","Last Laugh, The","Murnau, F.W.","1924","Germany","77","1307639"
+"207","198","478","672","Vagabond","Varda, Agnès","1985","France","105","1292445"
+"208","205","804","904","News from Home","Akerman, Chantal","1976","Belgium","85","1902009"
+"209","210","197","182","Death in Venice","Visconti, Luchino","1971","Italy","130","1300912"
+"210","214","173","169","Great Dictator, The","Chaplin, Charles","1940","USA","128","1295646"
+"211","211","254","286","Thing, The","Carpenter, John","1982","USA","108","1296794"
+"212","209","186","181","Life and Death of Colonel Blimp, The","Powell, Michael & Emeric Pressburger","1943","UK","163","1299816"
+"213","213","221","215","Wings of Desire","Wenders, Wim","1987","West Germany","130","1292504"
+"214","215","194","190","Solaris","Tarkovsky, Andrei","1972","USSR","165","1300977"
+"215","212","222","210","Wavelength","Snow, Michael","1967","Canada","45","1296621"
+"216","216","","","Moonlight","Jenkins, Barry","2016","USA","111","26648249"
+"217","219","203","195","Breaking the Waves","von Trier, Lars","1996","Denmark","156","1292468"
+"218","223","256","251","Magnolia","Anderson, Paul Thomas","1999","USA","188","1293564"
+"219","217","236","238","Zero for Conduct","Vigo, Jean","1933","France","41","1294518"
+"220","220","205","211","Samouraï, Le","Melville, Jean-Pierre","1967","France","101","1300966"
+"221","227","206","189","Quiet Man, The","Ford, John","1952","USA","129","1295757"
+"222","218","187","196","Kes","Loach, Ken","1969","UK","113","1297920"
+"223","221","178","174","Grapes of Wrath, The","Ford, John","1940","USA","129","1292465"
+"224","222","189","184","Umberto D.","De Sica, Vittorio","1952","Italy","89","1296097"
+"225","225","184","183","Brazil","Gilliam, Terry","1985","UK","131","1293823"
+"226","224","255","247","Life of Oharu, The","Mizoguchi, Kenji","1952","Japan","146","1303603"
+"227","226","294","289","Where is the Friend's House?","Kiarostami, Abbas","1987","Iran","85","1301897"
+"228","228","237","228","Sullivan's Travels","Sturges, Preston","1941","USA","91","1303416"
+"229","229","275","271","Love Streams","Cassavetes, John","1984","USA","141","1303532"
+"230","231","195","180","Travelling Players, The","Angelopoulos, Theo","1975","Greece","230","1295759"
+"231","230","211","207","Black God, White Devil","Rocha, Glauber","1964","Brazil","110","1418426"
+"232","233","232","226","Germany, Year Zero","Rossellini, Roberto","1948","Italy","74","1293153"
+"233","232","332","353","House is Black, The","Farrokhzad, Forugh","1963","Iran","20","1499492"
+"234","238","215","205","Ashes and Diamonds","Wajda, Andrzej","1958","Poland","96","1303174"
+"235","242","","","Parasite","Bong Joon-ho","2019","South Korea","132","27010768"
+"236","234","304","316","Red Desert","Antonioni, Michelangelo","1964","Italy","118","1299261"
+"237","235","212","225","McCabe & Mrs. Miller","Altman, Robert","1971","USA","121","1293950"
+"238","237","285","290","Matrix, The","Wachowski, Lana & Lilly Wachowski","1999","USA","136","1291843"
+"239","246","209","206","Best Years of Our Lives, The","Wyler, William","1946","USA","172","1294100"
+"240","239","295","291","Autumn Afternoon, An","Ozu, Yasujiro","1962","Japan","115","1294433"
+"241","236","243","234","Crowd, The","Vidor, King","1928","USA","104","1293273"
+"242","244","228","217","Ivan the Terrible, Part II","Eisenstein, Sergei","1946","USSR","88","1298182"
+"243","240","257","245","Memories of Underdevelopment","Gutiérrez Alea, Tomás","1968","Cuba","97","1484154"
+"244","241","198","204","Performance","Roeg, Nicolas & Donald Cammell","1970","UK","105","1294331"
+"245","247","214","216","Caché","Haneke, Michael","2005","France","117","1438066"
+"246","243","269","278","Eraserhead","Lynch, David","1977","USA","85","1293925"
+"247","251","261","259","Ivan the Terrible, Part I","Eisenstein, Sergei","1944","USSR","96","1298182"
+"248","250","265","260","In a Lonely Place","Ray, Nicholas","1950","USA","91","1302923"
+"249","245","247","246","Band Wagon, The","Minnelli, Vincente","1953","USA","112","1850003"
+"250","253","226","219","Big Lebowski, The","Coen, Joel & Ethan Coen","1998","USA","113","1300044"
+"251","268","225","222","Schindler's List","Spielberg, Steven","1993","USA","195","1295124"
+"252","248","219","212","Thin Red Line, The","Malick, Terrence","1998","USA","170","1292781"
+"253","249","242","232","Meet Me in St. Louis","Minnelli, Vincente","1944","USA","113","1295445"
+"254","252","227","223","Eternal Sunshine of the Spotless Mind","Gondry, Michel","2004","USA","108","1308777"
+"255","257","234","230","Diary of a Country Priest","Bresson, Robert","1951","France","120","1401618"
+"256","261","280","281","Cinema Paradiso","Tornatore, Giuseppe","1988","Italy","155","1291828"
+"257","255","348","342","Green Ray, The","Rohmer, Eric","1986","France","99","1294039"
+"258","254","","","Daughters of the Dust","Dash, Julie","1991","USA","112","1890283"
+"259","313","252","248","Verdugo, El","García Berlanga, Luis","1963","Spain","90","1485059"
+"260","260","216","208","Graduate, The","Nichols, Mike","1967","USA","105","1292271"
+"261","259","250","244","Tabu","Murnau, F.W.","1931","USA","82","1296577"
+"262","256","196","185","Belle de jour","Buñuel, Luis","1967","France","100","1301649"
+"263","265","204","209","Cabinet of Dr. Caligari, The","Wiene, Robert","1920","Germany","75","1292547"
+"264","271","336","333","Eyes Wide Shut","Kubrick, Stanley","1999","USA","159","1300275"
+"265","258","200","197","Red River","Hawks, Howard","1948","USA","133","1292565"
+"266","276","284","269","Three Colours: Blue","Kieslowski, Krzysztof","1993","France","100","1292048"
+"267","263","351","433","Uncle Boonmee Who Can Recall His Past Lives","Weerasethakul, Apichatpong","2010","Thailand","114","4280102"
+"268","264","335","329","Heat","Mann, Michael","1995","USA","174","1295686"
+"269","262","180","193","Night and Fog","Resnais, Alain","1955","France","32","1298270"
+"270","270","217","221","Exorcist, The","Friedkin, William","1973","USA","122","1293755"
+"271","269","190","198","Fargo","Coen, Joel & Ethan Coen","1996","USA","98","1292067"
+"272","272","833","759","Black Girl","Sembene, Ousmane","1966","Senegal","65","2060678"
+"273","266","235","235","Treasure of the Sierra Madre, The","Huston, John","1948","USA","124","1292516"
+"274","274","240","241","F for Fake","Welles, Orson","1973","France","89","1440610"
+"275","267","224","227","Kind Hearts and Coronets","Hamer, Robert","1949","UK","106","1295995"
+"276","273","416","461","Taste of Cherry","Kiarostami, Abbas","1997","Iran","99","1296177"
+"277","280","274","267","My Night at Maud's","Rohmer, Eric","1969","France","105","1296283"
+"278","279","201","201","Sweet Smell of Success","Mackendrick, Alexander","1957","USA","96","1302808"
+"279","292","306","302","Back to the Future","Zemeckis, Robert","1985","USA","116","1300555"
+"280","278","260","254","Story of the Last Chrysanthemums, The","Mizoguchi, Kenji","1939","Japan","148","1293329"
+"281","277","253","257","Shop Around the Corner, The","Lubitsch, Ernst","1940","USA","97","1299166"
+"282","275","577","733","Ciénaga, La","Martel, Lucrecia","2001","Argentina","103","1420225"
+"283","291","231","243","Paths of Glory","Kubrick, Stanley","1957","USA","86","1292969"
+"284","284","616","628","Goodbye, Dragon Inn","Tsai Ming-liang","2003","Taiwan","82","1304862"
+"285","281","238","240","Groundhog Day","Ramis, Harold","1993","USA","103","1300613"
+"286","286","273","265","Throne of Blood","Kurosawa, Akira","1957","Japan","110","1294827"
+"287","282","277","283","Day of Wrath","Dreyer, Carl Theodor","1943","Denmark","110","1305896"
+"288","288","239","213","2 or 3 Things I Know About Her","Godard, Jean-Luc","1967","France","87","1300964"
+"289","283","287","279","Pandora's Box","Pabst, G.W.","1929","Germany","133","1401368"
+"290","285","612","735","Ascent, The","Shepitko, Larisa","1977","USSR","111","1303255"
+"291","300","317","297","Sacrifice, The","Tarkovsky, Andrei","1986","France","145","1294531"
+"292","295","394","402","Army of Shadows","Melville, Jean-Pierre","1969","France","140","1466419"
+"293","287","401","376","All That Heaven Allows","Sirk, Douglas","1955","USA","89","1303345"
+"294","290","490","511","India Song","Duras, Marguerite","1975","France","120","1298347"
+"295","289","272","261","Three Colours: Red","Kieslowski, Krzysztof","1994","France","99","1292047"
+"296","293","309","306","All About My Mother","Almodóvar, Pedro","1999","Spain","101","1291937"
+"297","294","290","296","Big Sleep, The","Hawks, Howard","1946","USA","114","1293352"
+"298","319","314","293","Cabaret","Fosse, Bob","1972","USA","128","1296282"
+"299","296","343","362","Happy Together","Wong Kar-wai","1997","Hong Kong","97","1292679"
+"300","302","208","236","Unforgiven","Eastwood, Clint","1992","USA","127","1293566"
+"301","314","460","491","All That Jazz","Fosse, Bob","1979","USA","123","1299330"
+"302","297","266","273","Distant Voices, Still Lives","Davies, Terence","1988","UK","85","1305878"
+"303","298","263","256","Mean Streets","Scorsese, Martin","1973","USA","110","1293511"
+"304","299","258","253","Floating Clouds","Naruse, Mikio","1955","Japan","123","1298870"
+"305","304","320","284","Terra em Transe","Rocha, Glauber","1967","Brazil","106","1791033"
+"306","301","283","285","Mr. Hulot's Holiday","Tati, Jacques","1953","France","86","1305790"
+"307","303","305","295","Music Room, The","Ray, Satyajit","1958","India","95","1440613"
+"308","307","271","268","Maltese Falcon, The","Huston, John","1941","USA","100","1297874"
+"309","306","418","413","Charulata","Ray, Satyajit","1964","India","117","1468782"
+"310","320","312","301","World of Apu, The","Ray, Satyajit","1959","India","103","1295720"
+"311","321","465","523","Melancholia","von Trier, Lars","2011","Denmark","136","4086853"
+"312","308","262","266","Faces","Cassavetes, John","1968","USA","130","1292644"
+"313","315","303","309","City of God","Meirelles, Fernando & Kátia Lund","2002","Brazil","129","1292208"
+"314","310","367","363","Werckmeister Harmonies","Tarr, Béla","2000","Hungary","145","1416898"
+"315","323","346","343","I Am Cuba","Kalatozov, Mikhail","1964","Cuba","141","1432669"
+"316","305","220","218","Nanook of the North","Flaherty, Robert J.","1922","USA","79","1292735"
+"317","311","375","478","Separation, A","Farhadi, Asghar","2011","Iran","123","5964718"
+"318","309","278","272","Monsieur Verdoux","Chaplin, Charles","1947","USA","123","1294047"
+"319","312","293","292","Videodrome","Cronenberg, David","1983","Canada","90","1295276"
+"320","316","268","282","Kings of the Road","Wenders, Wim","1976","West Germany","175","1437023"
+"321","330","310","320","In the Realm of the Senses","Oshima, Nagisa","1976","Japan","109","1292790"
+"322","318","251","258","Freaks","Browning, Tod","1932","USA","64","1295942"
+"323","324","331","311","Berlin Alexanderplatz [TV]","Fassbinder, Rainer Werner","1980","West Germany","931","1300660"
+"324","322","270","275","Belle et la bête, La","Cocteau, Jean","1946","France","95","1295913"
+"325","329","329","304","Philadelphia Story, The","Cukor, George","1940","USA","112","1292840"
+"326","333","282","274","Empire Strikes Back, The","Kershner, Irvin","1980","USA","124","1296528"
+"327","348","368","384","High and Low","Kurosawa, Akira","1963","Japan","142","1293663"
+"328","317","362","338","Lola Montès","Ophüls, Max","1955","France","116","1293401"
+"329","326","372","369","Young Girls of Rochefort, The","Demy, Jacques","1967","France","124","1301648"
+"330","327","281","280","Husbands","Cassavetes, John","1970","USA","138","1303095"
+"331","325","323","305","Canterbury Tale, A","Powell, Michael & Emeric Pressburger","1944","UK","124","1295943"
+"332","337","341","330","Amadeus","Forman, Milos","1984","USA","158","1293399"
+"333","335","245","242","Bonnie and Clyde","Penn, Arthur","1967","USA","111","1294584"
+"334","331","292","298","Kid, The","Chaplin, Charles","1921","USA","60","1293270"
+"335","328","468","463","Pyaasa","Dutt, Guru","1957","India","146","1861216"
+"336","332","298","288","Underground","Kusturica, Emir","1995","Yugoslavia","167","1292206"
+"337","336","319","308","Time to Live and the Time to Die, The","Hou Hsiao-hsien","1985","Taiwan","137","1300572"
+"338","334","267","262","Broken Blossoms","Griffith, D.W.","1919","USA","90","1298420"
+"339","339","342","380","Tie Xi Qu: West of the Tracks","Wang Bing","2003","China","551","1309215"
+"340","338","393","371","King of Comedy, The","Scorsese, Martin","1982","USA","109","1292772"
+"341","341","276","270","Wages of Fear, The","Clouzot, Henri-Georges","1953","France","105","1299932"
+"342","343","316","327","Midnight Cowboy","Schlesinger, John","1969","USA","113","1297628"
+"343","340","326","322","Touch of Zen, A","Hu, King","1971","Taiwan","180","1306490"
+"344","364","462","432","Cranes Are Flying, The","Kalatozov, Mikhail","1957","USSR","95","1302077"
+"345","344","299","277","Weekend","Godard, Jean-Luc","1967","France","105","1296338"
+"346","342","324","325","Kiss Me Deadly","Aldrich, Robert","1955","USA","106","1303569"
+"347","345","405","360","Double Life of Véronique, The","Kieslowski, Krzysztof","1991","France","97","1291877"
+"348","352","330","318","West Side Story","Wise, Robert & Jerome Robbins","1961","USA","151","1295225"
+"349","349","425","407","Cloud-Capped Star, The","Ghatak, Ritwik","1960","India","126","1460605"
+"350","357","629","","Mad Max: Fury Road","Miller, George","2015","Australia","120","3592854"
+"351","353","318","323","Dog Day Afternoon","Lumet, Sidney","1975","USA","125","1293374"
+"352","354","","","Get Out","Peele, Jordan","2017","USA","104","26688480"
+"353","356","241","263","Night of the Living Dead","Romero, George A.","1968","USA","96","1297996"
+"354","347","307","300","Puppetmaster, The","Hou Hsiao-hsien","1993","Taiwan","141","1302941"
+"355","346","380","340","El","Buñuel, Luis","1953","Mexico","91","1401598"
+"356","350","451","422","Out 1","Rivette, Jacques","1971","France","729","1477852"
+"357","351","308","315","Last Picture Show, The","Bogdanovich, Peter","1971","USA","118","1298026"
+"358","358","347","326","How Green Was My Valley","Ford, John","1941","USA","118","1293322"
+"359","359","456","481","Some Came Running","Minnelli, Vincente","1958","USA","136","1292750"
+"360","355","474","445","Tree of Wooden Clogs, The","Olmi, Ermanno","1978","Italy","185","1306266"
+"361","367","322","331","It Happened One Night","Capra, Frank","1934","USA","105","1295684"
+"362","363","297","319","Make Way for Tomorrow","McCarey, Leo","1937","USA","92","1302017"
+"363","360","371","387","Last Tango in Paris","Bertolucci, Bernardo","1972","Italy","129","1300353"
+"364","365","327","354","Quince Tree Sun, The","Erice, Víctor","1992","Spain","133","1401529"
+"365","362","400","421","Heaven's Gate","Cimino, Michael","1980","USA","219","1295905"
+"366","361","503","480","Muriel","Resnais, Alain","1963","France","115","1293844"
+"367","370","357","347","Marnie","Hitchcock, Alfred","1964","USA","130","1298442"
+"368","373","369","349","Through the Olive Trees","Kiarostami, Abbas","1994","Iran","103","1303465"
+"369","375","350","382","Silence of the Lambs, The","Demme, Jonathan","1991","USA","118","1293544"
+"370","379","410","370","Affair to Remember, An","McCarey, Leo","1957","USA","115","1293320"
+"371","371","404","399","Yojimbo","Kurosawa, Akira","1961","Japan","110","1292515"
+"372","372","325","307","Harold and Maude","Ashby, Hal","1971","USA","91","1292812"
+"373","381","352","356","Teorema","Pasolini, Pier Paolo","1968","Italy","98","1297130"
+"374","374","279","310","Peeping Tom","Powell, Michael","1960","UK","101","1299665"
+"375","369","413","412","Fitzcarraldo","Herzog, Werner","1982","West Germany","157","1297105"
+"376","377","373","358","Lost Highway","Lynch, David","1997","USA","134","1303459"
+"377","378","311","317","Stranger Than Paradise","Jarmusch, Jim","1984","USA","89","1303723"
+"378","366","358","339","Written on the Wind","Sirk, Douglas","1956","USA","99","1303302"
+"379","368","340","335","I Was Born, But...","Ozu, Yasujiro","1932","Japan","100","1299360"
+"380","385","356","345","Stromboli","Rossellini, Roberto","1950","Italy","107","1294382"
+"381","376","431","428","Two-Lane Blacktop","Hellman, Monte","1971","USA","101","1868546"
+"382","382","398","425","White Ribbon, The","Haneke, Michael","2009","Germany","144","2464346"
+"383","391","378","418","Turin Horse, The","Tarr, Béla","2011","Hungary","155","3285632"
+"384","386","472","499","Safe","Haynes, Todd","1995","USA","119","1308422"
+"385","383","334","341","Aliens","Cameron, James","1986","USA","137","1293792"
+"386","388","365","381","Elephant Man, The","Lynch, David","1980","USA","125","1293200"
+"387","380","349","334","Killing of a Chinese Bookie, The","Cassavetes, John","1976","USA","109","1438613"
+"388","390","286","303","This is Spinal Tap","Reiner, Rob","1984","USA","82","1293095"
+"389","393","391","367","Nostalghia","Tarkovsky, Andrei","1983","Italy","120","1291556"
+"390","414","","","Under the Skin","Glazer, Jonathan","2013","UK","108","3749974"
+"391","384","399","400","Tristana","Buñuel, Luis","1970","Spain","98","1301655"
+"392","387","454","441","Hour of the Furnaces, The","Getino, Octavio & Fernando E. Solanas","1968","Argentina","260","2245725"
+"393","389","390","416","Mon oncle","Tati, Jacques","1958","France","126","1400829"
+"394","403","355","352","Dogville","von Trier, Lars","2003","Denmark","177","1298759"
+"395","397","500","589","Orlando","Potter, Sally","1992","UK","94","1301895"
+"396","400","423","396","Opening Night","Cassavetes, John","1977","USA","144","1292768"
+"397","392","477","474","Limite","Peixoto, Mario","1931","Brazil","114","1925767"
+"398","394","415","377","In a Year with 13 Moons","Fassbinder, Rainer Werner","1978","West Germany","129","1300323"
+"399","413","424","395","Day for Night","Truffaut, François","1973","France","120","1293299"
+"400","404","441","467","Flowers of St. Francis, The","Rossellini, Roberto","1950","Italy","83","1303580"
+"401","395","383","365","Woman in the Dunes","Teshigahara, Hiroshi","1964","Japan","147","1295812"
+"402","415","407","386","1900","Bertolucci, Bernardo","1976","Italy","245","1300956"
+"403","401","259","264","Thin Blue Line, The","Morris, Errol","1988","USA","101","1296388"
+"404","399","650","761","Headless Woman, The","Martel, Lucrecia","2008","Argentina","87","3047620"
+"405","396","374","403","I Know Where I'm Going!","Powell, Michael & Emeric Pressburger","1945","UK","92","1308333"
+"406","402","354","366","Suspiria","Argento, Dario","1977","Italy","92","1296332"
+"407","398","288","276","Crimes and Misdemeanors","Allen, Woody","1989","USA","104","1292536"
+"408","407","338","348","Tenant, The","Polanski, Roman","1976","France","126","1297399"
+"409","405","289","287","Birth of a Nation, The","Griffith, D.W.","1915","USA","187","1300306"
+"410","411","339","321","Orpheus","Cocteau, Jean","1950","France","95","1436764"
+"411","409","321","336","Eyes Without a Face","Franju, Georges","1960","France","88","1297735"
+"412","416","544","519","Miracle in Milan","De Sica, Vittorio","1951","Italy","95","1303578"
+"413","418","377","447","Lost in Translation","Coppola, Sofia","2003","USA","102","1291835"
+"414","408","296","314","Dawn of the Dead","Romero, George A.","1978","USA","126","1295578"
+"415","429","457","483","All the President's Men","Pakula, Alan J.","1976","USA","138","1293715"
+"416","410","302","312","Snow White and the Seven Dwarfs","Hand, David","1937","USA","83","1297756"
+"417","406","530","576","Splendor in the Grass","Kazan, Elia","1961","USA","124","1294005"
+"418","417","463","456","Fantasia","Various Directors","1940","USA","120","1310179"
+"419","412","414","435","Awful Truth, The","McCarey, Leo","1937","USA","92","1297918"
+"420","431","434","392","Scenes from a Marriage","Bergman, Ingmar","1973","Sweden","168","1292981"
+"421","421","455","434","Plaisir, Le","Ophüls, Max","1952","France","97","1848300"
+"422","419","470","443","Chelsea Girls","Warhol, Andy","1966","USA","210","1300464"
+"423","424","643","627","Europa '51","Rossellini, Roberto","1952","Italy","113","1293321"
+"424","420","363","355","Salvatore Giuliano","Rosi, Francesco","1962","Italy","125","1401612"
+"425","422","313","328","Bride of Frankenstein","Whale, James","1935","USA","75","1302012"
+"426","442","370","388","If….","Anderson, Lindsay","1968","UK","111","1307973"
+"427","425","801","925","Bonheur, Le","Varda, Agnès","1965","France","79","1483516"
+"428","439","428","424","Long Goodbye, The","Altman, Robert","1973","USA","112","1299236"
+"429","433","640","719","Angel at My Table, An","Campion, Jane","1990","New Zealand","158","1302606"
+"430","427","611","621","Possession","Zulawski, Andrzej","1981","France","124","1297203"
+"431","451","635","600","Twenty Years Later","Coutinho, Eduardo","1984","Brazil","119","1925768"
+"432","423","619","","Holy Motors","Carax, Leos","2012","France","115","6875451"
+"433","435","507","518","Winter Light","Bergman, Ingmar","1963","Sweden","80","1296792"
+"434","430","467","487","Shadows of Forgotten Ancestors","Parajanov, Sergei","1965","USSR","97","1440106"
+"435","444","440","420","Shawshank Redemption, The","Darabont, Frank","1994","USA","142","1292052"
+"436","428","328","346","Days of Being Wild","Wong Kar-wai","1990","Hong Kong","94","1305690"
+"437","426","427","426","Star is Born, A","Cukor, George","1954","USA","154","1295619"
+"438","441","446","462","Accattone","Pasolini, Pier Paolo","1961","Italy","120","1437013"
+"439","456","562","545","Casino","Scorsese, Martin","1995","USA","182","1299799"
+"440","432","417","450","Scarlet Empress, The","von Sternberg, Josef","1934","USA","110","1298465"
+"441","463","447","409","Cameraman, The","Keaton, Buster & Edward Sedgwick","1928","USA","69","1297549"
+"442","469","389","406","Network","Lumet, Sidney","1976","USA","121","1297531"
+"443","434","439","454","Flowers of Shanghai","Hou Hsiao-hsien","1998","Taiwan","130","1303451"
+"444","462","513","497","Terra trema, La","Visconti, Luchino","1948","Italy","160","1294377"
+"445","458","450","504","Naked","Leigh, Mike","1993","UK","126","1299077"
+"446","447","523","508","Limelight","Chaplin, Charles","1952","USA","145","1296659"
+"447","443","344","390","Innocents, The","Clayton, Jack","1961","UK","100","1294825"
+"448","438","481","482","Wind, The","Sjöström, Victor","1928","USA","88","1307994"
+"449","436","385","350","Crime of Monsieur Lange, The","Renoir, Jean","1936","France","90","1401616"
+"450","487","","","Toni Erdmann","Ade, Maren","2016","Germany","162","24872189"
+"451","440","473","430","French Cancan","Renoir, Jean","1955","France","102","1293074"
+"452","461","397","385","À nos amours","Pialat, Maurice","1983","France","102","1421934"
+"453","448","497","452","Koyaanisqatsi","Reggio, Godfrey","1982","USA","87","1298202"
+"454","437","403","359","Ivan's Childhood","Tarkovsky, Andrei","1962","USSR","94","1294421"
+"455","445","528","520","Région centrale, La","Snow, Michael","1971","Canada","180","1758347"
+"456","446","396","374","Festen","Vinterberg, Thomas","1998","Denmark","105","1292908"
+"457","460","510","516","Songs from the Second Floor","Andersson, Roy","2000","Sweden","98","1295877"
+"458","449","395","357","Trip to the Moon, A","Méliès, Georges","1902","France","14","1304310"
+"459","466","","","Act of Killing, The","Oppenheimer, Joshua","2012","Denmark","115","11538029"
+"460","450","412","378","Shoot the Piano Player","Truffaut, François","1960","France","81","1298095"
+"461","482","469","459","Dersu Uzala","Kurosawa, Akira","1975","USSR","144","1300034"
+"462","467","809","836","Grave of the Fireflies","Takahata, Isao","1988","Japan","93","1293318"
+"463","452","387","351","October","Eisenstein, Sergei & Grigori Aleksandrov","1928","USSR","103","1297024"
+"464","459","","","Paris is Burning","Livingston, Jennie","1990","USA","78","1299344"
+"465","453","345","337","Listen to Britain","Jennings, Humphrey & Stewart McAllister","1942","UK","20","1432707"
+"466","465","480","522","A.I. Artificial Intelligence","Spielberg, Steven","2001","USA","145","1302827"
+"467","516","517","541","Pan's Labyrinth","del Toro, Guillermo","2006","Spain","120","1767042"
+"468","468","579","675","Harlan County, U.S.A.","Kopple, Barbara","1976","USA","103","1294724"
+"469","457","406","457","Pinocchio","Sharpsteen, Ben & Hamilton Luske","1940","USA","88","1292757"
+"470","464","376","361","Palm Beach Story, The","Sturges, Preston","1942","USA","90","1303417"
+"471","454","558","543","In Vanda's Room","Costa, Pedro","2000","Portugal","170","1829859"
+"472","471","382","438","Talk to Her","Almodóvar, Pedro","2002","Spain","112","1292211"
+"473","490","512","473","Steamboat Bill, Jr.","Keaton, Buster & Charles Reisner","1928","USA","71","1292963"
+"474","470","649","651","Syndromes and a Century","Weerasethakul, Apichatpong","2006","Thailand","105","1857095"
+"475","484","716","655","By the Bluest of Seas","Barnet, Boris","1936","USSR","71","2369090"
+"476","455","","","Phantom Thread","Anderson, Paul Thomas","2017","USA","130","26809592"
+"477","483","443","460","Elephant","Van Sant, Gus","2003","USA","81","1292272"
+"478","478","361","344","High Noon","Zinnemann, Fred","1952","USA","84","1298521"
+"479","480","444","437","Dead, The","Huston, John","1987","USA","83","1303529"
+"480","479","409","364","Landscape in the Mist","Angelopoulos, Theo","1988","Greece","127","1294252"
+"481","474","549","515","Wagon Master","Ford, John","1950","USA","86","1305139"
+"482","488","315","313","Reservoir Dogs","Tarantino, Quentin","1992","USA","99","1299603"
+"483","496","420","429","Death of Mr. Lazarescu, The","Puiu, Cristi","2005","Romania","153","1769364"
+"484","477","545","507","Lola","Demy, Jacques","1961","France","90","1471815"
+"485","472","364","404","Platform","Jia Zhangke","2000","China","154","1291850"
+"486","499","557","588","Secrets & Lies","Leigh, Mike","1996","UK","142","1294477"
+"487","475","360","394","Carrie","De Palma, Brian","1976","USA","97","1292664"
+"488","473","408","383","Barren Lives","Pereira dos Santos, Nelson","1963","Brazil","103","1785241"
+"489","476","449","440","Senso","Visconti, Luchino","1954","Italy","123","1303572"
+"490","489","453","458","Withnail & I","Robinson, Bruce","1987","UK","107","1304857"
+"491","486","411","410","Raise the Red Lantern","Zhang Yimou","1991","China","125","1293323"
+"492","481","706","801","Once Upon a Time in Anatolia","Ceylan, Nuri Bilge","2011","Turkey","157","5959260"
+"493","485","","","Zama","Martel, Lucrecia","2017","Argentina","115","24719134"
+"494","491","524","530","Bitter Tears of Petra von Kant, The","Fassbinder, Rainer Werner","1972","West Germany","124","1293230"
+"495","537","458","436","Fight Club","Fincher, David","1999","USA","139","1292000"
+"496","521","436","397","Hustler, The","Rossen, Robert","1961","USA","134","1299517"
+"497","509","945","1000","Twin Peaks: Fire Walk with Me","Lynch, David","1992","USA","134","1303472"
+"498","523","508","549","No Country for Old Men","Coen, Joel & Ethan Coen","2007","USA","122","1857099"
+"499","498","386","373","Bridge on the River Kwai, The","Lean, David","1957","UK","161","1294958"
+"500","501","432","408","Five Easy Pieces","Rafelson, Bob","1970","USA","98","1298192"
+"501","492","741","684","Blow Out","De Palma, Brian","1981","USA","107","1299027"
+"502","525","488","453","To Have and Have Not","Hawks, Howard","1944","USA","100","1294698"
+"503","495","466","488","Shane","Stevens, George","1953","USA","118","1292767"
+"504","507","337","324","To Kill a Mockingbird","Mulligan, Robert","1962","USA","129","1297991"
+"505","505","419","405","Monty Python's Life of Brian","Jones, Terry","1979","UK","93","1292881"
+"506","493","511","451","Masculin féminin","Godard, Jean-Luc","1966","France","103","1300522"
+"507","502","535","503","Marketa Lazarová","Vlácil, Frantisek","1967","Czechoslovakia","162","1306847"
+"508","494","648","633","After Life","Koreeda, Hirokazu","1998","Japan","118","1294413"
+"509","497","634","584","Our Hospitality","Keaton, Buster & John G. Blystone","1923","USA","74","1295211"
+"510","522","858","817","Princess Mononoke","Miyazaki, Hayao","1997","Japan","134","1297359"
+"511","518","461","423","Closely Watched Trains","Menzel, Jirí","1966","Czechoslovakia","89","1303081"
+"512","500","442","419","Moment of Innocence, A","Makhmalbaf, Mohsen","1996","Iran","78","1420238"
+"513","520","496","485","Short Cuts","Altman, Robert","1993","USA","189","1297833"
+"514","510","486","531","Inland Empire","Lynch, David","2006","USA","180","1438734"
+"515","503","515","448","Early Summer","Ozu, Yasujiro","1951","Japan","135","1401842"
+"516","508","475","468","Oldboy","Park Chan-wook","2003","South Korea","120","1308865"
+"517","512","691","708","Crash","Cronenberg, David","1996","Canada","100","1292682"
+"518","524","506","517","Die Hard","McTiernan, John","1988","USA","131","1292697"
+"519","517","580","561","And Life Goes On...","Kiarostami, Abbas","1992","Iran","108","1303471"
+"520","504","","","Twin Peaks: The Return [TV]","Lynch, David","2017","USA","1024","26088510"
+"521","511","493","477","Boogie Nights","Anderson, Paul Thomas","1997","USA","155","1292965"
+"522","530","607","663","Age of Innocence, The","Scorsese, Martin","1993","USA","133","1301465"
+"523","513","433","431","Dead Ringers","Cronenberg, David","1988","Canada","115","1293297"
+"524","514","537","524","Enigma of Kaspar Hauser, The","Herzog, Werner","1974","West Germany","110","1296583"
+"525","534","532","490","East of Eden","Kazan, Elia","1955","USA","115","1294169"
+"526","568","592","563","French Connection, The","Friedkin, William","1971","USA","104","3013046"
+"527","506","527","525","Vampires, Les","Feuillade, Louis","1915","France","421","1303869"
+"528","515","520","484","Damned, The","Visconti, Luchino","1969","Italy","155","1296591"
+"529","533","501","464","12 Angry Men","Lumet, Sidney","1957","USA","95","1293182"
+"530","519","551","535","Alice in the Cities","Wenders, Wim","1974","West Germany","110","1293306"
+"531","528","494","466","Lives of Others, The","von Donnersmarck, Florian Henckel","2006","Germany","138","1900841"
+"532","529","538","506","Faust","Murnau, F.W.","1926","Germany","116","1305235"
+"533","544","","","Boyhood","Linklater, Richard","2014","USA","165","2209575"
+"534","531","581","577","Aparajito","Ray, Satyajit","1956","India","108","1306559"
+"535","539","799","793","Memories of Murder","Bong Joon-ho","2003","South Korea","132","1300299"
+"536","535","492","475","Alexander Nevsky","Eisenstein, Sergei","1938","USSR","107","1299973"
+"537","526","662","646","Yeelen","Cissé, Souleymane","1987","Mali","105","1429098"
+"538","550","499","479","Wind Will Carry Us, The","Kiarostami, Abbas","1999","France","118","1303444"
+"539","527","797","827","Blue","Jarman, Derek","1993","UK","79","1417428"
+"540","536","476","510","Point Blank","Boorman, John","1967","USA","92","1305883"
+"541","567","548","565","Ninotchka","Lubitsch, Ernst","1939","USA","110","1297926"
+"542","532","617","575","Rosetta","Dardenne, Jean-Pierre & Luc Dardenne","1999","Belgium","94","1300820"
+"543","579","509","476","Night at the Opera, A","Wood, Sam","1935","USA","96","1296879"
+"544","547","438","446","Terminator, The","Cameron, James","1984","USA","107","1300656"
+"545","561","539","502","Doctor Zhivago","Lean, David","1965","USA","197","1389949"
+"546","541","652","699","Nostalgia for the Light","Guzmán, Patricio","2010","France","90","4307515"
+"547","569","590","607","Children of Men","Cuarón, Alfonso","2006","USA","109","1478064"
+"548","538","422","415","Man of Aran","Flaherty, Robert J.","1934","UK","77","1303150"
+"549","543","533","537","Hannah and Her Sisters","Allen, Woody","1986","USA","106","1292764"
+"550","552","644","595","Haine, La","Kassovitz, Mathieu","1995","France","98","1306449"
+"551","542","459","471","Lady from Shanghai, The","Welles, Orson","1948","USA","87","1292584"
+"552","546","587","542","Picnic at Hanging Rock","Weir, Peter","1975","Australia","110","1299539"
+"553","540","","","Je, tu, il, elle","Akerman, Chantal","1974","Belgium","85","1429055"
+"554","558","541","585","Se7en","Fincher, David","1995","USA","127","1292223"
+"555","556","421","417","Punch-Drunk Love","Anderson, Paul Thomas","2002","USA","95","1300211"
+"556","545","498","496","Strangers on a Train","Hitchcock, Alfred","1951","USA","101","1298505"
+"557","559","664","629","Young Mr. Lincoln","Ford, John","1939","USA","100","1293499"
+"558","551","489","439","Sound of Music, The","Wise, Robert","1965","USA","174","1294408"
+"559","548","379","368","Russian Ark","Sokurov, Aleksandr","2002","Russia","99","1302279"
+"560","571","402","379","Butch Cassidy and the Sundance Kid","Hill, George Roy","1969","USA","110","1297602"
+"561","549","516","486","Devil, Probably, The","Bresson, Robert","1977","France","95","1294782"
+"562","553","381","389","WALL-E","Stanton, Andrew","2008","USA","98","2131459"
+"563","555","594","603","I Walked with a Zombie","Tourneur, Jacques","1943","USA","69","1307177"
+"564","554","435","472","Dead Man","Jarmusch, Jim","1995","USA","121","1303462"
+"565","570","505","492","Kagemusha","Kurosawa, Akira","1980","Japan","159","1303067"
+"566","563","","","Morvern Callar","Ramsay, Lynne","2002","UK","97","1420042"
+"567","608","859","834","As I Was Moving Ahead Occasionally I Saw Brief Glimpses of Beauty","Mekas, Jonas","2000","USA","288","4117025"
+"568","584","366","398","Land Without Bread","Buñuel, Luis","1933","Spain","28","1401595"
+"569","566","359","391","Brokeback Mountain","Lee, Ang","2005","USA","134","1418834"
+"570","557","543","564","Fellini Satyricon","Fellini, Federico","1969","Italy","129","1293358"
+"571","565","600","558","Wedding March, The","von Stroheim, Erich","1928","USA","113","1299353"
+"572","582","556","521","Being There","Ashby, Hal","1979","USA","130","1293256"
+"573","578","471","494","Mad Max 2","Miller, George","1981","Australia","96","1292453"
+"574","560","353","372","Yellow Earth","Chen Kaige","1984","China","89","1291876"
+"575","564","","","Sambizanga","Maldoror, Sarah","1972","Angola","97","4729942"
+"576","562","665","615","Blue Angel, The","von Sternberg, Josef","1930","Germany","103","1295427"
+"577","572","626","574","Testament of Dr. Mabuse, The","Lang, Fritz","1933","Germany","120","1441134"
+"578","575","","","Master, The","Anderson, Paul Thomas","2012","USA","144","6433905"
+"579","624","625","572","Loves of a Blonde","Forman, Milos","1965","Czechoslovakia","88","1303082"
+"580","581","445","414","Easy Rider","Hopper, Dennis","1969","USA","94","1297646"
+"581","577","482","495","Laura","Preminger, Otto","1944","USA","85","1294072"
+"582","574","448","540","Cat People","Tourneur, Jacques","1942","USA","73","1306489"
+"583","573","495","493","Shadow of a Doubt","Hitchcock, Alfred","1943","USA","108","1293817"
+"584","583","601","550","Silence, The","Bergman, Ingmar","1963","Sweden","96","1300958"
+"585","576","574","553","That Obscure Object of Desire","Buñuel, Luis","1977","France","103","1303071"
+"586","613","519","509","Forrest Gump","Zemeckis, Robert","1994","USA","142","1292720"
+"587","580","525","489","Barton Fink","Coen, Joel & Ethan Coen","1991","USA","117","1298043"
+"588","596","736","835","D'Est","Akerman, Chantal","1993","Belgium","107","1780560"
+"589","669","602","571","Plácido","García Berlanga, Luis","1961","Spain","85","2368557"
+"590","591","596","573","Bande à part","Godard, Jean-Luc","1964","France","95","1401588"
+"591","588","554","546","Bigger Than Life","Ray, Nicholas","1956","USA","95","1855271"
+"592","598","540","547","Servant, The","Losey, Joseph","1963","UK","115","1303553"
+"593","586","430","465","Halloween","Carpenter, John","1978","USA","93","1299586"
+"594","610","529","556","Amélie","Jeunet, Jean-Pierre","2001","France","122","1292215"
+"595","587","550","539","Taking of Power by Louis XIV, The","Rossellini, Roberto","1966","France","100","1303546"
+"596","594","729","688","Lord of the Rings: The Fellowship of the Ring, The","Jackson, Peter","2001","New Zealand","178","1291571"
+"597","595","798","766","Jurassic Park","Spielberg, Steven","1993","USA","127","1292523"
+"598","599","429","455","Repulsion","Polanski, Roman","1965","UK","105","1301647"
+"599","585","571","528","Tale of Tales","Norshteyn, Yuriy","1979","USSR","29","1432639"
+"600","601","384","411","Crouching Tiger, Hidden Dragon","Lee, Ang","2000","Taiwan","120","1301168"
+"601","592","484","470","Tootsie","Pollack, Sydney","1982","USA","116","1297737"
+"602","627","","","Symbiopsychotaxiplasm: Take One","Greaves, William","1968","USA","75","1876327"
+"603","606","531","610","Terminator 2: Judgment Day","Cameron, James","1991","USA","136","1291844"
+"604","589","922","898","Gentlemen Prefer Blondes","Hawks, Howard","1953","USA","91","1294244"
+"605","590","479","505","Grey Gardens","Maysles, David/Albert Maysles/Ellen Hovde/Muffie Meyer","1975","USA","95","1419111"
+"606","625","593","636","Zodiac","Fincher, David","2007","USA","158","1781126"
+"607","593","536","538","Colossal Youth","Costa, Pedro","2006","France","155","1937459"
+"608","603","754","783","Long Day Closes, The","Davies, Terence","1992","UK","83","2042560"
+"609","602","586","544","Hatari!","Hawks, Howard","1962","USA","157","1293484"
+"610","605","","","West Indies","Hondo, Med","1979","France","110","25774676"
+"611","597","622","604","Seven Chances","Keaton, Buster","1925","USA","56","1300352"
+"612","609","588","601","Full Metal Jacket","Kubrick, Stanley","1987","USA","116","1300055"
+"613","600","747","734","Fellini's Roma","Fellini, Federico","1972","Italy","128","1302815"
+"614","623","657","678","Synecdoche, New York","Kaufman, Charlie","2008","USA","124","2028819"
+"615","620","546","527","Deliverance","Boorman, John","1972","USA","109","1293561"
+"616","653","582","552","Down by Law","Jarmusch, Jim","1986","USA","107","1301798"
+"617","611","595","554","Devils, The","Russell, Ken","1971","UK","109","1823255"
+"618","621","690","670","My Friend Ivan Lapshin","German, Aleksei","1985","USSR","100","2368633"
+"619","607","653","620","Round-Up, The","Jancsó, Miklós","1966","Hungary","90","1462674"
+"620","604","578","536","Providence","Resnais, Alain","1977","France","110","1294848"
+"621","612","553","582","Amants du Pont-Neuf, Les","Carax, Leos","1991","France","126","1291559"
+"622","619","437","427","Shadows","Cassavetes, John","1959","USA","87","1295167"
+"623","628","623","664","Wicker Man, The","Hardy, Robin","1973","UK","103","1305611"
+"624","614","708","700","Edvard Munch [TV]","Watkins, Peter","1974","Sweden","210","1439463"
+"625","633","583","566","Asphalt Jungle, The","Huston, John","1950","USA","112","1298894"
+"626","630","951","863","3 Women","Altman, Robert","1977","USA","125","1293599"
+"627","615","570","551","Boudu Saved from Drowning","Renoir, Jean","1932","France","87","1302490"
+"628","617","585","586","Scorpio Rising","Anger, Kenneth","1963","USA","28","1775245"
+"629","618","610","579","Red Circle, The","Melville, Jean-Pierre","1970","France","150","1401915"
+"630","616","749","851","Ladies Man, The","Lewis, Jerry","1961","USA","95","1855300"
+"631","622","869","833","Pink Flamingos","Waters, John","1972","USA","92","1298230"
+"632","626","768","","Portrait of Jason","Clarke, Shirley","1967","USA","105","1434175"
+"633","631","502","529","Alphaville","Godard, Jean-Luc","1965","France","95","1316524"
+"634","634","392","401","Don't Look Back","Pennebaker, D.A.","1967","USA","96","1305223"
+"635","632","692","739","Golden Coach, The","Renoir, Jean","1952","Italy","100","1294642"
+"636","644","673","612","Rebecca","Hitchcock, Alfred","1940","USA","130","1293824"
+"637","635","485","442","Hour of the Wolf","Bergman, Ingmar","1968","Sweden","88","1301151"
+"638","636","542","533","Pat Garrett and Billy the Kid","Peckinpah, Sam","1973","USA","122","1300027"
+"639","629","684","647","Harakiri","Kobayashi, Masaki","1962","Japan","133","1304920"
+"640","647","701","696","Casque d'or","Becker, Jacques","1952","France","96","1417947"
+"641","656","526","559","Royal Tenenbaums, The","Anderson, Wes","2001","USA","109","1306031"
+"642","648","675","653","Titanic","Cameron, James","1997","USA","194","1292722"
+"643","652","604","611","Dark Knight, The","Nolan, Christopher","2008","USA","152","1851857"
+"644","655","","","Watermelon Woman, The","Dunye, Cheryl","1996","USA","90","1304762"
+"645","637","576","555","Hana-bi","Kitano, Takeshi","1997","Japan","103","1302642"
+"646","642","669","632","They Live by Night","Ray, Nicholas","1948","USA","95","1298951"
+"647","646","464","512","Frankenstein","Whale, James","1931","USA","70","1296929"
+"648","641","584","562","Rocky","Avildsen, John G.","1976","USA","119","1295742"
+"649","638","632","598","Dr. Mabuse, the Gambler","Lang, Fritz","1922","Germany","270","1306016"
+"650","640","564","578","My Own Private Idaho","Van Sant, Gus","1991","USA","102","1292792"
+"651","659","568","602","Scarface","Hawks, Howard","1932","USA","93","1299608"
+"652","645","621","560","Bring Me the Head of Alfredo Garcia","Peckinpah, Sam","1974","USA","112","1294041"
+"653","654","696","652","Strike","Eisenstein, Sergei","1925","USSR","82","1302186"
+"654","639","452","514","Hoop Dreams","James, Steve","1994","USA","170","1297797"
+"655","671","633","593","Nazarín","Buñuel, Luis","1958","Mexico","94","1303560"
+"656","678","","","Ratcatcher","Ramsay, Lynne","1999","UK","94","1322674"
+"657","643","681","631","Walkabout","Roeg, Nicolas","1971","UK","100","1295835"
+"658","670","575","623","Manchurian Candidate, The","Frankenheimer, John","1962","USA","126","1293840"
+"659","651","534","567","Vitelloni, I","Fellini, Federico","1953","Italy","104","1300779"
+"660","665","637","626","Marriage of Maria Braun, The","Fassbinder, Rainer Werner","1979","West Germany","120","1298655"
+"661","649","518","501","Top Hat","Sandrich, Mark","1935","USA","99","1293168"
+"662","650","660","625","Xala","Sembene, Ousmane","1975","Senegal","123","1962586"
+"663","675","773","693","Navigator, The","Keaton, Buster & Donald Crisp","1924","USA","59","1293618"
+"664","662","737","822","Akira","Otomo, Katsuhiro","1988","Japan","124","1302770"
+"665","664","608","618","Lady Vanishes, The","Hitchcock, Alfred","1938","UK","97","1292760"
+"666","672","615","637","Arrebato","Zulueta, Iván","1979","Spain","105","2278780"
+"667","658","","","Millennium Mambo","Hou Hsiao-hsien","2001","Taiwan","119","1873535"
+"668","692","","","Prophet, A","Audiard, Jacques","2009","France","155","3077739"
+"669","657","682","682","Virgin Spring, The","Bergman, Ingmar","1960","Sweden","88","1293156"
+"670","660","620","723","Amour","Haneke, Michael","2012","Austria","127","4798707"
+"671","703","699","717","Piano Teacher, The","Haneke, Michael","2001","Austria","130","1306730"
+"672","696","666","650","Purple Rose of Cairo, The","Allen, Woody","1985","USA","82","1292994"
+"673","695","605","599","Young Frankenstein","Brooks, Mel","1974","USA","105","1293782"
+"674","661","614","616","Bambi","Hand, David","1942","USA","69","1295148"
+"675","668","561","580","Silent Light","Reygadas, Carlos","2007","Mexico","136","2002721"
+"676","663","647","639","Fat City","Huston, John","1972","USA","96","1303358"
+"677","718","733","753","Ace in the Hole","Wilder, Billy","1951","USA","112","1293841"
+"678","666","811","877","Posto, Il","Olmi, Ermanno","1961","Italy","93","1302119"
+"679","694","491","469","Toy Story","Lasseter, John","1995","USA","81","1291575"
+"680","676","522","548","Farewell, My Concubine","Chen Kaige","1993","China","155","1291546"
+"681","667","826","845","Ghost and Mrs. Muir, The","Mankiewicz, Joseph L.","1947","USA","104","1300756"
+"682","685","770","767","Wild at Heart","Lynch, David","1990","USA","127","1298974"
+"683","687","589","568","Rushmore","Anderson, Wes","1998","USA","93","1296835"
+"684","682","487","498","Chronicle of a Summer","Rouch, Jean & Edgar Morin","1961","France","85","1421292"
+"685","673","837","858","Intruder, The","Denis, Claire","2004","France","130","1440407"
+"686","691","686","697","Robocop","Verhoeven, Paul","1987","USA","102","1294791"
+"687","706","704","686","When Harry Met Sally...","Reiner, Rob","1989","USA","95","1291842"
+"688","674","426","449","Sorrow and the Pity, The","Ophüls, Marcel","1969","France","260","1295073"
+"689","720","566","583","Killing, The","Kubrick, Stanley","1956","USA","85","1293936"
+"690","681","567","570","Trainspotting","Boyle, Danny","1996","UK","95","1292528"
+"691","677","","","Hyènes","Diop Mambéty, Djibril","1992","Senegal","110","1429116"
+"692","679","688","665","Mr. Smith Goes to Washington","Capra, Frank","1939","USA","129","1297127"
+"693","749","618","648","Distant","Ceylan, Nuri Bilge","2002","Turkey","110","1307921"
+"694","715","","","Great Beauty, The","Sorrentino, Paolo","2013","Italy","141","10760030"
+"695","684","569","569","Local Hero","Forsyth, Bill","1983","UK","111","1300467"
+"696","686","514","500","Gimme Shelter","Maysles, Albert/David Maysles/Charlotte Zwerin","1970","USA","91","1419271"
+"697","700","","","Wake in Fright","Kotcheff, Ted","1971","Australia","109","1300892"
+"698","680","694","695","WR: Mysteries of the Organism","Makavejev, Dusan","1971","Yugoslavia","84","1845260"
+"699","693","755","701","Chronicle of Anna Magdalena Bach","Straub, Jean-Marie","1968","West Germany","94","1418714"
+"700","683","827","779","7 Women","Ford, John","1965","USA","87","1825702"
+"701","705","547","532","Phantom of Liberty, The","Buñuel, Luis","1974","France","104","1297188"
+"702","713","672","643","Dancer in the Dark","von Trier, Lars","2000","Denmark","140","1291562"
+"703","716","759","706","Thelma & Louise","Scott, Ridley","1991","USA","128","1291992"
+"704","732","","","Fish Tank","Arnold, Andrea","2009","UK","123","3073875"
+"705","689","","","Cure","Kurosawa, Kiyoshi","1997","Japan","111","1304665"
+"706","688","671","671","Party, The","Edwards, Blake","1968","USA","99","1303245"
+"707","704","","","Roma","Cuarón, Alfonso","2018","Mexico","135","1950330"
+"708","710","573","614","4 Months, 3 Weeks and 2 Days","Mungiu, Cristian","2007","Romania","113","2078989"
+"709","701","725","679","Lancelot du Lac","Bresson, Robert","1974","France","85","1297264"
+"710","719","958","","Adventures of Prince Achmed, The","Reiniger, Lotte","1926","Germany","65","1302814"
+"711","702","598","609","Before Sunset","Linklater, Richard","2004","USA","80","1291990"
+"712","690","670","657","Nouvelle vague","Godard, Jean-Luc","1990","France","90","1303520"
+"713","697","609","591","Salesman","Maysles, Albert/David Maysles/Charlotte Zwerin","1969","USA","85","1395036"
+"714","699","769","760","Sauve qui peut (la vie)","Godard, Jean-Luc","1980","France","87","1401513"
+"715","698","803","772","Holy Mountain, The","Jodorowsky, Alejandro","1973","Mexico","114","1401905"
+"716","714","","","Carol","Haynes, Todd","2015","UK","118","10757577"
+"717","707","658","622","Place in the Sun, A","Stevens, George","1951","USA","122","1293047"
+"718","709","772","797","Hunger","McQueen, Steve","2008","UK","96","3070921"
+"719","708","946","881","Sun Shines Bright, The","Ford, John","1953","USA","90","1293556"
+"720","730","560","596","Hard Day's Night, A","Lester, Richard","1964","UK","87","1298566"
+"721","717","751","726","Moulin Rouge!","Luhrmann, Baz","2001","Australia","127","1304641"
+"722","711","784","758","Kaagaz Ke Phool","Dutt, Guru","1959","India","148","2264801"
+"723","712","781","770","Hawks and the Sparrows, The","Pasolini, Pier Paolo","1966","Italy","91","1294761"
+"724","772","","","Malcolm X","Lee, Spike","1992","USA","201","1292681"
+"725","728","639","594","Ben-Hur","Wyler, William","1959","USA","212","1293150"
+"726","724","645","617","Antonio das Mortes","Rocha, Glauber","1969","Brazil","95","2567883"
+"727","729","723","685","Short Film About Killing, A","Kieslowski, Krzysztof","1987","Poland","85","1303654"
+"728","733","521","513","Big Heat, The","Lang, Fritz","1953","USA","90","2043434"
+"729","741","","","New Leaf, A","May, Elaine","1971","USA","102","1303324"
+"730","721","700","741","Circus, The","Chaplin, Charles","1928","USA","72","1299628"
+"731","722","","","One Way or Another","Gómez, Sara","1977","Cuba","78","1902590"
+"732","726","980","946","Stand by Me","Reiner, Rob","1986","USA","89","1292925"
+"733","751","738","680","Dames du Bois de Boulogne, Les","Bresson, Robert","1945","France","85","1307580"
+"734","754","677","642","Dazed and Confused","Linklater, Richard","1993","USA","103","1294720"
+"735","723","800","764","Moonfleet","Lang, Fritz","1955","USA","89","1303568"
+"736","742","663","654","Titicut Follies","Wiseman, Frederick","1967","USA","84","1421822"
+"737","735","999","988","Design for Living","Lubitsch, Ernst","1933","USA","90","1775077"
+"738","739","715","683","Bad and the Beautiful, The","Minnelli, Vincente","1952","USA","118","1449829"
+"739","813","966","954","Red Beard","Kurosawa, Akira","1965","Japan","185","1296679"
+"740","725","744","703","Grido, Il","Antonioni, Michelangelo","1957","Italy","111","1293428"
+"741","736","603","592","Love Me Tonight","Mamoulian, Rouben","1932","USA","96","1297367"
+"742","744","591","613","Fly, The","Cronenberg, David","1986","USA","96","1293073"
+"743","747","655","662","Y tu mamá también","Cuarón, Alfonso","2001","Mexico","105","1303333"
+"744","727","731","676","Tiger of Eschnapur, The","Lang, Fritz","1958","West Germany","101","1441365"
+"745","731","830","773","New York, New York","Scorsese, Martin","1977","USA","155","1292878"
+"746","743","984","","Phantom of the Paradise","De Palma, Brian","1974","USA","91","1754975"
+"747","734","","","Oh, Sun","Hondo, Med","1970","France","98","6030619"
+"748","737","721","720","Emperor's Naked Army Marches On, The","Hara, Kazuo","1987","Japan","122","1308082"
+"749","756","727","668","Wild Child, The","Truffaut, François","1970","France","85","1300961"
+"750","802","816","745","Idiots, The","von Trier, Lars","1998","Denmark","117","1302252"
+"751","738","950","","Paper Moon","Bogdanovich, Peter","1973","USA","102","1303357"
+"752","745","","","Social Network, The","Fincher, David","2010","USA","120","3205624"
+"753","740","483","526","Triumph of the Will","Riefenstahl, Leni","1935","Germany","110","1306186"
+"754","755","641","597","Streetcar Named Desire, A","Kazan, Elia","1951","USA","122","1293590"
+"755","771","814","823","Diaries, Notes and Sketches","Mekas, Jonas","1969","USA","177","3024645"
+"756","821","761","821","Firemen's Ball, The","Forman, Milos","1967","Czechoslovakia","73","1303080"
+"757","780","651","714","Big Deal on Madonna Street","Monicelli, Mario","1958","Italy","91","1303089"
+"758","761","","","Born in Flames","Borden, Lizzie","1983","USA","79","1966826"
+"759","748","565","640","Raising Arizona","Coen, Joel & Ethan Coen","1987","USA","94","1293276"
+"760","757","743","807","New World, The","Malick, Terrence","2005","USA","135","1419942"
+"761","790","714","740","Fort Apache","Ford, John","1948","USA","127","1302262"
+"762","746","990","934","Subarnarekha","Ghatak, Ritwik","1965","India","126","2368758"
+"763","797","642","605","Memento","Nolan, Christopher","2000","USA","113","1304447"
+"764","750","572","590","Detour","Ulmer, Edgar G.","1945","USA","69","1296600"
+"765","770","756","721","Lolita","Kubrick, Stanley","1962","UK","152","1296992"
+"766","752","563","624","Belle Noiseuse, La","Rivette, Jacques","1991","France","240","1301214"
+"767","753","776","729","Flaming Creatures","Smith, Jack","1963","USA","45","1466416"
+"768","803","","","Mädchen in Uniform","Sagan, Leontine","1931","Germany","87","1422193"
+"769","777","713","681","Man Who Would Be King, The","Huston, John","1975","UK","129","1293076"
+"770","760","838","775","Age of the Earth, The","Rocha, Glauber","1980","Brazil","158","2061897"
+"771","758","825","765","Veronika Voss","Fassbinder, Rainer Werner","1982","West Germany","105","1302108"
+"772","789","793","842","Two English Girls","Truffaut, François","1971","France","108","1292773"
+"773","759","707","712","Vive L'Amour","Tsai Ming-liang","1994","Taiwan","118","1296370"
+"774","765","787","755","Ossessione","Visconti, Luchino","1943","Italy","140","1299228"
+"775","764","987","997","Hellzapoppin'","Potter, H.C.","1941","USA","84","2011855"
+"776","791","559","534","Rebel Without a Cause","Ray, Nicholas","1955","USA","111","1295416"
+"777","762","947","883","Good Morning","Ozu, Yasujiro","1959","Japan","94","1298063"
+"778","763","646","645","Great Expectations","Lean, David","1946","UK","118","1297550"
+"779","766","790","747","Trial, The","Welles, Orson","1962","France","119","1303554"
+"780","787","929","927","Mamma Roma","Pasolini, Pier Paolo","1962","Italy","110","1293305"
+"781","768","697","649","Foolish Wives","von Stroheim, Erich","1922","USA","117","1299482"
+"782","807","659","661","JFK","Stone, Oliver","1991","USA","189","1292230"
+"783","769","638","641","Mother and Son","Sokurov, Aleksandr","1997","Russia","73","1304870"
+"784","786","831","802","Morocco","von Sternberg, Josef","1930","USA","92","1295600"
+"785","817","989","914","Chikamatsu monogatari","Mizoguchi, Kenji","1954","Japan","100","1303600"
+"786","776","","","American Werewolf in London, An","Landis, John","1981","UK","97","1295077"
+"787","767","","","Wings","Shepitko, Larisa","1966","USSR","85","1471651"
+"788","775","988","915","Cairo Station","Chahine, Youssef","1958","Egypt","77","2979522"
+"789","778","624","659","Chant d'amour, Un","Genet, Jean","1950","France","26","1436690"
+"790","781","879","843","Cook, the Thief, His Wife & Her Lover, The","Greenaway, Peter","1989","UK","124","1304582"
+"791","773","597","619","39 Steps, The","Hitchcock, Alfred","1935","UK","87","1298412"
+"792","794","718","677","Miller's Crossing","Coen, Joel & Ethan Coen","1990","USA","115","1292060"
+"793","792","757","689","Ferris Bueller's Day Off","Hughes, John","1986","USA","103","1295437"
+"794","801","710","669","Requiem for a Dream","Aronofsky, Darren","2000","USA","100","1292270"
+"795","774","676","715","Zelig","Allen, Woody","1983","USA","79","1293846"
+"796","810","555","608","Evil Dead II","Raimi, Sam","1987","USA","84","1293448"
+"797","784","636","630","Blissfully Yours","Weerasethakul, Apichatpong","2002","Thailand","125","1307997"
+"798","785","627","634","Diaboliques, Les","Clouzot, Henri-Georges","1955","France","114","1293213"
+"799","796","","","35 Shots of Rum","Denis, Claire","2008","France","101","3040430"
+"800","793","","","Trouble Every Day","Denis, Claire","2001","France","101","1303378"
+"801","779","812","743","Faster, Pussycat! Kill! Kill!","Meyer, Russ","1965","USA","83","1306360"
+"802","783","778","757","Code Unknown","Haneke, Michael","2000","France","118","1296949"
+"803","782","829","824","Taipei Story","Yang, Edward","1985","Taiwan","119","1305327"
+"804","804","732","742","All Quiet on the Western Front","Milestone, Lewis","1930","USA","133","1295116"
+"805","843","568","602","Scarface","De Palma, Brian","1983","USA","170","1299608"
+"806","806","703","667","Funny Games","Haneke, Michael","1997","Austria","108","1306548"
+"807","837","","","Margaret","Lonergan, Kenneth","2011","USA","150","1928196"
+"808","795","828","815","Producers, The","Brooks, Mel","1968","USA","88","1303293"
+"809","816","552","587","Shock Corridor","Fuller, Samuel","1963","USA","101","1298471"
+"810","818","728","809","Van Gogh","Pialat, Maurice","1991","France","158","1418998"
+"811","815","843","850","Women on the Verge of a Nervous Breakdown","Almodóvar, Pedro","1988","Spain","88","1300952"
+"812","799","823","778","Forbidden Games","Clément, René","1952","France","87","1421933"
+"813","812","782","750","Abraham's Valley","Oliveira, Manoel de","1993","Portugal","187","1303467"
+"814","800","877","820","Dog Star Man","Brakhage, Stan","1964","USA","75","26881181"
+"815","809","932","958","Broadcast News","Brooks, James L.","1987","USA","133","1292511"
+"816","832","631","674","Sur, El","Erice, Víctor","1983","Spain","95","1477717"
+"817","805","","","Rose Hobart","Cornell, Joseph","1936","USA","20","2266216"
+"818","820","854","796","Woman of Paris, A","Chaplin, Charles","1923","USA","78","1296988"
+"819","811","599","658","Still Life","Jia Zhangke","2006","China","113","1872133"
+"820","814","685","692","My Life as a Dog","Hallström, Lasse","1985","Sweden","101","1291976"
+"821","808","667","606","Passion","Godard, Jean-Luc","1982","France","87","1293027"
+"822","827","735","711","Thief of Bagdad, The","Powell, Michael/Ludwig Berger/Tim Whelan","1940","UK","106","1293444"
+"823","831","765","736","Smiles of a Summer Night","Bergman, Ingmar","1955","Sweden","108","1298494"
+"824","829","","","Petite Maman","Sciamma, Céline","2021","France","73","35225859"
+"825","819","943","878","O Lucky Man!","Anderson, Lindsay","1973","UK","178","1296105"
+"826","848","504","557","Grizzly Man","Herzog, Werner","2005","USA","103","1422951"
+"827","830","780","791","Deep End","Skolimowski, Jerzy","1970","UK","88","1300644"
+"828","835","849","819","Naked Island, The","Shindo, Kaneto","1960","Japan","96","1303710"
+"829","823","","","Losing Ground","Collins, Kathleen","1982","USA","86","5050316"
+"830","862","805","","Amores perros","González Iñárritu, Alejandro","2000","Mexico","153","1292216"
+"831","826","678","666","Edward Scissorhands","Burton, Tim","1990","USA","105","1292370"
+"832","822","848","814","She Wore a Yellow Ribbon","Ford, John","1949","USA","103","1293312"
+"833","913","680","709","Let the Right One In","Alfredson, Tomas","2008","Sweden","114","2968813"
+"834","824","752","705","Dodes'ka-den","Kurosawa, Akira","1970","Japan","140","1303077"
+"835","860","705","763","Irréversible","Noé, Gaspar","2002","France","97","1296935"
+"836","828","695","792","Dumbo","Sharpsteen, Ben","1941","USA","64","1304603"
+"837","825","824","780","Street of Shame","Mizoguchi, Kenji","1956","Japan","87","1466788"
+"838","838","613","698","Son, The","Dardenne, Jean-Pierre & Luc Dardenne","2002","Belgium","103","1305337"
+"839","833","","","Funeral Parade of Roses","Matsumoto, Toshio","1969","Japan","105","1449471"
+"840","836","810","","Commune (Paris, 1871), La","Watkins, Peter","2000","France","345","1909533"
+"841","879","654","691","Great Escape, The","Sturges, John","1963","USA","172","1294947"
+"842","854","606","690","Invasion of the Body Snatchers","Siegel, Don","1956","USA","80","1296030"
+"843","834","661","656","Gummo","Korine, Harmony","1997","USA","88","1302614"
+"844","847","","","Persepolis","Paronnaud, Vincent & Marjane Satrapi","2007","France","96","1962116"
+"845","852","857","","Inglourious Basterds","Tarantino, Quentin","2009","USA","153","1438652"
+"846","839","959","987","Female Trouble","Waters, John","1974","USA","98","1304866"
+"847","841","630","638","White Heat","Walsh, Raoul","1949","USA","114","1301216"
+"848","869","","","Angel","Lubitsch, Ernst","1937","USA","91","1297042"
+"849","856","846","","Point Break","Bigelow, Kathryn","1991","USA","122","1301161"
+"850","840","821","762","Hitler: A Film from Germany","Syberberg, Hans-Jürgen","1977","West Germany","442","1855658"
+"851","863","","","Asthenic Syndrome, The","Muratova, Kira","1989","USSR","153","1901908"
+"852","845","","","Once Upon a Time... in Hollywood","Tarantino, Quentin","2019","USA","161","27087724"
+"853","865","872","788","Time of the Gypsies","Kusturica, Emir","1988","Yugoslavia","142","1303525"
+"854","934","899","907","Mon oncle d'Amérique","Resnais, Alain","1980","France","123","1295740"
+"855","842","819","790","Right Stuff, The","Kaufman, Philip","1983","USA","193","1293371"
+"856","861","775","768","Starship Troopers","Verhoeven, Paul","1997","USA","129","1295384"
+"857","866","","","Blue is the Warmest Colour","Kechiche, Abdellatif","2013","France","179","10535568"
+"858","873","","","Mikey and Nicky","May, Elaine","1976","USA","106","1855308"
+"859","850","998","971","Too Early, Too Late","Straub, Jean-Marie & Danièle Huillet","1981","France","100","3012451"
+"860","857","","","Toute une nuit","Akerman, Chantal","1982","Belgium","90","3442923"
+"861","851","","","Shame","Bergman, Ingmar","1968","Sweden","103","1293677"
+"862","844","891","840","They Were Expendable","Ford, John","1945","USA","135","1298789"
+"863","887","724","687","Claire's Knee","Rohmer, Eric","1970","France","105","1294915"
+"864","846","860","852","Sicilia!","Straub, Jean-Marie & Danièle Huillet","1999","Italy","66","1303446"
+"865","867","","","Clueless","Heckerling, Amy","1995","USA","97","1295295"
+"866","849","852","854","My Little Loves","Eustache, Jean","1974","France","123","1547099"
+"867","853","719","710","Tin Drum, The","Schlöndorff, Volker","1979","West Germany","142","1292207"
+"868","889","693","722","Saving Private Ryan","Spielberg, Steven","1998","USA","169","1292849"
+"869","855","792","828","Spione","Lang, Fritz","1928","Germany","90","1766084"
+"870","859","974","999","Shanghai Express","von Sternberg, Josef","1932","USA","82","1293996"
+"871","864","745","794","We All Loved Each Other So Much","Scola, Ettore","1974","Italy","124","1306049"
+"872","858","711","660","Breakfast at Tiffany's","Edwards, Blake","1961","USA","115","1325958"
+"873","874","","","Gloria","Cassavetes, John","1980","USA","121","1293439"
+"874","871","","","Unknown, The","Browning, Tod","1927","USA","63","1484012"
+"875","924","907","900","Cría cuervos","Saura, Carlos","1976","Spain","110","1303813"
+"876","868","875","839","Outskirts","Barnet, Boris","1933","USSR","98","2368635"
+"877","875","656","644","Monty Python and the Holy Grail","Gilliam, Terry & Terry Jones","1975","UK","90","1294917"
+"878","870","763","864","Adventures of Robin Hood, The","Curtiz, Michael & William Keighley","1938","USA","102","1300570"
+"879","905","","","Red and the White, The","Jancsó, Miklós","1967","Hungary","90","1301261"
+"880","912","","","Atlantics","Diop, Mati","2019","France","106","33413905"
+"881","872","720","707","Red Sorghum","Zhang Yimou","1987","China","91","1306505"
+"882","908","985","916","Bridges of Madison County, The","Eastwood, Clint","1995","USA","135","1293929"
+"883","880","","","Amour fou, L'","Rivette, Jacques","1969","France","252","1477848"
+"884","878","881","811","Misfits, The","Huston, John","1961","USA","124","1300116"
+"885","881","","","Mysteries of Lisbon","Ruiz, Raúl","2010","Portugal","272","3082472"
+"886","886","","","Night of Counting the Years, The","Salam, Shadi Abdel","1969","Egypt","102","3621245"
+"887","884","687","635","African Queen, The","Huston, John","1951","UK","105","1418997"
+"888","898","822","781","Who's Afraid of Virginia Woolf?","Nichols, Mike","1966","USA","129","1295137"
+"889","877","807","777","Miracle of Morgan's Creek, The","Sturges, Preston","1944","USA","99","1303419"
+"890","882","","","Akira Kurosawa's Dreams","Kurosawa, Akira","1990","Japan","119","1299112"
+"891","883","938","","Spring, Summer, Autumn, Winter… and Spring","Kim Ki-duk","2003","South Korea","103","1316580"
+"892","893","975","906","Stroszek","Herzog, Werner","1977","West Germany","115","1306027"
+"893","885","734","730","Seasons, The","Peleshian, Artavazd","1975","USSR","29","2268557"
+"894","890","726","713","Woman Next Door, The","Truffaut, François","1981","France","106","1296563"
+"895","899","683","718","Airplane!","Abrahams, Jim/David Zucker/Jerry Zucker","1980","USA","86","1292785"
+"896","897","902","974","Caro diario","Moretti, Nanni","1993","Italy","100","1303466"
+"897","894","","","Showgirls","Verhoeven, Paul","1995","USA","128","1297320"
+"898","888","912","890","Juliet of the Spirits","Fellini, Federico","1965","Italy","148","1299485"
+"899","915","904","882","They Live","Carpenter, John","1988","USA","93","1295834"
+"900","902","965","918","Zabriskie Point","Antonioni, Michelangelo","1970","USA","112","1293623"
+"901","920","","","Tongues Untied","Riggs, Marlon","1989","USA","55","1304347"
+"902","896","","","Exotica","Egoyan, Atom","1994","Canada","104","1292520"
+"903","895","818","786","Assault on Precinct 13","Carpenter, John","1976","USA","90","1292669"
+"904","903","934","966","Deep Red","Argento, Dario","1975","Italy","98","1299898"
+"905","891","832","787","It's a Gift","McLeod, Norman Z.","1934","USA","73","1303412"
+"906","","916","893","Hôtel Terminus","Ophüls, Marcel","1988","USA","267","2135352"
+"907","892","","","Heimat [TV]","Reitz, Edgar","1984","West Germany","924","1427359"
+"908","900","890","952","Phantom Carriage, The","Sjöström, Victor","1921","Sweden","107","1465471"
+"909","907","","","Wendy and Lucy","Reichardt, Kelly","2008","USA","80","3047754"
+"910","904","167","165","River, The","Tsai Ming-liang","1997","Taiwan","115","1416677"
+"911","962","815","744","Port of Shadows","Carné, Marcel","1938","France","91","1416910"
+"912","919","896","910","Criminal Life of Archibaldo de la Cruz, The","Buñuel, Luis","1955","Mexico","91","1437408"
+"913","901","935","879","End of Summer, The","Ozu, Yasujiro","1961","Japan","103","1306069"
+"914","928","","","Meek's Cutoff","Reichardt, Kelly","2010","USA","104","4067195"
+"915","911","","","Welfare","Wiseman, Frederick","1975","USA","167","1981967"
+"916","906","977","902","Simon of the Desert","Buñuel, Luis","1965","Mexico","43","1302911"
+"917","949","250","244","Tabu","Gomes, Miguel","2012","Portugal","118","1296577"
+"918","909","","","Ceddo","Sembene, Ousmane","1977","Senegal","120","1962587"
+"919","922","866","848","Anatomy of a Murder","Preminger, Otto","1959","USA","160","1293177"
+"920","916","739","782","American in Paris, An","Minnelli, Vincente","1951","USA","115","1316522"
+"921","917","753","870","Night of the Demon","Tourneur, Jacques","1957","UK","95","1305431"
+"922","921","856","826","Last Temptation of Christ, The","Scorsese, Martin","1988","USA","164","1292889"
+"923","918","","","Zorns Lemma","Frampton, Hollis","1970","USA","60","1722722"
+"924","923","","","Cemetery of Splendour","Weerasethakul, Apichatpong","2015","Thailand","122","21323277"
+"925","945","","","Fountainhead, The","Vidor, King","1949","USA","114","1299716"
+"926","932","813","800","Roman Holiday","Wyler, William","1953","USA","118","1293839"
+"927","937","","","People on Sunday","Siodmak, Robert & Edgar G. Ulmer","1930","Germany","74","1940179"
+"928","946","939","922","Before Sunrise","Linklater, Richard","1995","USA","101","1296339"
+"929","927","722","725","Killer, The","Woo, John","1989","Hong Kong","110","1296519"
+"930","963","","","Shaun of the Dead","Wright, Edgar","2004","UK","99","1308755"
+"931","925","924","886","Reds","Beatty, Warren","1981","USA","200","1292891"
+"932","933","867","816","7th Heaven","Borzage, Frank","1927","USA","119","1300790"
+"933","914","997","","Boucher, Le","Chabrol, Claude","1970","France","94","1306218"
+"934","943","730","920","Near Dark","Bigelow, Kathryn","1987","USA","95","1302399"
+"935","939","788","798","Blood Simple","Coen, Joel & Ethan Coen","1984","USA","97","1302542"
+"936","940","679","728","History of Violence, A","Cronenberg, David","2005","USA","96","1422917"
+"937","926","","","Seven Beauties","Wertmüller, Lina","1975","Italy","116","1292985"
+"938","935","","","Portrait of Jennie","Dieterle, William","1948","USA","86","1292509"
+"939","982","897","885","Trou, Le","Becker, Jacques","1960","France","131","1424334"
+"940","929","","","Mothlight","Brakhage, Stan","1963","USA","4","1463715"
+"941","990","","","Sorpasso, Il","Risi, Dino","1962","Italy","105","1979027"
+"942","957","865","846","American Graffiti","Lucas, George","1973","USA","110","1300106"
+"943","931","748","716","Dirty Harry","Siegel, Don","1971","USA","102","1293045"
+"944","938","","","Elephant [TV]","Clarke, Alan","1989","UK","39","1921860"
+"945","930","","","From the Clouds to the Resistance","Straub, Jean-Marie & Danièle Huillet","1979","Italy","104","2978169"
+"946","936","903","861","Enfance nue, L'","Pialat, Maurice","1968","France","80","1427865"
+"947","","839","837","Dust in the Wind","Hou Hsiao-hsien","1986","Taiwan","109","1292330"
+"948","950","936","873","Chienne, La","Renoir, Jean","1931","France","95","1306486"
+"949","971","952","892","Lord of the Rings: The Return of the King, The","Jackson, Peter","2003","New Zealand","201","1291552"
+"950","941","","","Khrustalyov, My Car!","German, Aleksei","1998","Russia","147","2142191"
+"951","","835","983","Diary","Perlov, David","1983","Israel","330","3828369"
+"952","944","863","813","Last Emperor, The","Bertolucci, Bernardo","1987","China","163","1293172"
+"953","965","","","Return, The","Zvyagintsev, Andrey","2003","Russia","110","1308074"
+"954","942","","","Ice Storm, The","Lee, Ang","1997","USA","113","1300930"
+"955","981","702","673","Spartacus","Kubrick, Stanley","1960","USA","197","1298366"
+"956","947","785","808","American Beauty","Mendes, Sam","1999","USA","121","1292062"
+"957","","973","905","Excalibur","Boorman, John","1981","UK","140","1297548"
+"958","951","","","Perfumed Nightmare","Tahimik, Kidlat","1977","Philippines","93","3118188"
+"959","961","874","923","Othello","Welles, Orson","1951","Italy","90","1296289"
+"960","","","","Hurt Locker, The","Bigelow, Kathryn","2008","USA","130","2028645"
+"961","","771","771","Cool Hand Luke","Rosenberg, Stuart","1967","USA","126","1293698"
+"962","980","717","737","Avatar","Cameron, James","2009","USA","161","1652587"
+"963","948","","","Doomed Love [TV]","Oliveira, Manoel de","1978","Portugal","262","3012443"
+"964","974","","","Duel","Spielberg, Steven","1971","USA","90","1433496"
+"965","958","883","868","Léon","Besson, Luc","1994","France","119","1295644"
+"966","975","750","754","Z","Costa-Gavras, Constantin","1969","France","127","1299026"
+"967","960","","","Tarnished Angels, The","Sirk, Douglas","1957","USA","91","1825703"
+"968","955","786","831","Olympia","Riefenstahl, Leni","1938","Germany","201","1297424"
+"969","952","847","805","Sawdust and Tinsel","Bergman, Ingmar","1953","Sweden","92","1300957"
+"970","964","668","694","Gun Crazy","Lewis, Joseph H.","1950","USA","86","1297016"
+"971","","","","Long Farewell, The","Muratova, Kira","1971","USSR","97","1299857"
+"972","954","955","967","Duel in the Sun","Vidor, King","1946","USA","130","1294860"
+"973","","674","704","Ghostbusters","Reitman, Ivan","1984","USA","107","1293760"
+"974","956","","","True Heart Susie","Griffith, D.W.","1919","USA","87","2155524"
+"975","984","","","Carlito's Way","De Palma, Brian","1993","USA","144","1292646"
+"976","967","908","832","Rope","Hitchcock, Alfred","1948","USA","80","1301230"
+"977","959","895","884","Moi, un Noir","Rouch, Jean","1958","France","70","1434232"
+"978","978","842","774","Breakfast Club, The","Hughes, John","1985","USA","97","1295728"
+"979","973","","","Page of Madness, A","Kinugasa, Teinosuke","1926","Japan","70","1771234"
+"980","953","","","Fox and His Friends","Fassbinder, Rainer Werner","1975","West Germany","123","1437326"
+"981","968","911","941","Ride the High Country","Peckinpah, Sam","1962","USA","94","1303247"
+"982","","","","Pianist, The","Polanski, Roman","2002","France","148","1296736"
+"983","999","762","727","Last Detail, The","Ashby, Hal","1973","USA","105","1292937"
+"984","966","","","Summer with Monika","Bergman, Ingmar","1953","Sweden","96","1299536"
+"985","979","968","943","Reckless Moment, The","Ophüls, Max","1949","USA","82","1848297"
+"986","988","712","752","Host, The","Bong Joon-ho","2006","South Korea","119","1763134"
+"987","969","942","921","Anatahan","von Sternberg, Josef","1953","Japan","92","1963079"
+"988","972","878","829","Bête humaine, La","Renoir, Jean","1938","France","100","1436858"
+"989","992","886","866","Arabian Nights","Pasolini, Pier Paolo","1974","Italy","130","1294654"
+"990","","892","957","Elevator to the Gallows","Malle, Louis","1958","France","92","1394342"
+"991","","981","909","Not Reconciled","Straub, Jean-Marie","1965","West Germany","55","1850440"
+"992","996","845","901","Kwaidan","Kobayashi, Masaki","1964","Japan","183","1303083"
+"993","","742","751","Saturday Night and Sunday Morning","Reisz, Karel","1960","UK","89","1306028"
+"994","976","937","913","Gilda","Vidor, Charles","1946","USA","110","1301978"
+"995","983","","","Handsworth Songs","Akomfrah, John","1986","UK","61","10552811"
+"996","987","906","917","Sholay","Sippy, Ramesh","1975","India","162","2344919"
+"997","991","901","912","Ed Wood","Burton, Tim","1994","USA","124","1293683"
+"998","985","","","Sweetie","Campion, Jane","1989","Australia","97","1298736"
+"999","994","","","Godfather Part III, The","Coppola, Francis Ford","1990","USA","161","1294240"
+"1000","986","841","789","Numéro deux","Godard, Jean-Luc","1975","France","88","1429053"

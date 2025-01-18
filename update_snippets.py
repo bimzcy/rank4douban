@@ -9,7 +9,7 @@ import time
 import json
 import random
 import requests
-
+import cloudscraper
 from bs4 import BeautifulSoup
 
 headers = {
@@ -18,28 +18,56 @@ headers = {
 }
 
 
+scraper = cloudscraper.create_scraper()
+
+douban_imdb_r = requests.get('https://ourbits.github.io/PtGen/internal_map/douban_imdb_map.json')
+douban_imdb_map = douban_imdb_r.json()
+
 class DBSearch(object):
     def __init__(self, filename, rowname):
         rank_file = os.path.join('.', 'data', filename)
         f_csv = csv.DictReader(open(rank_file, encoding='utf-8'))
         self.csv = list(f_csv)
-        self.old_list = [(row[rowname], row['dbid']) for row in self.csv]
+        self.rowname = rowname
+
+    def get_old_row(self, value):
+        row_search = [i for i in self.csv if i[self.rowname] == value]
+        if len(row_search) > 0:
+            return row_search[0]
 
     def get_dbid(self, iden_id, **kwargs):
-        item_dbid_search = list(filter(lambda x: x[0] == iden_id, self.old_list))
-        if len(item_dbid_search) > 0 and item_dbid_search[0][1] != '':  # Use old
-            return item_dbid_search[0][1]
+        old_row = self.get_old_row(iden_id)
+        if old_row is not None and old_row.get('dbid') != '':  # Use old
+            return old_row.get('dbid')
         else:
+            # 如果传入了imdb_id，则首先从PtGen公开的map中搜索
+            if kwargs.get('imdbid'):
+                t = [i for i in douban_imdb_map if i['imdbid'] == kwargs['imdbid']]
+                if len(t) > 0:
+                    return t[0]['dbid']
+
             q = kwargs.get("imdbid") or kwargs.get("title")
             return self.get_dbid_from_search(q, kwargs.get("year"))
 
     @staticmethod
     def get_dbid_from_search(q, year=None):
         time.sleep(random.randint(1, 5))
-        r = requests.get("https://movie.douban.com/j/subject_suggest",
-                         params={"q": q},
-                         headers=headers)
+
+        """ subject_suggest 目前不返回任何数据，弃用
+        r = scraper.get("https://movie.douban.com/j/subject_suggest",
+                         params={"q": q})
         all_subject = r.json()
+        """
+
+        r = scraper.get("https://www.douban.com/search", params={"q": q, 'cat': 1002})
+        rb = BeautifulSoup(r.text, 'lxml')
+        all_subject = []
+        for subject in rb.select('div.result-list div.result'):
+            another = subject.select_one('div.title a[onclick]')
+            title = another.get_text(strip=True)
+            sid = re.search(r'sid: (\d+)', another.attrs['onclick']).group(1)
+            year = subject.select_one('span.subject-cast').get_text(strip=True).split(' / ')[-1]
+            all_subject.append({'id': sid, 'title': title, 'year': year})
 
         if year:
             all_subject = list(filter(lambda x: x.get("year") == str(year), all_subject))
@@ -47,11 +75,13 @@ class DBSearch(object):
         if len(all_subject) > 0:
             return all_subject[0].get("id")
 
-        return ''
+        return ""
 
-
-def get_list_raw(link, selector) -> list:
-    top_req = requests.get(link, headers=headers)
+def get_list_raw(link, selector, pass_cf = True, **kwargs) -> list:
+    if pass_cf:
+        top_req = scraper.get(link)
+    else:
+        top_req = requests.get(link, headers=headers, **kwargs)
     top_req.encoding = "utf-8"
     top_bs = BeautifulSoup(top_req.text, 'lxml')
     return top_bs.select(selector)
@@ -111,7 +141,7 @@ def update_imdb_top_250():
 
     # Get new top 250 rank list and update data file
     top_list = []
-    top_list_req = get_list_raw('https://www.imdb.com/chart/top', 'script#__NEXT_DATA__')
+    top_list_req = get_list_raw('https://www.imdb.com/chart/top', 'script#__NEXT_DATA__', pass_cf=False)
     top_list_raw = json.loads(top_list_req[0].get_text(strip=True))['props']['pageProps']['pageData']['chartTitles']['edges']
     
     for item in top_list_raw:
@@ -136,14 +166,14 @@ def update_afi_top_100():
                                 "#subcontent > div.pollListWrapper > div.pollList > div.listItemWrapper")
     for item in top_list_raw:
         item_text = item.get_text(strip=True)
-        item_search = re.search('(\d+)\.(.+?)\((\d+)\)', item_text)
+        item_search = re.search(r'(\d+)\.(.+?)\((\d+)\)', item_text)
         item_rank = item_search.group(1)
         item_title = item_search.group(2).strip()
         item_year = int(item_search.group(3))
         if item_title == "SUNRISE" and item_year == 1927:
             item_afiid = 12490
         else:
-            item_afiid = re.search("Movie=(\d+)", item.find("a")["href"]).group(1)
+            item_afiid = re.search(r"Movie=(\d+)", item.find("a")["href"]).group(1)
         item_dbid = search.get_dbid(item_afiid, title=item_title, year=item_year)
         new = {"rank": item_rank, "title": item_title, 'year': item_year, "afiid": item_afiid, "dbid": item_dbid}
         top_list.append(new)
@@ -163,7 +193,7 @@ def update_cclist():
     for item in top_list_raw:
         item_spine = item.find("td", class_="g-spine").get_text(strip=True).zfill(4)
         if item_spine and int(item_spine) > last_check_spine:  # We only record those item which has spine number
-            item_search = re.search("/(?P<type>films|boxsets)/(?P<num>\d+)", item["data-href"])
+            item_search = re.search(r"/(?P<type>films|boxsets)/(?P<num>\d+)", item["data-href"])
             item_type = item_search.group("type")
             if item_type == "films":  # This item is films type
                 item_num = item_search.group("num")
@@ -178,7 +208,7 @@ def update_cclist():
                 boxset_list_raw = get_list_raw(item["data-href"],
                                                "div.left > div > div > section.film-sets-list > div > ul > a")
                 for item1 in boxset_list_raw:
-                    item1_search = re.search("/(?P<type>films|boxsets)/(?P<num>\d+)", item1["href"])
+                    item1_search = re.search(r"/(?P<type>films|boxsets)/(?P<num>\d+)", item1["href"])
                     item1_num = item1_search.group("num")
                     item1_title = item1.find("p", class_="film-set-title").get_text(strip=True)
                     item1_year = item1.find("p", class_="film-set-year").get_text(strip=True)
@@ -201,11 +231,11 @@ def update_ss_(csvfile, reqlink, basedict):
         item_text = item.get_text(" ", strip=True)
         print(item_text)
         if re.search('Histoire', item_text):
-            item_search = re.search('(\d+) (.+)', item_text)
+            item_search = re.search(r'(\d+) (.+)', item_text)
             item_year = 1989
             item_bfid = "Histoire"
         else:
-            item_search = re.search('(\d+) (.+?)\((\d{4})\)', item_text)
+            item_search = re.search(r'(\d+) (.+?)\((\d{4})\)', item_text)
             item_year = int(item_search.group(3))
             item_bfid = re.search("films-tv-people/(.+)$", item.find("a")["href"]).group(1)
         item_rank = item_search.group(1)
@@ -248,7 +278,7 @@ def update_bgm_top_250():
         top_list_raw = get_list_raw('https://bgm.tv/anime/browser?sort=rank&page={}'.format(p),
                                     'ul#browserItemList > li')
         for item in top_list_raw:
-            item_rank = re.search("\d+", item.find("span", class_="rank").get_text(strip=True)).group(0)
+            item_rank = re.search(r"\d+", item.find("span", class_="rank").get_text(strip=True)).group(0)
             if int(item_rank) > 250:
                 break
 
@@ -256,11 +286,11 @@ def update_bgm_top_250():
             item_name = item.find("small", class_="grey").get_text(strip=True) if item.find("small", class_="grey") else ""
             item_info = item.find("p", class_="info tip").get_text(strip=True)
 
-            item_date_match = re.search("(\d{4})[年-](\d{1,2}[月-])?(\d{1,2}日?)?", item_info)
+            item_date_match = re.search(r"(\d{4})[年-](\d{1,2}[月-])?(\d{1,2}日?)?", item_info)
             item_date = item_date_match.group(0) if item_date_match else time.strftime("%Y")
 
-            item_bgmid = re.search("\d+", item["id"]).group(0)
-            item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search("(\d{4})", item_date).group(1))
+            item_bgmid = re.search(r"\d+", item["id"]).group(0)
+            item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search(r"(\d{4})", item_date).group(1))
 
             data = {"rank": item_rank, "name_cn": item_name_cn, 'name': item_name, 'date': item_date,
                     "bgmid": item_bgmid, "dbid": item_dbid}

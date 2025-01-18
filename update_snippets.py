@@ -24,14 +24,14 @@ douban_imdb_r = requests.get('https://ourbits.github.io/PtGen/internal_map/douba
 douban_imdb_map = douban_imdb_r.json()
 
 class DBSearch(object):
-    def __init__(self, filename, rowname):
+    def __init__(self, filename, pk):
         rank_file = os.path.join('.', 'data', filename)
         f_csv = csv.DictReader(open(rank_file, encoding='utf-8'))
         self.csv = list(f_csv)
-        self.rowname = rowname
+        self.pk = pk
 
     def get_old_row(self, value):
-        row_search = [i for i in self.csv if i[self.rowname] == value]
+        row_search = [i for i in self.csv if i[self.pk] == value]
         if len(row_search) > 0:
             return row_search[0]
 
@@ -77,15 +77,13 @@ class DBSearch(object):
 
         return ""
 
-def get_list_raw(link, selector, pass_cf = True, **kwargs) -> list:
+def request_with_bs4(link, pass_cf = True, **kwargs):
     if pass_cf:
         top_req = scraper.get(link)
     else:
         top_req = requests.get(link, headers=headers, **kwargs)
     top_req.encoding = "utf-8"
-    top_bs = BeautifulSoup(top_req.text, 'lxml')
-    return top_bs.select(selector)
-
+    return BeautifulSoup(top_req.text, 'lxml')
 
 def write_data_list(filename, header, data):
     rank_file = os.path.join('.', 'data', filename)
@@ -94,14 +92,13 @@ def write_data_list(filename, header, data):
         f_csv.writeheader()
         f_csv.writerows(data)
 
-
 def update_douban():
     top_list = []
 
     for start_ in range(0, 250, 25):
         time.sleep(random.randint(1, 5))
-        subjects = get_list_raw('https://movie.douban.com/top250?start={}'.format(start_), 'ol.grid_view > li')
-        for subject in subjects:
+        subjects_req = request_with_bs4(f'https://movie.douban.com/top250?start={start_}')
+        for subject in subjects_req.select('ol.grid_view > li'):
             try:
                 all_title = ''.join(map(lambda x: x.get_text(), subject.find_all('span', class_='title')))
                 all_title = all_title.replace('\xa0', ' ')
@@ -141,8 +138,9 @@ def update_imdb_top_250():
 
     # Get new top 250 rank list and update data file
     top_list = []
-    top_list_req = get_list_raw('https://www.imdb.com/chart/top', 'script#__NEXT_DATA__', pass_cf=False)
-    top_list_raw = json.loads(top_list_req[0].get_text(strip=True))['props']['pageProps']['pageData']['chartTitles']['edges']
+    top_list_req = request_with_bs4('https://www.imdb.com/chart/top', pass_cf=False)
+    next_data_json = top_list_req.select_one('script#__NEXT_DATA__').get_text(strip=True)
+    top_list_raw = json.loads(next_data_json)['props']['pageProps']['pageData']['chartTitles']['edges']
     
     for item in top_list_raw:
         item_rank = item['currentRank']
@@ -162,9 +160,8 @@ def update_afi_top_100():
 
     # Get top 100 afilist and update data file
     top_list = []
-    top_list_raw = get_list_raw("http://www.afi.com/100years/movies10.aspx",
-                                "#subcontent > div.pollListWrapper > div.pollList > div.listItemWrapper")
-    for item in top_list_raw:
+    top_list_req = request_with_bs4('http://www.afi.com/100years/movies10.aspx')
+    for item in top_list_req.select('#subcontent > div.pollListWrapper > div.pollList > div.listItemWrapper'):
         item_text = item.get_text(strip=True)
         item_search = re.search(r'(\d+)\.(.+?)\((\d+)\)', item_text)
         item_rank = item_search.group(1)
@@ -188,9 +185,8 @@ def update_cclist():
     top_list = search.csv  # Use old list for CC list only append item
     last_check_spine = max(map(lambda x: int(x["spine"]), search.csv))
 
-    top_list_raw = get_list_raw("https://www.criterion.com/shop/browse/list?sort=spine_number",
-                                "#gridview > tbody > tr")
-    for item in top_list_raw:
+    top_list_req = request_with_bs4('https://www.criterion.com/shop/browse/list?sort=spine_number')
+    for item in top_list_req.select("#gridview > tbody > tr"):
         item_spine = item.find("td", class_="g-spine").get_text(strip=True).zfill(4)
         if item_spine and int(item_spine) > last_check_spine:  # We only record those item which has spine number
             item_search = re.search(r"/(?P<type>films|boxsets)/(?P<num>\d+)", item["data-href"])
@@ -203,11 +199,9 @@ def update_cclist():
 
                 new = {"spine": item_spine, "title": item_title, 'year': item_year, "ccid": item_num, "dbid": item_dbid}
                 top_list.append(new)
-                print(new)
             elif item_type == "boxsets":
-                boxset_list_raw = get_list_raw(item["data-href"],
-                                               "div.left > div > div > section.film-sets-list > div > ul > a")
-                for item1 in boxset_list_raw:
+                boxset_list_req = request_with_bs4(item["data-href"])
+                for item1 in boxset_list_req.select("div.left > div > div > section.film-sets-list > div > ul > a"):
                     item1_search = re.search(r"/(?P<type>films|boxsets)/(?P<num>\d+)", item1["href"])
                     item1_num = item1_search.group("num")
                     item1_title = item1.find("p", class_="film-set-title").get_text(strip=True)
@@ -219,17 +213,15 @@ def update_cclist():
     write_data_list("03_CClist.csv", ['spine', 'title', 'year', 'ccid', 'dbid'], top_list)
 
 
-def update_ss_(csvfile, reqlink, basedict):
+def update_ss_(csvfile, reqlink):
     # Read our old data file
     search = DBSearch(csvfile, "bfid")
 
     # Get rank list and update data file
     top_list = []
-    top_list_raw = get_list_raw(reqlink,
-                                "#region-content-left-1 > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > h3")
-    for item in top_list_raw:
+    top_list_req = request_with_bs4(reqlink)
+    for item in top_list_req.select("#region-content-left-1 > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > h3"):
         item_text = item.get_text(" ", strip=True)
-        print(item_text)
         if re.search('Histoire', item_text):
             item_search = re.search(r'(\d+) (.+)', item_text)
             item_year = 1989
@@ -242,42 +234,27 @@ def update_ss_(csvfile, reqlink, basedict):
         item_title = item_search.group(2).strip()
         item_dbid = search.get_dbid(item_bfid, title=item_title, year=item_year)
 
-        top_list.append(
-            {"rank": item_rank, "title": item_title, 'year': item_year, "bfid": item_bfid, "dbid": item_dbid})
+        top_list.append({"rank": item_rank, "title": item_title, 'year': item_year, "bfid": item_bfid, "dbid": item_dbid})
 
     # Write Data list and snippets file
     write_data_list(csvfile, ['rank', 'title', 'year', 'bfid', 'dbid'], top_list)
-    basedict["list"] = {str(i["dbid"]): i['rank'] for i in top_list}
 
 
+# 《视与听》影史最佳影片-影评人Top100
 def update_sscritics():
-    update_ss_("04_SScritics.csv",
-               "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics", {
-                   "title": "《视与听》影史最佳影片-影评人Top100",
-                   "short_title": "视与听影评人百佳",
-                   "href": "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics",
-                   "top": 4,
-               })
+    update_ss_("04_SScritics.csv", "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/critics")
 
-
+# 《视与听》影史最佳影片-导演Top100
 def update_ssdirectors():
-    update_ss_("05_SSdirectors.csv",
-               "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors", {
-                   "title": "《视与听》影史最佳影片-导演Top100",
-                   "short_title": "视与听导演百佳",
-                   "href": "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors",
-                   "top": 5,
-               })
-
+    update_ss_("05_SSdirectors.csv", "https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors")
 
 def update_bgm_top_250():
     search = DBSearch("06_Bangumitop250.csv", "bgmid")
 
     top_list = []
     for p in range(1, 12):  # From page 1 - 11
-        top_list_raw = get_list_raw('https://bgm.tv/anime/browser?sort=rank&page={}'.format(p),
-                                    'ul#browserItemList > li')
-        for item in top_list_raw:
+        top_list_req = request_with_bs4(f'https://bgm.tv/anime/browser?sort=rank&page={p}')
+        for item in top_list_req.select("ul#browserItemList > li"):
             item_rank = re.search(r"\d+", item.find("span", class_="rank").get_text(strip=True)).group(0)
             if int(item_rank) > 250:
                 break
@@ -298,12 +275,52 @@ def update_bgm_top_250():
 
     write_data_list("06_Bangumitop250.csv", ["rank", "name_cn", "name", "date", "bgmid", "dbid"], top_list)
 
+def update_letterboxed_top_250():
+    search = DBSearch("08_letterboxed_top_250.csv", "film_id")
+    top_list = []
+    for p in range(1, 4): # From page 1-3
+        top_list_req = request_with_bs4(f'https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/page/{p}/')
+        for item in top_list_req.select("ul.film-list li.numbered-list-item"):
+            rank = item.select_one('p.list-number').get_text(strip=True)
+            div_another = item.select_one('div.film-poster')
+            film_id = div_another.attrs['data-film-id']
+            old_data = search.get_old_row(film_id)
+            if old_data:
+                data = old_data
+                data['rank'] = rank
+            else:
+                target_link = f'https://letterboxd.com{div_another.attrs["data-target-link"]}'
+                link_req = request_with_bs4(target_link)
+                title = link_req.select_one('h1.filmtitle').get_text(strip=True)
+                year = link_req.select_one('div.releaseyear a').get_text(strip=True)
+
+                imdb_id = ''
+                imdb_another = link_req.select_one('a[data-track-action="IMDb"]')
+                if imdb_another:
+                    imdb_id = re.search(r'(tt\d+)', imdb_another.attrs['href']).group(1)
+
+                dbid = search.get_dbid(film_id, title=title, imdbid=imdb_id, year=year)
+
+                data = {
+                    "rank": rank,
+                    "title": link_req.select_one('h1.filmtitle').get_text(strip=True),
+                    "year": link_req.select_one('div.releaseyear a').get_text(strip=True),
+                    "film_id": film_id,
+                    "imdbid": imdb_id,
+                    "dbid": dbid,
+                }
+
+            top_list.append(data)
+
+    write_data_list("08_letterboxed_top_250.csv", ["rank", "title", "year", "film_id", "imdbid", "dbid"], top_list)
+
 
 if __name__ == '__main__':
     update_douban()
     update_imdb_top_250()
     update_bgm_top_250()
     update_cclist()
+    update_letterboxed_top_250()
 
     # No need to update this rank list for may not update
     # update_afi_top_100()

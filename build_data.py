@@ -3,7 +3,7 @@
 # Copyright (c) 2017-2020 Rhilip <rhilipruan@gmail.com>
 
 """
-This script do this things:
+This script do these things:
 1. convert raw data csv to snippets json.
 2. merge all json file from snippets to generation the out json file `data.json`
 """
@@ -11,7 +11,6 @@ This script do this things:
 import os
 import csv
 import json
-import time
 
 data_dir = os.path.join(".", "data")
 snippets_descr_csv = os.path.join(data_dir, "00_snippets.csv")

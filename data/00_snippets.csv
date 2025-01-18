@@ -6,3 +6,4 @@ file,title,short_title,href,other
 "05_SSdirectors.csv","《视与听》影史最佳影片-导演Top100","视与听导演百佳","https://www.bfi.org.uk/films-tv-people/sightandsoundpoll2012/directors",""
 "06_Bangumitop250.csv","Bangumi Top 250","BGM Top 250","https://bgm.tv/anime/browser?sort=rank",""
 "07_tspdt_top_1000.csv","TSPDT 1000部最佳影片","TSPDT Top1000","http://www.theyshootpictures.com/gf1000_all1000films_table.php",""
+"08_letterboxed_top_250.csv", "Letterboxd Top 250 Narrative Feature Films", "Letterboxd TOP 250", "https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/", ""

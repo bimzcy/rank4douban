@@ -20,8 +20,20 @@ headers = {
 
 scraper = cloudscraper.create_scraper()
 
-douban_imdb_r = requests.get('https://ourbits.github.io/PtGen/internal_map/douban_imdb_map.json')
-douban_imdb_map = douban_imdb_r.json()
+remote_map = {
+    'imdbid': {  # IMDb
+        'url': 'https://ourbits.github.io/PtGen/internal_map/douban_imdb_map.json',
+        'douban_key': 'dbid'
+    },
+    'bgm_id': {  # Bangumi
+        'url': 'https://rhilip.github.io/BangumiExtLinker/data/anime_map.json',
+        'douban_key': 'douban_id'
+    }
+}
+
+for key in remote_map.keys():
+    r = requests.get(remote_map[key]['url'])
+    remote_map[key]['data'] = r.json()
 
 class DBSearch(object):
     def __init__(self, filename, pk):
@@ -40,12 +52,14 @@ class DBSearch(object):
         if old_row is not None and old_row.get('dbid') != '':  # Use old
             return old_row.get('dbid')
         else:
-            # 如果传入了imdb_id，则首先从PtGen公开的map中搜索
-            if kwargs.get('imdbid'):
-                t = [i for i in douban_imdb_map if i['imdbid'] == kwargs['imdbid']]
-                if len(t) > 0:
-                    return t[0]['dbid']
+            # 首先从公开的map中搜索
+            for (key, map_value) in remote_map.items():
+                if kwargs.get(key):
+                    t = [i for i in map_value['data'] if i[key] == kwargs[key]]
+                    if len(t) > 0:
+                        return t[0][map_value['douban_key']]
 
+            # 如果公开的map中没有对应的信息，则尝试使用title从豆瓣搜索
             q = kwargs.get("imdbid") or kwargs.get("title")
             return self.get_dbid_from_search(q, kwargs.get("year"))
 
@@ -267,7 +281,7 @@ def update_bgm_top_250():
             item_date = item_date_match.group(0) if item_date_match else time.strftime("%Y")
 
             item_bgmid = re.search(r"\d+", item["id"]).group(0)
-            item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search(r"(\d{4})", item_date).group(1))
+            item_dbid = search.get_dbid(item_bgmid, title=item_name_cn, year=re.search(r"(\d{4})", item_date).group(1), bgm_id=item_bgmid)
 
             data = {"rank": item_rank, "name_cn": item_name_cn, 'name': item_name, 'date': item_date,
                     "bgmid": item_bgmid, "dbid": item_dbid}

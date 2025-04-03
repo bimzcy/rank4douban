@@ -305,7 +305,7 @@ def update_letterboxed_top_250():
             else:
                 target_link = f'https://letterboxd.com{div_another.attrs["data-target-link"]}'
                 link_req = request_with_bs4(target_link)
-                title = link_req.select_one('h1.filmtitle').get_text(strip=True)
+                title = link_req.select_one('h1.primaryname').get_text(strip=True)
                 year = link_req.select_one('div.releaseyear a').get_text(strip=True)
 
                 imdb_id = ''
@@ -317,8 +317,8 @@ def update_letterboxed_top_250():
 
                 data = {
                     "rank": rank,
-                    "title": link_req.select_one('h1.filmtitle').get_text(strip=True),
-                    "year": link_req.select_one('div.releaseyear a').get_text(strip=True),
+                    "title": title,
+                    "year": year,
                     "film_id": film_id,
                     "imdbid": imdb_id,
                     "dbid": dbid,

@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day
+    - cron: "30 12 * * *" # every day
   workflow_dispatch: # click the button on Github repo!
 
 jobs:

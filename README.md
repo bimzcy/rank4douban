@@ -1,7 +1,7 @@
 # rank4douban
 IMDb, CC, MOC, FIB, all kinds of billboard that connect the item title with douban ID.
 
-[![Upstream Sync](https://github.com/eddiehe99/rank4douban/actions/workflows/sync.yml/badge.svg)](https://github.com/eddiehe99/rank4douban/actions/workflows/sync.yml)
+[![Upstream Daily Sync](https://github.com/eddiehe99/rank4douban/actions/workflows/daily_sync.yml/badge.svg)](https://github.com/eddiehe99/rank4douban/actions/workflows/daily_sync.yml)
 
 # All rank list
 

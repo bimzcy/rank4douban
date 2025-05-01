@@ -1,4 +1,4 @@
-name: Upstream Sync
+name: Upstream Daily Sync
 
 permissions:
   contents: write

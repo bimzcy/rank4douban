@@ -56,7 +56,7 @@ class DBSearch(object):
             for (key, map_value) in remote_map.items():
                 if kwargs.get(key):
                     t = [i for i in map_value['data'] if i[key] == kwargs[key]]
-                    if len(t) > 0:
+                    if len(t) > 0 and t[0].get(map_value['douban_key']):
                         return t[0][map_value['douban_key']]
 
             # 如果公开的map中没有对应的信息，则尝试使用title从豆瓣搜索

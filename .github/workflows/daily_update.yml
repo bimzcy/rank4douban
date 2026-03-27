@@ -1,6 +1,7 @@
 name: Daily Update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '0 12 */1 * *'
 
@@ -12,14 +13,20 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Python 3.10
+    - name: Set up Python 3.11
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
         cache: 'pip'
 
     - name: Install dependencies
       run: pip install -r requirements.txt
+
+    # 安装 Chrome 和 ChromeDriver（GitHub Actions 必备）
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser chromium-chromedriver
 
     - name: Run task
       run: |

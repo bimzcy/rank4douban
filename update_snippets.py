@@ -12,6 +12,8 @@ import requests
 import cloudscraper
 from bs4 import BeautifulSoup
 
+from selenium_request import bypass_aws_waf
+
 headers = {
     "Accept-Language": "en,zh-CN;q=0.9,zh;q=0.8",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
@@ -97,6 +99,13 @@ def request_with_bs4(link, pass_cf = True, **kwargs):
     else:
         top_req = requests.get(link, headers=headers, **kwargs)
     top_req.encoding = "utf-8"
+    
+    # 检查是否是挑战页面
+    if top_req.status_code == 202 or "challenge.js" in top_req.text.lower():
+        print("检测到 AWS WAF 挑战，启动浏览器解决方案...")
+        text = bypass_aws_waf(link)
+        return BeautifulSoup(text, 'lxml')
+
     return BeautifulSoup(top_req.text, 'lxml')
 
 def write_data_list(filename, header, data):

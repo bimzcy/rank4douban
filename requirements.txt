@@ -2,3 +2,5 @@ bs4
 lxml
 requests
 cloudscraper
+selenium
+webdriver-manager

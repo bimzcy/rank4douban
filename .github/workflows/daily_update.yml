@@ -23,10 +23,17 @@ jobs:
       run: pip install -r requirements.txt
 
     # 安装 Chrome 和 ChromeDriver（GitHub Actions 必备）
-    - name: Install Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y chromium-browser chromium-chromedriver
+    - name: Installed package list
+      run: apt list --installed
+
+    - name: Remove Chrome
+      run: sudo apt purge google-chrome-stable
+
+    - name: Remove default Chromium
+      run: sudo apt purge chromium-browser
+
+    - name: Install a new Chromium
+      run: sudo apt install -y chromium-browser
 
     - name: Run task
       run: |

@@ -1,6 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.utils import ChromeType
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -65,8 +67,8 @@ def bypass_aws_waf(url):
     # chrome_options.add_argument(f"user-data-dir={user_data_dir}")
 
     # 创建 WebDriver
-    service = Service()  # 自动查找 ChromeDriver
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
+    driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
     try:
         # 执行 JavaScript 修改 navigator 属性

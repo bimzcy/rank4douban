@@ -75,6 +75,7 @@ class DBSearch(object):
         all_subject = r.json()
         """
 
+        print(f'从豆瓣搜索 {q} {f"({year})" if year else ""}')
         r = scraper.get("https://www.douban.com/search", params={"q": q, 'cat': 1002})
         rb = BeautifulSoup(r.text, 'lxml')
         all_subject = []
@@ -82,8 +83,11 @@ class DBSearch(object):
             another = subject.select_one('div.title a[onclick]')
             title = another.get_text(strip=True)
             sid = re.search(r'sid: (\d+)', another.attrs['onclick']).group(1)
-            year = subject.select_one('span.subject-cast').get_text(strip=True).split(' / ')[-1]
-            all_subject.append({'id': sid, 'title': title, 'year': year})
+            subject_year = year
+
+            if subject_cast_another := subject.select_one('div.subject-cast'):
+                subject_year = subject_cast_another.get_text(strip=True).split(' / ')[-1]
+            all_subject.append({'id': sid, 'title': title, 'year': subject_year})
 
         if year:
             all_subject = list(filter(lambda x: x.get("year") == str(year), all_subject))
